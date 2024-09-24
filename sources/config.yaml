@@ -39,7 +39,7 @@ buildOTF: false
 # The "fix" operation can optionally fix some problems which
 # are better dealt with in the font sources. Set this to true if you
 # want gftools-fix to automatically fix source problems.
-# includeSourceFixes: false
+includeSourceFixes: true
 
 # These options give fine-grained control over how fontmake builds
 # the fonts.
