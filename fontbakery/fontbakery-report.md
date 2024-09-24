@@ -10,8 +10,98 @@ fontbakery version: 0.12.10
 
 
 
-<details><summary>[25] Parkinsans-SemiBold.ttf</summary>
+<details><summary>[1] Family checks</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Verify that family names in the name table are consistent across all fonts in the family. Checks Typographic Family name (nameID 16) if present, otherwise uses Font Family name (nameID 1) <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>3 different Font Family names were found:</p>
+<ul>
+<li>
+<p>'Parkinsans Semi' was found in:</p>
+<ul>
+<li>Parkinsans-SemiBold.ttf (nameID 1)</li>
+</ul>
+</li>
+<li>
+<p>'Parkinsans' was found in:</p>
+<ul>
+<li>Parkinsans-Regular.ttf (nameID 1)</li>
+<li>Parkinsans-Medium.ttf (nameID 16)</li>
+<li>Parkinsans-Light.ttf (nameID 16)</li>
+<li>Parkinsans-Bold.ttf (nameID 1)</li>
+</ul>
+</li>
+<li>
+<p>'Parkinsans Extra' was found in:</p>
+<ul>
+<li>Parkinsans-ExtraBold.ttf (nameID 1)</li>
+</ul>
+</li>
+</ul>
+ [code: inconsistent-family-name]
+
+
+
+</div>
+</details>
+</div>
+</details>
+
+<details><summary>[26] Parkinsans-SemiBold.ttf</summary>
+<div>
+<details>
+    <summary>🔥 <b>FAIL</b> Checking head.macStyle value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.head.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>head macStyle BOLD bit should be unset.</p>
+ [code: bad-BOLD]
+
+
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 fsSelection value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.os2.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>OS/2 fsSelection REGULAR bit should be set.</p>
+ [code: bad-REGULAR]
+
+
+
+* 🔥 **FAIL** <p>OS/2 fsSelection BOLD bit should be unset.</p>
+ [code: bad-BOLD]
+
+
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
     <div>
@@ -710,7 +800,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check font names are correct <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Checking file is named canonically. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#"></a></summary>
     <div>
 
 
@@ -719,69 +809,8 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 
 
 
-* 🔥 **FAIL** <p>Font names are incorrect:</p>
-<table>
-<thead>
-<tr>
-<th align="left">nameID</th>
-<th align="left">current</th>
-<th align="left">expected</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Family Name</td>
-<td align="left"><strong>Parkinsans Semi Bold</strong></td>
-<td align="left"><strong>Parkinsans Semi</strong></td>
-</tr>
-<tr>
-<td align="left">Subfamily Name</td>
-<td align="left"><strong>Regular</strong></td>
-<td align="left"><strong>Bold</strong></td>
-</tr>
-<tr>
-<td align="left">Full Name</td>
-<td align="left">Parkinsans Semi Bold</td>
-<td align="left">Parkinsans Semi Bold</td>
-</tr>
-<tr>
-<td align="left">Postscript Name</td>
-<td align="left"><strong>Parkinsans-SemiBold</strong></td>
-<td align="left"><strong>ParkinsansSemi-Bold</strong></td>
-</tr>
-<tr>
-<td align="left">Typographic Family Name</td>
-<td align="left"><strong>Parkinsans</strong></td>
-<td align="left"><strong>N/A</strong></td>
-</tr>
-<tr>
-<td align="left">Typographic Subfamily Name</td>
-<td align="left"><strong>Semi Bold</strong></td>
-<td align="left"><strong>N/A</strong></td>
-</tr>
-</tbody>
-</table>
- [code: bad-names]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 fsType does not impose restrictions. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>In this font fsType is set to 8 meaning that:
-The font may be embedded but must only be installed temporarily on other systems.</p>
-<p>No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead.</p>
- [code: drm]
+* 🔥 **FAIL** <p>Expected &quot;ParkinsansSemi-Bold.ttf. Got Parkinsans-SemiBold.ttf.</p>
+ [code: bad-filename]
 
 
 
@@ -863,7 +892,7 @@ The font may be embedded but must only be installed temporarily on other systems
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Font has all mandatory 'name' table entries? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
     <div>
 
 
@@ -872,8 +901,13 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 
-* 🔥 **FAIL** <p>Best SubFamily name is 'Semi Bold'. Expected OS/2 usWeightClass is 700, got 600.</p>
- [code: bad-value]
+* 🔥 **FAIL** <p>Font lacks entry with nameId=16 (TYPOGRAPHIC_FAMILY_NAME)</p>
+ [code: missing-entry]
+
+
+
+* 🔥 **FAIL** <p>Font lacks entry with nameId=17 (TYPOGRAPHIC_SUBFAMILY_NAME)</p>
+ [code: missing-entry]
 
 
 
@@ -1071,12 +1105,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -1094,7 +1128,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -1366,7 +1400,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[23] Parkinsans-Regular.ttf</summary>
+<details><summary>[22] Parkinsans-Regular.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
@@ -2059,26 +2093,6 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 <p>which does not match the expected format, similar to:</p>
 <p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
  [code: bad-format]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 fsType does not impose restrictions. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>In this font fsType is set to 8 meaning that:
-The font may be embedded but must only be installed temporarily on other systems.</p>
-<p>No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead.</p>
- [code: drm]
 
 
 
@@ -2350,12 +2364,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -2373,7 +2387,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -2589,7 +2603,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[23] Parkinsans-Medium.ttf</summary>
+<details><summary>[22] Parkinsans-Medium.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
@@ -3282,26 +3296,6 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 <p>which does not match the expected format, similar to:</p>
 <p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
  [code: bad-format]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 fsType does not impose restrictions. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>In this font fsType is set to 8 meaning that:
-The font may be embedded but must only be installed temporarily on other systems.</p>
-<p>No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead.</p>
- [code: drm]
 
 
 
@@ -3573,12 +3567,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -3596,7 +3590,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -3852,7 +3846,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[23] Parkinsans-Light.ttf</summary>
+<details><summary>[22] Parkinsans-Light.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
@@ -4545,26 +4539,6 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 <p>which does not match the expected format, similar to:</p>
 <p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
  [code: bad-format]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 fsType does not impose restrictions. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>In this font fsType is set to 8 meaning that:
-The font may be embedded but must only be installed temporarily on other systems.</p>
-<p>No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead.</p>
- [code: drm]
 
 
 
@@ -4836,12 +4810,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -4859,7 +4833,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -5097,8 +5071,53 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[25] Parkinsans-ExtraBold.ttf</summary>
+<details><summary>[26] Parkinsans-ExtraBold.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Checking head.macStyle value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.head.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>head macStyle BOLD bit should be unset.</p>
+ [code: bad-BOLD]
+
+
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 fsSelection value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.os2.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>OS/2 fsSelection REGULAR bit should be set.</p>
+ [code: bad-REGULAR]
+
+
+
+* 🔥 **FAIL** <p>OS/2 fsSelection BOLD bit should be unset.</p>
+ [code: bad-BOLD]
+
+
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
     <div>
@@ -5797,7 +5816,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check font names are correct <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Checking file is named canonically. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#"></a></summary>
     <div>
 
 
@@ -5806,69 +5825,8 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 
 
 
-* 🔥 **FAIL** <p>Font names are incorrect:</p>
-<table>
-<thead>
-<tr>
-<th align="left">nameID</th>
-<th align="left">current</th>
-<th align="left">expected</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Family Name</td>
-<td align="left"><strong>Parkinsans Extra Bold</strong></td>
-<td align="left"><strong>Parkinsans Extra</strong></td>
-</tr>
-<tr>
-<td align="left">Subfamily Name</td>
-<td align="left"><strong>Regular</strong></td>
-<td align="left"><strong>Bold</strong></td>
-</tr>
-<tr>
-<td align="left">Full Name</td>
-<td align="left">Parkinsans Extra Bold</td>
-<td align="left">Parkinsans Extra Bold</td>
-</tr>
-<tr>
-<td align="left">Postscript Name</td>
-<td align="left"><strong>Parkinsans-ExtraBold</strong></td>
-<td align="left"><strong>ParkinsansExtra-Bold</strong></td>
-</tr>
-<tr>
-<td align="left">Typographic Family Name</td>
-<td align="left"><strong>Parkinsans</strong></td>
-<td align="left"><strong>N/A</strong></td>
-</tr>
-<tr>
-<td align="left">Typographic Subfamily Name</td>
-<td align="left"><strong>Extra Bold</strong></td>
-<td align="left"><strong>N/A</strong></td>
-</tr>
-</tbody>
-</table>
- [code: bad-names]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 fsType does not impose restrictions. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>In this font fsType is set to 8 meaning that:
-The font may be embedded but must only be installed temporarily on other systems.</p>
-<p>No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead.</p>
- [code: drm]
+* 🔥 **FAIL** <p>Expected &quot;ParkinsansExtra-Bold.ttf. Got Parkinsans-ExtraBold.ttf.</p>
+ [code: bad-filename]
 
 
 
@@ -5950,7 +5908,7 @@ The font may be embedded but must only be installed temporarily on other systems
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Font has all mandatory 'name' table entries? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
     <div>
 
 
@@ -5959,8 +5917,13 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 
-* 🔥 **FAIL** <p>Best SubFamily name is 'Extra Bold'. Expected OS/2 usWeightClass is 700, got 800.</p>
- [code: bad-value]
+* 🔥 **FAIL** <p>Font lacks entry with nameId=16 (TYPOGRAPHIC_FAMILY_NAME)</p>
+ [code: missing-entry]
+
+
+
+* 🔥 **FAIL** <p>Font lacks entry with nameId=17 (TYPOGRAPHIC_SUBFAMILY_NAME)</p>
+ [code: missing-entry]
 
 
 
@@ -6158,12 +6121,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -6181,7 +6144,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -6439,7 +6402,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[23] Parkinsans-Bold.ttf</summary>
+<details><summary>[22] Parkinsans-Bold.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
@@ -7139,26 +7102,6 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 fsType does not impose restrictions. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>In this font fsType is set to 8 meaning that:
-The font may be embedded but must only be installed temporarily on other systems.</p>
-<p>No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead.</p>
- [code: drm]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
 
@@ -7357,7 +7300,7 @@ minus</p>
 <p>Width = 686:
 notequal</p>
 <p>Width = 519:
-lessequal, greaterequal</p>
+greaterequal, lessequal</p>
  [code: width-outliers]
 
 
@@ -7421,12 +7364,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -7444,7 +7387,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -7669,8 +7612,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 64 | 78 | 717 | 37 | 520 | 0 | 
-| 0% | 0% | 5% | 6% | 51% | 3% | 37% | 0% | 
+| 0 | 0 | 63 | 78 | 717 | 37 | 521 | 0 | 
+| 0% | 0% | 4% | 6% | 51% | 3% | 37% | 0% | 
 
 
 
