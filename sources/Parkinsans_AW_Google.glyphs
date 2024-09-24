@@ -425,7 +425,7 @@ value = (
 "1250",
 "1254",
 "1257",
-"bit 29"
+"437"
 );
 },
 {
@@ -42199,8 +42199,26 @@ instanceInterpolations = {
 name = Semibold;
 properties = (
 {
+key = familyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
 key = postscriptFullName;
 value = "Parkinsans Semibold";
+},
+{
+key = styleNames;
+values = (
+{
+language = dflt;
+value = Semibold;
+}
+);
 }
 );
 weightClass = 600;
@@ -42234,8 +42252,26 @@ instanceInterpolations = {
 name = Extrabold;
 properties = (
 {
+key = familyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
 key = postscriptFullName;
 value = "Parkinsans Extrabold";
+},
+{
+key = styleNames;
+values = (
+{
+language = dflt;
+value = Extrabold;
+}
+);
 }
 );
 weightClass = 800;
