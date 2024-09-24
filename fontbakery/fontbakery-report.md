@@ -25,9 +25,9 @@ fontbakery version: 0.12.10
 * 🔥 **FAIL** <p>3 different Font Family names were found:</p>
 <ul>
 <li>
-<p>'Parkinsans Semi' was found in:</p>
+<p>'Parkinsans Semibold' was found in:</p>
 <ul>
-<li>Parkinsans-SemiBold.ttf (nameID 1)</li>
+<li>Parkinsans-Semibold.ttf (nameID 1)</li>
 </ul>
 </li>
 <li>
@@ -40,9 +40,9 @@ fontbakery version: 0.12.10
 </ul>
 </li>
 <li>
-<p>'Parkinsans Extra' was found in:</p>
+<p>'Parkinsans Extrabold' was found in:</p>
 <ul>
-<li>Parkinsans-ExtraBold.ttf (nameID 1)</li>
+<li>Parkinsans-Extrabold.ttf (nameID 1)</li>
 </ul>
 </li>
 </ul>
@@ -55,10 +55,10 @@ fontbakery version: 0.12.10
 </div>
 </details>
 
-<details><summary>[26] Parkinsans-SemiBold.ttf</summary>
+<details><summary>[17] Parkinsans-Semibold.ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Checking head.macStyle value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.head.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
 
@@ -67,10 +67,86 @@ fontbakery version: 0.12.10
 
 
 
-* 🔥 **FAIL** <p>head macStyle BOLD bit should be unset.</p>
- [code: bad-BOLD]
+* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
+<pre><code>- Glyph name: uni0126	Expected: 2
+
+- Glyph name: uni0127	Expected: 1
+
+- Glyph name: uni0237	Expected: 1
+
+- Glyph name: uni0300	Expected: 1
+
+- Glyph name: uni0301	Expected: 1
+
+- Glyph name: uni0302	Expected: 1
+
+- Glyph name: uni0303	Expected: 1
+
+- Glyph name: uni0304	Expected: 1
+
+- Glyph name: uni0306	Expected: 1
+
+- Glyph name: uni0307	Expected: 1
+
+- Glyph name: uni0308	Expected: 2
+
+- Glyph name: uni030A	Expected: 2
+
+- Glyph name: uni030B	Expected: 2
+
+- Glyph name: uni030C	Expected: 1
+
+- Glyph name: uni0326	Expected: 1
+
+- Glyph name: uni0327	Expected: 1
+
+- Glyph name: uni0328	Expected: 1
+
+- Glyph name: uni1E9E	Expected: 1
+
+- Glyph name: uni0237	Expected: 1
+
+- Glyph name: uni0300	Expected: 1
+
+- Glyph name: uni0301	Expected: 1
+
+- Glyph name: uni0302	Expected: 1
+
+- Glyph name: uni0303	Expected: 1
+
+- Glyph name: uni0304	Expected: 1
+
+- Glyph name: uni0306	Expected: 1
+
+- Glyph name: uni0307	Expected: 1
+
+- Glyph name: uni0308	Expected: 2
+
+- Glyph name: uni030A	Expected: 2
+
+- Glyph name: uni030B	Expected: 2
+
+- Glyph name: uni030C	Expected: 1
+
+- Glyph name: uni0326	Expected: 1
+
+- Glyph name: uni0327	Expected: 1
+
+- Glyph name: uni0328	Expected: 1
+
+- Glyph name: uni1E9E	Expected: 1
+</code></pre>
+ [code: no-contour]
 
 
+
+* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: liter	Contours detected: 1	Expected: 2
+
+- Glyph name: fi	Contours detected: 2	Expected: 3
+</code></pre>
+ [code: contour-count]
 
 
 
@@ -78,7 +154,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 fsSelection value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.os2.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
 
@@ -87,712 +163,8 @@ fontbakery version: 0.12.10
 
 
 
-* 🔥 **FAIL** <p>OS/2 fsSelection REGULAR bit should be set.</p>
- [code: bad-REGULAR]
-
-
-
-* 🔥 **FAIL** <p>OS/2 fsSelection BOLD bit should be unset.</p>
- [code: bad-BOLD]
-
-
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+018F: LATIN CAPITAL LETTER SCHWA</td>
-<td align="left">U+0259: LATIN SMALL LETTER SCHWA</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking Vertical Metric Linegaps. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>OS/2 sTypoLineGap is not equal to 0.</p>
-<p><em>Overridden</em>: This check was originally a WARN but was
-overridden by the universal profile:
-For Google Fonts, all messages from this check are considered FAILs.</p>
- [code: OS/2]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Name table records must not have trailing spaces. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Name table record with key = (3, 1, 1033, 9) has trailing spaces that must be removed: 'Typeface d[...]sign LTD. '</p>
- [code: trailing-space]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 Metrics match hhea Metrics. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>OS/2 sTypoLineGap (100) and hhea lineGap (0) must be equal.</p>
- [code: lineGap]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Font contains glyphs for whitespace characters? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Whitespace glyph missing for codepoint 0x00A0.</p>
- [code: missing-whitespace-glyph-0x00A0]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ca_Latn (Catalan)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cs_Latn (Czech)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̊, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cy_Latn (Welsh)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">da_Latn (Danish)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̊</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some base glyphs were missing: ẞ</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̈</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">en_Latn (English)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">es_Latn (Spanish)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̃, ◌̈</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fi_Latn (Finnish)</td>
-<td align="left">Some mark glyphs were missing: ◌̃, ◌̈, ◌̊, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fr_Latn (French)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hr_Latn (Croatian)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hu_Latn (Hungarian)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̈, ◌̋</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">is_Latn (Icelandic)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̈, ◌̨</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">it_Latn (Italian)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lt_Latn (Lithuanian)</td>
-<td align="left">Some mark glyphs were missing: ◌̄, ◌̇, ◌̌, ◌̨</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lv_Latn (Latvian)</td>
-<td align="left">Some mark glyphs were missing: ◌̄, ◌̌, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mt_Latn (Maltese)</td>
-<td align="left">Some base glyphs were missing: GĦ, għ, Ħ, ħ</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌̂, ◌̇</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nb_Latn (Norwegian Bokmål)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈, ◌̊</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Some base glyphs were missing: ÍJ́, íj́</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pl_Latn (Polish)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̇, ◌̨</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pt_Latn (Portuguese)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ro_Latn (Romanian)</td>
-<td align="left">Some mark glyphs were missing: ◌̂, ◌̆, ◌̦, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sk_Latn (Slovak)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̂, ◌̈, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sq_Latn (Albanian)</td>
-<td align="left">Some mark glyphs were missing: ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sv_Latn (Swedish)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̈, ◌̊</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tr_Latn (Turkish)</td>
-<td align="left">Some mark glyphs were missing: ◌̂, ◌̆, ◌̇, ◌̈, ◌̦, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some auxiliary glyphs were missing: ẞ</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mt_Latn (Maltese)</td>
-<td align="left">Some auxiliary glyphs were missing: GĦ, għ, Ħ, ħ</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Some auxiliary glyphs were missing: ÍJ́, íj́</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.license.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>First line in license file is:</p>
-<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
-<p>which does not match the expected format, similar to:</p>
-<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
- [code: bad-format]
+* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 238 font units wide, non-breaking space named (uni00A0) is 369 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
+ [code: different-widths]
 
 
 
@@ -809,123 +181,8 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 
 
 
-* 🔥 **FAIL** <p>Expected &quot;ParkinsansSemi-Bold.ttf. Got Parkinsans-SemiBold.ttf.</p>
+* 🔥 **FAIL** <p>Expected &quot;ParkinsansSemibold-Regular.ttf. Got Parkinsans-Semibold.ttf.</p>
  [code: bad-filename]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x00A0 (NO-BREAK SPACE)
-
-
-- 0x0126 (LATIN CAPITAL LETTER H WITH STROKE)
-
-
-- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-- 0x0300 (COMBINING GRAVE ACCENT)
-
-
-- 0x0301 (COMBINING ACUTE ACCENT)
-
-
-- 0x0302 (COMBINING CIRCUMFLEX ACCENT)
-
-
-- 0x0303 (COMBINING TILDE)
-
-
-- 0x0304 (COMBINING MACRON)
-
-
-- 0x0306 (COMBINING BREVE)
-
-
-- 0x0307 (COMBINING DOT ABOVE)
-
-
-- 0x0308 (COMBINING DIAERESIS)
-
-
-- 0x030A (COMBINING RING ABOVE)
-
-
-- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-- 0x030C (COMBINING CARON)
-
-
-- 0x0326 (COMBINING COMMA BELOW)
-
-
-- 0x0327 (COMBINING CEDILLA)
-
-
-- 0x0328 (COMBINING OGONEK)
-
-
-- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-</code></pre>
- [code: missing-codepoints]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Font has all mandatory 'name' table entries? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Font lacks entry with nameId=16 (TYPOGRAPHIC_FAMILY_NAME)</p>
- [code: missing-entry]
-
-
-
-* 🔥 **FAIL** <p>Font lacks entry with nameId=17 (TYPOGRAPHIC_SUBFAMILY_NAME)</p>
- [code: missing-entry]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>OS/2.sTypoLineGap is &quot;100&quot; it should be 0</p>
- [code: bad-OS/2.sTypoLineGap]
 
 
 
@@ -979,29 +236,6 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 
 * ⚠️ **WARN** <p>tcaron is decomposed and therefore could not be checked. Please check manually.</p>
  [code: decomposed-outline]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
-<p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: liter	Contours detected: 1	Expected: 2
-
-- Glyph name: fi	Contours detected: 2	Expected: 3
-</code></pre>
- [code: contour-count]
 
 
 
@@ -1105,12 +339,21 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, tifinagh, tai-le, syriac, canadian-aboriginal, old-permic, math</li>
+<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
+<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -1128,12 +371,51 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>No dotted circle glyph present</p>
+ [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ǐ i̦̇ i̦̊ i̦̋ ǐ̦ i̧̇ i̧̊ i̧̋ ǐ̧ ĵ j̆ j̇ j̊ j̋ ǰ j̦̀ j̦́ ĵ̦ j̦̃</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Bete-Bendi (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Mfumte (Latn, 79,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Dan (Latn, 1,099,244 speakers), Zapotec (Latn, 490,000 speakers), Sar (Latn, 500,000 speakers), Vute (Latn, 21,000 speakers), Igbo (Latn, 27,823,640 speakers), Lugbara (Latn, 2,200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Gulay (Latn, 250,478 speakers), Nzakara (Latn, 50,000 speakers), Southern Kisi (Latn, 360,000 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Yala (Latn, 200,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Cicipu (Latn, 44,000 speakers), Ma’di (Latn, 584,000 speakers), Navajo (Latn, 166,319 speakers), South Central Banda (Latn, 244,000 speakers), Mundani (Latn, 34,000 speakers), Ekpeye (Latn, 226,000 speakers), Mango (Latn, 77,000 speakers), Dii (Latn, 71,000 speakers), Kom (Latn, 360,685 speakers), Ngbaka (Latn, 1,020,000 speakers), Ebira (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Fur (Latn, 1,230,163 speakers), Bafut (Latn, 158,146 speakers), Nateni (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Makaa (Latn, 221,000 speakers).</p>
+ [code: soft-dotted]
 
 
 
@@ -1400,10 +682,10 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[22] Parkinsans-Regular.ttf</summary>
+<details><summary>[16] Parkinsans-Regular.ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
 
@@ -1412,761 +694,86 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+018F: LATIN CAPITAL LETTER SCHWA</td>
-<td align="left">U+0259: LATIN SMALL LETTER SCHWA</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
+* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
+<pre><code>- Glyph name: uni0126	Expected: 2
 
+- Glyph name: uni0127	Expected: 1
 
+- Glyph name: uni0237	Expected: 1
 
-</div>
-</details>
+- Glyph name: uni0300	Expected: 1
 
-<details>
-    <summary>🔥 <b>FAIL</b> Checking Vertical Metric Linegaps. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
-    <div>
+- Glyph name: uni0301	Expected: 1
 
+- Glyph name: uni0302	Expected: 1
 
+- Glyph name: uni0303	Expected: 1
 
+- Glyph name: uni0304	Expected: 1
 
+- Glyph name: uni0306	Expected: 1
 
+- Glyph name: uni0307	Expected: 1
 
+- Glyph name: uni0308	Expected: 2
 
-* 🔥 **FAIL** <p>OS/2 sTypoLineGap is not equal to 0.</p>
-<p><em>Overridden</em>: This check was originally a WARN but was
-overridden by the universal profile:
-For Google Fonts, all messages from this check are considered FAILs.</p>
- [code: OS/2]
+- Glyph name: uni030A	Expected: 2
 
+- Glyph name: uni030B	Expected: 2
 
+- Glyph name: uni030C	Expected: 1
 
-</div>
-</details>
+- Glyph name: uni0326	Expected: 1
 
-<details>
-    <summary>🔥 <b>FAIL</b> Name table records must not have trailing spaces. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
+- Glyph name: uni0327	Expected: 1
 
+- Glyph name: uni0328	Expected: 1
 
+- Glyph name: uni1E9E	Expected: 1
 
+- Glyph name: uni0237	Expected: 1
 
+- Glyph name: uni0300	Expected: 1
 
+- Glyph name: uni0301	Expected: 1
 
+- Glyph name: uni0302	Expected: 1
 
-* 🔥 **FAIL** <p>Name table record with key = (3, 1, 1033, 9) has trailing spaces that must be removed: 'Typeface d[...]sign LTD. '</p>
- [code: trailing-space]
+- Glyph name: uni0303	Expected: 1
 
+- Glyph name: uni0304	Expected: 1
 
+- Glyph name: uni0306	Expected: 1
 
-</div>
-</details>
+- Glyph name: uni0307	Expected: 1
 
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 Metrics match hhea Metrics. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
-    <div>
+- Glyph name: uni0308	Expected: 2
 
+- Glyph name: uni030A	Expected: 2
 
+- Glyph name: uni030B	Expected: 2
 
+- Glyph name: uni030C	Expected: 1
 
+- Glyph name: uni0326	Expected: 1
 
+- Glyph name: uni0327	Expected: 1
 
+- Glyph name: uni0328	Expected: 1
 
-* 🔥 **FAIL** <p>OS/2 sTypoLineGap (100) and hhea lineGap (0) must be equal.</p>
- [code: lineGap]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Font contains glyphs for whitespace characters? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Whitespace glyph missing for codepoint 0x00A0.</p>
- [code: missing-whitespace-glyph-0x00A0]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ca_Latn (Catalan)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cs_Latn (Czech)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̊, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cy_Latn (Welsh)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">da_Latn (Danish)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̊</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some base glyphs were missing: ẞ</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̈</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">en_Latn (English)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">es_Latn (Spanish)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̃, ◌̈</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fi_Latn (Finnish)</td>
-<td align="left">Some mark glyphs were missing: ◌̃, ◌̈, ◌̊, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fr_Latn (French)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hr_Latn (Croatian)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hu_Latn (Hungarian)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̈, ◌̋</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">is_Latn (Icelandic)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̈, ◌̨</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">it_Latn (Italian)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lt_Latn (Lithuanian)</td>
-<td align="left">Some mark glyphs were missing: ◌̄, ◌̇, ◌̌, ◌̨</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lv_Latn (Latvian)</td>
-<td align="left">Some mark glyphs were missing: ◌̄, ◌̌, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mt_Latn (Maltese)</td>
-<td align="left">Some base glyphs were missing: GĦ, għ, Ħ, ħ</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌̂, ◌̇</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nb_Latn (Norwegian Bokmål)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈, ◌̊</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Some base glyphs were missing: ÍJ́, íj́</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pl_Latn (Polish)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̇, ◌̨</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pt_Latn (Portuguese)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ro_Latn (Romanian)</td>
-<td align="left">Some mark glyphs were missing: ◌̂, ◌̆, ◌̦, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sk_Latn (Slovak)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̂, ◌̈, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sq_Latn (Albanian)</td>
-<td align="left">Some mark glyphs were missing: ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sv_Latn (Swedish)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̈, ◌̊</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tr_Latn (Turkish)</td>
-<td align="left">Some mark glyphs were missing: ◌̂, ◌̆, ◌̇, ◌̈, ◌̦, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some auxiliary glyphs were missing: ẞ</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mt_Latn (Maltese)</td>
-<td align="left">Some auxiliary glyphs were missing: GĦ, għ, Ħ, ħ</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Some auxiliary glyphs were missing: ÍJ́, íj́</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.license.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>First line in license file is:</p>
-<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
-<p>which does not match the expected format, similar to:</p>
-<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
- [code: bad-format]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x00A0 (NO-BREAK SPACE)
-
-
-- 0x0126 (LATIN CAPITAL LETTER H WITH STROKE)
-
-
-- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-- 0x0300 (COMBINING GRAVE ACCENT)
-
-
-- 0x0301 (COMBINING ACUTE ACCENT)
-
-
-- 0x0302 (COMBINING CIRCUMFLEX ACCENT)
-
-
-- 0x0303 (COMBINING TILDE)
-
-
-- 0x0304 (COMBINING MACRON)
-
-
-- 0x0306 (COMBINING BREVE)
-
-
-- 0x0307 (COMBINING DOT ABOVE)
-
-
-- 0x0308 (COMBINING DIAERESIS)
-
-
-- 0x030A (COMBINING RING ABOVE)
-
-
-- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-- 0x030C (COMBINING CARON)
-
-
-- 0x0326 (COMBINING COMMA BELOW)
-
-
-- 0x0327 (COMBINING CEDILLA)
-
-
-- 0x0328 (COMBINING OGONEK)
-
-
-- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
+- Glyph name: uni1E9E	Expected: 1
 </code></pre>
- [code: missing-codepoints]
+ [code: no-contour]
+
+
+
+* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: liter	Contours detected: 1	Expected: 2
+
+- Glyph name: fi	Contours detected: 2	Expected: 3
+</code></pre>
+ [code: contour-count]
 
 
 
@@ -2174,7 +781,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
 
@@ -2183,8 +790,8 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 
 
 
-* 🔥 **FAIL** <p>OS/2.sTypoLineGap is &quot;100&quot; it should be 0</p>
- [code: bad-OS/2.sTypoLineGap]
+* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 267 font units wide, non-breaking space named (uni00A0) is 438 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
+ [code: different-widths]
 
 
 
@@ -2238,29 +845,6 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 
 * ⚠️ **WARN** <p>tcaron is decomposed and therefore could not be checked. Please check manually.</p>
  [code: decomposed-outline]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
-<p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: liter	Contours detected: 1	Expected: 2
-
-- Glyph name: fi	Contours detected: 2	Expected: 3
-</code></pre>
- [code: contour-count]
 
 
 
@@ -2364,12 +948,21 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, tifinagh, tai-le, syriac, canadian-aboriginal, old-permic, math</li>
+<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
+<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -2387,12 +980,51 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>No dotted circle glyph present</p>
+ [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ǐ i̦̇ i̦̊ i̦̋ ǐ̦ i̧̇ i̧̊ i̧̋ ǐ̧ ĵ j̆ j̇ j̊ j̋ ǰ j̦̀ j̦́ ĵ̦ j̦̃</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Bete-Bendi (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Mfumte (Latn, 79,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Dan (Latn, 1,099,244 speakers), Zapotec (Latn, 490,000 speakers), Sar (Latn, 500,000 speakers), Vute (Latn, 21,000 speakers), Igbo (Latn, 27,823,640 speakers), Lugbara (Latn, 2,200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Gulay (Latn, 250,478 speakers), Nzakara (Latn, 50,000 speakers), Southern Kisi (Latn, 360,000 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Yala (Latn, 200,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Cicipu (Latn, 44,000 speakers), Ma’di (Latn, 584,000 speakers), Navajo (Latn, 166,319 speakers), South Central Banda (Latn, 244,000 speakers), Mundani (Latn, 34,000 speakers), Ekpeye (Latn, 226,000 speakers), Mango (Latn, 77,000 speakers), Dii (Latn, 71,000 speakers), Kom (Latn, 360,685 speakers), Ngbaka (Latn, 1,020,000 speakers), Ebira (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Fur (Latn, 1,230,163 speakers), Bafut (Latn, 158,146 speakers), Nateni (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Makaa (Latn, 221,000 speakers).</p>
+ [code: soft-dotted]
 
 
 
@@ -2603,10 +1235,10 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[22] Parkinsans-Medium.ttf</summary>
+<details><summary>[15] Parkinsans-Medium.ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
 
@@ -2615,779 +1247,86 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+018F: LATIN CAPITAL LETTER SCHWA</td>
-<td align="left">U+0259: LATIN SMALL LETTER SCHWA</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
+* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
+<pre><code>- Glyph name: uni0126	Expected: 2
 
+- Glyph name: uni0127	Expected: 1
 
+- Glyph name: uni0237	Expected: 1
 
-</div>
-</details>
+- Glyph name: uni0300	Expected: 1
 
-<details>
-    <summary>🔥 <b>FAIL</b> Checking Vertical Metric Linegaps. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
-    <div>
+- Glyph name: uni0301	Expected: 1
 
+- Glyph name: uni0302	Expected: 1
 
+- Glyph name: uni0303	Expected: 1
 
+- Glyph name: uni0304	Expected: 1
 
+- Glyph name: uni0306	Expected: 1
 
+- Glyph name: uni0307	Expected: 1
 
+- Glyph name: uni0308	Expected: 2
 
-* 🔥 **FAIL** <p>OS/2 sTypoLineGap is not equal to 0.</p>
-<p><em>Overridden</em>: This check was originally a WARN but was
-overridden by the universal profile:
-For Google Fonts, all messages from this check are considered FAILs.</p>
- [code: OS/2]
+- Glyph name: uni030A	Expected: 2
 
+- Glyph name: uni030B	Expected: 2
 
+- Glyph name: uni030C	Expected: 1
 
-</div>
-</details>
+- Glyph name: uni0326	Expected: 1
 
-<details>
-    <summary>🔥 <b>FAIL</b> Name table records must not have trailing spaces. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
+- Glyph name: uni0327	Expected: 1
 
+- Glyph name: uni0328	Expected: 1
 
+- Glyph name: uni1E9E	Expected: 1
 
+- Glyph name: uni0237	Expected: 1
 
+- Glyph name: uni0300	Expected: 1
 
+- Glyph name: uni0301	Expected: 1
 
+- Glyph name: uni0302	Expected: 1
 
-* 🔥 **FAIL** <p>Name table record with key = (3, 1, 1033, 9) has trailing spaces that must be removed: 'Typeface d[...]sign LTD. '</p>
- [code: trailing-space]
+- Glyph name: uni0303	Expected: 1
 
+- Glyph name: uni0304	Expected: 1
 
+- Glyph name: uni0306	Expected: 1
 
-</div>
-</details>
+- Glyph name: uni0307	Expected: 1
 
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 Metrics match hhea Metrics. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
-    <div>
+- Glyph name: uni0308	Expected: 2
 
+- Glyph name: uni030A	Expected: 2
 
+- Glyph name: uni030B	Expected: 2
 
+- Glyph name: uni030C	Expected: 1
 
+- Glyph name: uni0326	Expected: 1
 
+- Glyph name: uni0327	Expected: 1
 
+- Glyph name: uni0328	Expected: 1
 
-* 🔥 **FAIL** <p>OS/2 sTypoLineGap (100) and hhea lineGap (0) must be equal.</p>
- [code: lineGap]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Font contains glyphs for whitespace characters? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Whitespace glyph missing for codepoint 0x00A0.</p>
- [code: missing-whitespace-glyph-0x00A0]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ca_Latn (Catalan)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cs_Latn (Czech)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̊, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cy_Latn (Welsh)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">da_Latn (Danish)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̊</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some base glyphs were missing: ẞ</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̈</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">en_Latn (English)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">es_Latn (Spanish)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̃, ◌̈</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fi_Latn (Finnish)</td>
-<td align="left">Some mark glyphs were missing: ◌̃, ◌̈, ◌̊, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fr_Latn (French)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hr_Latn (Croatian)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hu_Latn (Hungarian)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̈, ◌̋</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">is_Latn (Icelandic)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̈, ◌̨</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">it_Latn (Italian)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lt_Latn (Lithuanian)</td>
-<td align="left">Some mark glyphs were missing: ◌̄, ◌̇, ◌̌, ◌̨</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lv_Latn (Latvian)</td>
-<td align="left">Some mark glyphs were missing: ◌̄, ◌̌, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mt_Latn (Maltese)</td>
-<td align="left">Some base glyphs were missing: GĦ, għ, Ħ, ħ</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌̂, ◌̇</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nb_Latn (Norwegian Bokmål)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈, ◌̊</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Some base glyphs were missing: ÍJ́, íj́</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pl_Latn (Polish)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̇, ◌̨</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pt_Latn (Portuguese)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ro_Latn (Romanian)</td>
-<td align="left">Some mark glyphs were missing: ◌̂, ◌̆, ◌̦, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sk_Latn (Slovak)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̂, ◌̈, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sq_Latn (Albanian)</td>
-<td align="left">Some mark glyphs were missing: ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sv_Latn (Swedish)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̈, ◌̊</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tr_Latn (Turkish)</td>
-<td align="left">Some mark glyphs were missing: ◌̂, ◌̆, ◌̇, ◌̈, ◌̦, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some auxiliary glyphs were missing: ẞ</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mt_Latn (Maltese)</td>
-<td align="left">Some auxiliary glyphs were missing: GĦ, għ, Ħ, ħ</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Some auxiliary glyphs were missing: ÍJ́, íj́</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.license.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>First line in license file is:</p>
-<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
-<p>which does not match the expected format, similar to:</p>
-<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
- [code: bad-format]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x00A0 (NO-BREAK SPACE)
-
-
-- 0x0126 (LATIN CAPITAL LETTER H WITH STROKE)
-
-
-- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-- 0x0300 (COMBINING GRAVE ACCENT)
-
-
-- 0x0301 (COMBINING ACUTE ACCENT)
-
-
-- 0x0302 (COMBINING CIRCUMFLEX ACCENT)
-
-
-- 0x0303 (COMBINING TILDE)
-
-
-- 0x0304 (COMBINING MACRON)
-
-
-- 0x0306 (COMBINING BREVE)
-
-
-- 0x0307 (COMBINING DOT ABOVE)
-
-
-- 0x0308 (COMBINING DIAERESIS)
-
-
-- 0x030A (COMBINING RING ABOVE)
-
-
-- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-- 0x030C (COMBINING CARON)
-
-
-- 0x0326 (COMBINING COMMA BELOW)
-
-
-- 0x0327 (COMBINING CEDILLA)
-
-
-- 0x0328 (COMBINING OGONEK)
-
-
-- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
+- Glyph name: uni1E9E	Expected: 1
 </code></pre>
- [code: missing-codepoints]
+ [code: no-contour]
 
 
 
-</div>
-</details>
+* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: liter	Contours detected: 1	Expected: 2
 
-<details>
-    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>OS/2.sTypoLineGap is &quot;100&quot; it should be 0</p>
- [code: bad-OS/2.sTypoLineGap]
+- Glyph name: fi	Contours detected: 2	Expected: 3
+</code></pre>
+ [code: contour-count]
 
 
 
@@ -3441,29 +1380,6 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 
 * ⚠️ **WARN** <p>tcaron is decomposed and therefore could not be checked. Please check manually.</p>
  [code: decomposed-outline]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
-<p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: liter	Contours detected: 1	Expected: 2
-
-- Glyph name: fi	Contours detected: 2	Expected: 3
-</code></pre>
- [code: contour-count]
 
 
 
@@ -3567,12 +1483,21 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, tifinagh, tai-le, syriac, canadian-aboriginal, old-permic, math</li>
+<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
+<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -3590,12 +1515,51 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>No dotted circle glyph present</p>
+ [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ǐ i̦̇ i̦̊ i̦̋ ǐ̦ i̧̇ i̧̊ i̧̋ ǐ̧ ĵ j̆ j̇ j̊ j̋ ǰ j̦̀ j̦́ ĵ̦ j̦̃</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Bete-Bendi (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Mfumte (Latn, 79,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Dan (Latn, 1,099,244 speakers), Zapotec (Latn, 490,000 speakers), Sar (Latn, 500,000 speakers), Vute (Latn, 21,000 speakers), Igbo (Latn, 27,823,640 speakers), Lugbara (Latn, 2,200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Gulay (Latn, 250,478 speakers), Nzakara (Latn, 50,000 speakers), Southern Kisi (Latn, 360,000 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Yala (Latn, 200,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Cicipu (Latn, 44,000 speakers), Ma’di (Latn, 584,000 speakers), Navajo (Latn, 166,319 speakers), South Central Banda (Latn, 244,000 speakers), Mundani (Latn, 34,000 speakers), Ekpeye (Latn, 226,000 speakers), Mango (Latn, 77,000 speakers), Dii (Latn, 71,000 speakers), Kom (Latn, 360,685 speakers), Ngbaka (Latn, 1,020,000 speakers), Ebira (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Fur (Latn, 1,230,163 speakers), Bafut (Latn, 158,146 speakers), Nateni (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Makaa (Latn, 221,000 speakers).</p>
+ [code: soft-dotted]
 
 
 
@@ -3846,10 +1810,10 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[22] Parkinsans-Light.ttf</summary>
+<details><summary>[16] Parkinsans-Light.ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
 
@@ -3858,761 +1822,86 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+018F: LATIN CAPITAL LETTER SCHWA</td>
-<td align="left">U+0259: LATIN SMALL LETTER SCHWA</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
+* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
+<pre><code>- Glyph name: uni0126	Expected: 2
 
+- Glyph name: uni0127	Expected: 1
 
+- Glyph name: uni0237	Expected: 1
 
-</div>
-</details>
+- Glyph name: uni0300	Expected: 1
 
-<details>
-    <summary>🔥 <b>FAIL</b> Checking Vertical Metric Linegaps. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
-    <div>
+- Glyph name: uni0301	Expected: 1
 
+- Glyph name: uni0302	Expected: 1
 
+- Glyph name: uni0303	Expected: 1
 
+- Glyph name: uni0304	Expected: 1
 
+- Glyph name: uni0306	Expected: 1
 
+- Glyph name: uni0307	Expected: 1
 
+- Glyph name: uni0308	Expected: 2
 
-* 🔥 **FAIL** <p>OS/2 sTypoLineGap is not equal to 0.</p>
-<p><em>Overridden</em>: This check was originally a WARN but was
-overridden by the universal profile:
-For Google Fonts, all messages from this check are considered FAILs.</p>
- [code: OS/2]
+- Glyph name: uni030A	Expected: 2
 
+- Glyph name: uni030B	Expected: 2
 
+- Glyph name: uni030C	Expected: 1
 
-</div>
-</details>
+- Glyph name: uni0326	Expected: 1
 
-<details>
-    <summary>🔥 <b>FAIL</b> Name table records must not have trailing spaces. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
+- Glyph name: uni0327	Expected: 1
 
+- Glyph name: uni0328	Expected: 1
 
+- Glyph name: uni1E9E	Expected: 1
 
+- Glyph name: uni0237	Expected: 1
 
+- Glyph name: uni0300	Expected: 1
 
+- Glyph name: uni0301	Expected: 1
 
+- Glyph name: uni0302	Expected: 1
 
-* 🔥 **FAIL** <p>Name table record with key = (3, 1, 1033, 9) has trailing spaces that must be removed: 'Typeface d[...]sign LTD. '</p>
- [code: trailing-space]
+- Glyph name: uni0303	Expected: 1
 
+- Glyph name: uni0304	Expected: 1
 
+- Glyph name: uni0306	Expected: 1
 
-</div>
-</details>
+- Glyph name: uni0307	Expected: 1
 
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 Metrics match hhea Metrics. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
-    <div>
+- Glyph name: uni0308	Expected: 2
 
+- Glyph name: uni030A	Expected: 2
 
+- Glyph name: uni030B	Expected: 2
 
+- Glyph name: uni030C	Expected: 1
 
+- Glyph name: uni0326	Expected: 1
 
+- Glyph name: uni0327	Expected: 1
 
+- Glyph name: uni0328	Expected: 1
 
-* 🔥 **FAIL** <p>OS/2 sTypoLineGap (100) and hhea lineGap (0) must be equal.</p>
- [code: lineGap]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Font contains glyphs for whitespace characters? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Whitespace glyph missing for codepoint 0x00A0.</p>
- [code: missing-whitespace-glyph-0x00A0]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ca_Latn (Catalan)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cs_Latn (Czech)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̊, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cy_Latn (Welsh)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">da_Latn (Danish)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̊</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some base glyphs were missing: ẞ</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̈</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">en_Latn (English)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">es_Latn (Spanish)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̃, ◌̈</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fi_Latn (Finnish)</td>
-<td align="left">Some mark glyphs were missing: ◌̃, ◌̈, ◌̊, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fr_Latn (French)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hr_Latn (Croatian)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hu_Latn (Hungarian)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̈, ◌̋</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">is_Latn (Icelandic)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̈, ◌̨</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">it_Latn (Italian)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lt_Latn (Lithuanian)</td>
-<td align="left">Some mark glyphs were missing: ◌̄, ◌̇, ◌̌, ◌̨</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lv_Latn (Latvian)</td>
-<td align="left">Some mark glyphs were missing: ◌̄, ◌̌, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mt_Latn (Maltese)</td>
-<td align="left">Some base glyphs were missing: GĦ, għ, Ħ, ħ</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌̂, ◌̇</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nb_Latn (Norwegian Bokmål)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈, ◌̊</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Some base glyphs were missing: ÍJ́, íj́</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pl_Latn (Polish)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̇, ◌̨</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pt_Latn (Portuguese)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ro_Latn (Romanian)</td>
-<td align="left">Some mark glyphs were missing: ◌̂, ◌̆, ◌̦, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sk_Latn (Slovak)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̂, ◌̈, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sq_Latn (Albanian)</td>
-<td align="left">Some mark glyphs were missing: ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sv_Latn (Swedish)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̈, ◌̊</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tr_Latn (Turkish)</td>
-<td align="left">Some mark glyphs were missing: ◌̂, ◌̆, ◌̇, ◌̈, ◌̦, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some auxiliary glyphs were missing: ẞ</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mt_Latn (Maltese)</td>
-<td align="left">Some auxiliary glyphs were missing: GĦ, għ, Ħ, ħ</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Some auxiliary glyphs were missing: ÍJ́, íj́</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.license.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>First line in license file is:</p>
-<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
-<p>which does not match the expected format, similar to:</p>
-<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
- [code: bad-format]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x00A0 (NO-BREAK SPACE)
-
-
-- 0x0126 (LATIN CAPITAL LETTER H WITH STROKE)
-
-
-- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-- 0x0300 (COMBINING GRAVE ACCENT)
-
-
-- 0x0301 (COMBINING ACUTE ACCENT)
-
-
-- 0x0302 (COMBINING CIRCUMFLEX ACCENT)
-
-
-- 0x0303 (COMBINING TILDE)
-
-
-- 0x0304 (COMBINING MACRON)
-
-
-- 0x0306 (COMBINING BREVE)
-
-
-- 0x0307 (COMBINING DOT ABOVE)
-
-
-- 0x0308 (COMBINING DIAERESIS)
-
-
-- 0x030A (COMBINING RING ABOVE)
-
-
-- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-- 0x030C (COMBINING CARON)
-
-
-- 0x0326 (COMBINING COMMA BELOW)
-
-
-- 0x0327 (COMBINING CEDILLA)
-
-
-- 0x0328 (COMBINING OGONEK)
-
-
-- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
+- Glyph name: uni1E9E	Expected: 1
 </code></pre>
- [code: missing-codepoints]
+ [code: no-contour]
+
+
+
+* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: liter	Contours detected: 1	Expected: 2
+
+- Glyph name: fi	Contours detected: 2	Expected: 3
+</code></pre>
+ [code: contour-count]
 
 
 
@@ -4620,7 +1909,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
 
@@ -4629,8 +1918,8 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 
 
 
-* 🔥 **FAIL** <p>OS/2.sTypoLineGap is &quot;100&quot; it should be 0</p>
- [code: bad-OS/2.sTypoLineGap]
+* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 274 font units wide, non-breaking space named (uni00A0) is 600 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
+ [code: different-widths]
 
 
 
@@ -4684,29 +1973,6 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 
 * ⚠️ **WARN** <p>tcaron is decomposed and therefore could not be checked. Please check manually.</p>
  [code: decomposed-outline]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
-<p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: liter	Contours detected: 1	Expected: 2
-
-- Glyph name: fi	Contours detected: 2	Expected: 3
-</code></pre>
- [code: contour-count]
 
 
 
@@ -4810,12 +2076,21 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, tifinagh, tai-le, syriac, canadian-aboriginal, old-permic, math</li>
+<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
+<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -4833,12 +2108,51 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>No dotted circle glyph present</p>
+ [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ǐ i̦̇ i̦̊ i̦̋ ǐ̦ i̧̇ i̧̊ i̧̋ ǐ̧ ĵ j̆ j̇ j̊ j̋ ǰ j̦̀ j̦́ ĵ̦ j̦̃</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Bete-Bendi (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Mfumte (Latn, 79,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Dan (Latn, 1,099,244 speakers), Zapotec (Latn, 490,000 speakers), Sar (Latn, 500,000 speakers), Vute (Latn, 21,000 speakers), Igbo (Latn, 27,823,640 speakers), Lugbara (Latn, 2,200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Gulay (Latn, 250,478 speakers), Nzakara (Latn, 50,000 speakers), Southern Kisi (Latn, 360,000 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Yala (Latn, 200,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Cicipu (Latn, 44,000 speakers), Ma’di (Latn, 584,000 speakers), Navajo (Latn, 166,319 speakers), South Central Banda (Latn, 244,000 speakers), Mundani (Latn, 34,000 speakers), Ekpeye (Latn, 226,000 speakers), Mango (Latn, 77,000 speakers), Dii (Latn, 71,000 speakers), Kom (Latn, 360,685 speakers), Ngbaka (Latn, 1,020,000 speakers), Ebira (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Fur (Latn, 1,230,163 speakers), Bafut (Latn, 158,146 speakers), Nateni (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Makaa (Latn, 221,000 speakers).</p>
+ [code: soft-dotted]
 
 
 
@@ -5071,10 +2385,10 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[26] Parkinsans-ExtraBold.ttf</summary>
+<details><summary>[17] Parkinsans-Extrabold.ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Checking head.macStyle value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.head.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
 
@@ -5083,10 +2397,86 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>head macStyle BOLD bit should be unset.</p>
- [code: bad-BOLD]
+* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
+<pre><code>- Glyph name: uni0126	Expected: 2
+
+- Glyph name: uni0127	Expected: 1
+
+- Glyph name: uni0237	Expected: 1
+
+- Glyph name: uni0300	Expected: 1
+
+- Glyph name: uni0301	Expected: 1
+
+- Glyph name: uni0302	Expected: 1
+
+- Glyph name: uni0303	Expected: 1
+
+- Glyph name: uni0304	Expected: 1
+
+- Glyph name: uni0306	Expected: 1
+
+- Glyph name: uni0307	Expected: 1
+
+- Glyph name: uni0308	Expected: 2
+
+- Glyph name: uni030A	Expected: 2
+
+- Glyph name: uni030B	Expected: 2
+
+- Glyph name: uni030C	Expected: 1
+
+- Glyph name: uni0326	Expected: 1
+
+- Glyph name: uni0327	Expected: 1
+
+- Glyph name: uni0328	Expected: 1
+
+- Glyph name: uni1E9E	Expected: 1
+
+- Glyph name: uni0237	Expected: 1
+
+- Glyph name: uni0300	Expected: 1
+
+- Glyph name: uni0301	Expected: 1
+
+- Glyph name: uni0302	Expected: 1
+
+- Glyph name: uni0303	Expected: 1
+
+- Glyph name: uni0304	Expected: 1
+
+- Glyph name: uni0306	Expected: 1
+
+- Glyph name: uni0307	Expected: 1
+
+- Glyph name: uni0308	Expected: 2
+
+- Glyph name: uni030A	Expected: 2
+
+- Glyph name: uni030B	Expected: 2
+
+- Glyph name: uni030C	Expected: 1
+
+- Glyph name: uni0326	Expected: 1
+
+- Glyph name: uni0327	Expected: 1
+
+- Glyph name: uni0328	Expected: 1
+
+- Glyph name: uni1E9E	Expected: 1
+</code></pre>
+ [code: no-contour]
 
 
+
+* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: liter	Contours detected: 1	Expected: 2
+
+- Glyph name: fi	Contours detected: 2	Expected: 3
+</code></pre>
+ [code: contour-count]
 
 
 
@@ -5094,7 +2484,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 fsSelection value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.os2.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
 
@@ -5103,712 +2493,8 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>OS/2 fsSelection REGULAR bit should be set.</p>
- [code: bad-REGULAR]
-
-
-
-* 🔥 **FAIL** <p>OS/2 fsSelection BOLD bit should be unset.</p>
- [code: bad-BOLD]
-
-
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+018F: LATIN CAPITAL LETTER SCHWA</td>
-<td align="left">U+0259: LATIN SMALL LETTER SCHWA</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking Vertical Metric Linegaps. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>OS/2 sTypoLineGap is not equal to 0.</p>
-<p><em>Overridden</em>: This check was originally a WARN but was
-overridden by the universal profile:
-For Google Fonts, all messages from this check are considered FAILs.</p>
- [code: OS/2]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Name table records must not have trailing spaces. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Name table record with key = (3, 1, 1033, 9) has trailing spaces that must be removed: 'Typeface d[...]sign LTD. '</p>
- [code: trailing-space]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 Metrics match hhea Metrics. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>OS/2 sTypoLineGap (100) and hhea lineGap (0) must be equal.</p>
- [code: lineGap]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Font contains glyphs for whitespace characters? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Whitespace glyph missing for codepoint 0x00A0.</p>
- [code: missing-whitespace-glyph-0x00A0]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ca_Latn (Catalan)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cs_Latn (Czech)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̊, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cy_Latn (Welsh)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">da_Latn (Danish)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̊</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some base glyphs were missing: ẞ</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̈</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">en_Latn (English)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">es_Latn (Spanish)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̃, ◌̈</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fi_Latn (Finnish)</td>
-<td align="left">Some mark glyphs were missing: ◌̃, ◌̈, ◌̊, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fr_Latn (French)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hr_Latn (Croatian)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hu_Latn (Hungarian)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̈, ◌̋</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">is_Latn (Icelandic)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̈, ◌̨</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">it_Latn (Italian)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lt_Latn (Lithuanian)</td>
-<td align="left">Some mark glyphs were missing: ◌̄, ◌̇, ◌̌, ◌̨</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lv_Latn (Latvian)</td>
-<td align="left">Some mark glyphs were missing: ◌̄, ◌̌, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mt_Latn (Maltese)</td>
-<td align="left">Some base glyphs were missing: GĦ, għ, Ħ, ħ</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌̂, ◌̇</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nb_Latn (Norwegian Bokmål)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈, ◌̊</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Some base glyphs were missing: ÍJ́, íj́</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pl_Latn (Polish)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̇, ◌̨</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pt_Latn (Portuguese)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ro_Latn (Romanian)</td>
-<td align="left">Some mark glyphs were missing: ◌̂, ◌̆, ◌̦, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sk_Latn (Slovak)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̂, ◌̈, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sq_Latn (Albanian)</td>
-<td align="left">Some mark glyphs were missing: ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sv_Latn (Swedish)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̈, ◌̊</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tr_Latn (Turkish)</td>
-<td align="left">Some mark glyphs were missing: ◌̂, ◌̆, ◌̇, ◌̈, ◌̦, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some auxiliary glyphs were missing: ẞ</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mt_Latn (Maltese)</td>
-<td align="left">Some auxiliary glyphs were missing: GĦ, għ, Ħ, ħ</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Some auxiliary glyphs were missing: ÍJ́, íj́</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.license.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>First line in license file is:</p>
-<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
-<p>which does not match the expected format, similar to:</p>
-<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
- [code: bad-format]
+* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 191 font units wide, non-breaking space named (uni00A0) is 600 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
+ [code: different-widths]
 
 
 
@@ -5825,123 +2511,8 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 
 
 
-* 🔥 **FAIL** <p>Expected &quot;ParkinsansExtra-Bold.ttf. Got Parkinsans-ExtraBold.ttf.</p>
+* 🔥 **FAIL** <p>Expected &quot;ParkinsansExtrabold-Regular.ttf. Got Parkinsans-Extrabold.ttf.</p>
  [code: bad-filename]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x00A0 (NO-BREAK SPACE)
-
-
-- 0x0126 (LATIN CAPITAL LETTER H WITH STROKE)
-
-
-- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-- 0x0300 (COMBINING GRAVE ACCENT)
-
-
-- 0x0301 (COMBINING ACUTE ACCENT)
-
-
-- 0x0302 (COMBINING CIRCUMFLEX ACCENT)
-
-
-- 0x0303 (COMBINING TILDE)
-
-
-- 0x0304 (COMBINING MACRON)
-
-
-- 0x0306 (COMBINING BREVE)
-
-
-- 0x0307 (COMBINING DOT ABOVE)
-
-
-- 0x0308 (COMBINING DIAERESIS)
-
-
-- 0x030A (COMBINING RING ABOVE)
-
-
-- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-- 0x030C (COMBINING CARON)
-
-
-- 0x0326 (COMBINING COMMA BELOW)
-
-
-- 0x0327 (COMBINING CEDILLA)
-
-
-- 0x0328 (COMBINING OGONEK)
-
-
-- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-</code></pre>
- [code: missing-codepoints]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Font has all mandatory 'name' table entries? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Font lacks entry with nameId=16 (TYPOGRAPHIC_FAMILY_NAME)</p>
- [code: missing-entry]
-
-
-
-* 🔥 **FAIL** <p>Font lacks entry with nameId=17 (TYPOGRAPHIC_SUBFAMILY_NAME)</p>
- [code: missing-entry]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>OS/2.sTypoLineGap is &quot;100&quot; it should be 0</p>
- [code: bad-OS/2.sTypoLineGap]
 
 
 
@@ -5995,29 +2566,6 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 
 * ⚠️ **WARN** <p>tcaron is decomposed and therefore could not be checked. Please check manually.</p>
  [code: decomposed-outline]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
-<p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: liter	Contours detected: 1	Expected: 2
-
-- Glyph name: fi	Contours detected: 2	Expected: 3
-</code></pre>
- [code: contour-count]
 
 
 
@@ -6121,12 +2669,21 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, tifinagh, tai-le, syriac, canadian-aboriginal, old-permic, math</li>
+<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
+<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -6144,12 +2701,51 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>No dotted circle glyph present</p>
+ [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ǐ i̦̇ i̦̊ i̦̋ ǐ̦ i̧̇ i̧̊ i̧̋ ǐ̧ ĵ j̆ j̇ j̊ j̋ ǰ j̦̀ j̦́ ĵ̦ j̦̃</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Bete-Bendi (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Mfumte (Latn, 79,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Dan (Latn, 1,099,244 speakers), Zapotec (Latn, 490,000 speakers), Sar (Latn, 500,000 speakers), Vute (Latn, 21,000 speakers), Igbo (Latn, 27,823,640 speakers), Lugbara (Latn, 2,200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Gulay (Latn, 250,478 speakers), Nzakara (Latn, 50,000 speakers), Southern Kisi (Latn, 360,000 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Yala (Latn, 200,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Cicipu (Latn, 44,000 speakers), Ma’di (Latn, 584,000 speakers), Navajo (Latn, 166,319 speakers), South Central Banda (Latn, 244,000 speakers), Mundani (Latn, 34,000 speakers), Ekpeye (Latn, 226,000 speakers), Mango (Latn, 77,000 speakers), Dii (Latn, 71,000 speakers), Kom (Latn, 360,685 speakers), Ngbaka (Latn, 1,020,000 speakers), Ebira (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Fur (Latn, 1,230,163 speakers), Bafut (Latn, 158,146 speakers), Nateni (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Makaa (Latn, 221,000 speakers).</p>
+ [code: soft-dotted]
 
 
 
@@ -6402,10 +2998,10 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[22] Parkinsans-Bold.ttf</summary>
+<details><summary>[16] Parkinsans-Bold.ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
 
@@ -6414,761 +3010,86 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+018F: LATIN CAPITAL LETTER SCHWA</td>
-<td align="left">U+0259: LATIN SMALL LETTER SCHWA</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
+* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
+<pre><code>- Glyph name: uni0126	Expected: 2
 
+- Glyph name: uni0127	Expected: 1
 
+- Glyph name: uni0237	Expected: 1
 
-</div>
-</details>
+- Glyph name: uni0300	Expected: 1
 
-<details>
-    <summary>🔥 <b>FAIL</b> Checking Vertical Metric Linegaps. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
-    <div>
+- Glyph name: uni0301	Expected: 1
 
+- Glyph name: uni0302	Expected: 1
 
+- Glyph name: uni0303	Expected: 1
 
+- Glyph name: uni0304	Expected: 1
 
+- Glyph name: uni0306	Expected: 1
 
+- Glyph name: uni0307	Expected: 1
 
+- Glyph name: uni0308	Expected: 2
 
-* 🔥 **FAIL** <p>OS/2 sTypoLineGap is not equal to 0.</p>
-<p><em>Overridden</em>: This check was originally a WARN but was
-overridden by the universal profile:
-For Google Fonts, all messages from this check are considered FAILs.</p>
- [code: OS/2]
+- Glyph name: uni030A	Expected: 2
 
+- Glyph name: uni030B	Expected: 2
 
+- Glyph name: uni030C	Expected: 1
 
-</div>
-</details>
+- Glyph name: uni0326	Expected: 1
 
-<details>
-    <summary>🔥 <b>FAIL</b> Name table records must not have trailing spaces. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
+- Glyph name: uni0327	Expected: 1
 
+- Glyph name: uni0328	Expected: 1
 
+- Glyph name: uni1E9E	Expected: 1
 
+- Glyph name: uni0237	Expected: 1
 
+- Glyph name: uni0300	Expected: 1
 
+- Glyph name: uni0301	Expected: 1
 
+- Glyph name: uni0302	Expected: 1
 
-* 🔥 **FAIL** <p>Name table record with key = (3, 1, 1033, 9) has trailing spaces that must be removed: 'Typeface d[...]sign LTD. '</p>
- [code: trailing-space]
+- Glyph name: uni0303	Expected: 1
 
+- Glyph name: uni0304	Expected: 1
 
+- Glyph name: uni0306	Expected: 1
 
-</div>
-</details>
+- Glyph name: uni0307	Expected: 1
 
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 Metrics match hhea Metrics. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
-    <div>
+- Glyph name: uni0308	Expected: 2
 
+- Glyph name: uni030A	Expected: 2
 
+- Glyph name: uni030B	Expected: 2
 
+- Glyph name: uni030C	Expected: 1
 
+- Glyph name: uni0326	Expected: 1
 
+- Glyph name: uni0327	Expected: 1
 
+- Glyph name: uni0328	Expected: 1
 
-* 🔥 **FAIL** <p>OS/2 sTypoLineGap (100) and hhea lineGap (0) must be equal.</p>
- [code: lineGap]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Font contains glyphs for whitespace characters? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Whitespace glyph missing for codepoint 0x00A0.</p>
- [code: missing-whitespace-glyph-0x00A0]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ca_Latn (Catalan)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cs_Latn (Czech)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̊, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">cy_Latn (Welsh)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">da_Latn (Danish)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̊</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some base glyphs were missing: ẞ</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̈</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">en_Latn (English)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">es_Latn (Spanish)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̃, ◌̈</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fi_Latn (Finnish)</td>
-<td align="left">Some mark glyphs were missing: ◌̃, ◌̈, ◌̊, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fr_Latn (French)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hr_Latn (Croatian)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">hu_Latn (Hungarian)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̈, ◌̋</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">is_Latn (Icelandic)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̈, ◌̨</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">it_Latn (Italian)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lt_Latn (Lithuanian)</td>
-<td align="left">Some mark glyphs were missing: ◌̄, ◌̇, ◌̌, ◌̨</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lv_Latn (Latvian)</td>
-<td align="left">Some mark glyphs were missing: ◌̄, ◌̌, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mt_Latn (Maltese)</td>
-<td align="left">Some base glyphs were missing: GĦ, għ, Ħ, ħ</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌̂, ◌̇</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nb_Latn (Norwegian Bokmål)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈, ◌̊</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Some base glyphs were missing: ÍJ́, íj́</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̈</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pl_Latn (Polish)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̇, ◌̨</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">pt_Latn (Portuguese)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ro_Latn (Romanian)</td>
-<td align="left">Some mark glyphs were missing: ◌̂, ◌̆, ◌̦, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sk_Latn (Slovak)</td>
-<td align="left">Some mark glyphs were missing: ◌́, ◌̂, ◌̈, ◌̌</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sq_Latn (Albanian)</td>
-<td align="left">Some mark glyphs were missing: ◌̈, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">sv_Latn (Swedish)</td>
-<td align="left">Some mark glyphs were missing: ◌̀, ◌́, ◌̈, ◌̊</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">tr_Latn (Turkish)</td>
-<td align="left">Some mark glyphs were missing: ◌̂, ◌̆, ◌̇, ◌̈, ◌̦, ◌̧</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some auxiliary glyphs were missing: ẞ</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">mt_Latn (Maltese)</td>
-<td align="left">Some auxiliary glyphs were missing: GĦ, għ, Ħ, ħ</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Some auxiliary glyphs were missing: ÍJ́, íj́</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.license.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>First line in license file is:</p>
-<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
-<p>which does not match the expected format, similar to:</p>
-<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
- [code: bad-format]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x00A0 (NO-BREAK SPACE)
-
-
-- 0x0126 (LATIN CAPITAL LETTER H WITH STROKE)
-
-
-- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-- 0x0300 (COMBINING GRAVE ACCENT)
-
-
-- 0x0301 (COMBINING ACUTE ACCENT)
-
-
-- 0x0302 (COMBINING CIRCUMFLEX ACCENT)
-
-
-- 0x0303 (COMBINING TILDE)
-
-
-- 0x0304 (COMBINING MACRON)
-
-
-- 0x0306 (COMBINING BREVE)
-
-
-- 0x0307 (COMBINING DOT ABOVE)
-
-
-- 0x0308 (COMBINING DIAERESIS)
-
-
-- 0x030A (COMBINING RING ABOVE)
-
-
-- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-- 0x030C (COMBINING CARON)
-
-
-- 0x0326 (COMBINING COMMA BELOW)
-
-
-- 0x0327 (COMBINING CEDILLA)
-
-
-- 0x0328 (COMBINING OGONEK)
-
-
-- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
+- Glyph name: uni1E9E	Expected: 1
 </code></pre>
- [code: missing-codepoints]
+ [code: no-contour]
+
+
+
+* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: liter	Contours detected: 1	Expected: 2
+
+- Glyph name: fi	Contours detected: 2	Expected: 3
+</code></pre>
+ [code: contour-count]
 
 
 
@@ -7176,7 +3097,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
 
@@ -7185,8 +3106,8 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 
 
 
-* 🔥 **FAIL** <p>OS/2.sTypoLineGap is &quot;100&quot; it should be 0</p>
- [code: bad-OS/2.sTypoLineGap]
+* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 212 font units wide, non-breaking space named (uni00A0) is 495 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
+ [code: different-widths]
 
 
 
@@ -7247,29 +3168,6 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
-<p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: liter	Contours detected: 1	Expected: 2
-
-- Glyph name: fi	Contours detected: 2	Expected: 3
-</code></pre>
- [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
@@ -7300,7 +3198,7 @@ minus</p>
 <p>Width = 686:
 notequal</p>
 <p>Width = 519:
-greaterequal, lessequal</p>
+lessequal, greaterequal</p>
  [code: width-outliers]
 
 
@@ -7364,12 +3262,21 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, tifinagh, tai-le, syriac, canadian-aboriginal, old-permic, math</li>
+<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
+<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -7387,12 +3294,51 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>No dotted circle glyph present</p>
+ [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ǐ i̦̇ i̦̊ i̦̋ ǐ̦ i̧̇ i̧̊ i̧̋ ǐ̧ ĵ j̆ j̇ j̊ j̋ ǰ j̦̀ j̦́ ĵ̦ j̦̃</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Bete-Bendi (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Mfumte (Latn, 79,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Dan (Latn, 1,099,244 speakers), Zapotec (Latn, 490,000 speakers), Sar (Latn, 500,000 speakers), Vute (Latn, 21,000 speakers), Igbo (Latn, 27,823,640 speakers), Lugbara (Latn, 2,200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Gulay (Latn, 250,478 speakers), Nzakara (Latn, 50,000 speakers), Southern Kisi (Latn, 360,000 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Yala (Latn, 200,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Cicipu (Latn, 44,000 speakers), Ma’di (Latn, 584,000 speakers), Navajo (Latn, 166,319 speakers), South Central Banda (Latn, 244,000 speakers), Mundani (Latn, 34,000 speakers), Ekpeye (Latn, 226,000 speakers), Mango (Latn, 77,000 speakers), Dii (Latn, 71,000 speakers), Kom (Latn, 360,685 speakers), Ngbaka (Latn, 1,020,000 speakers), Ebira (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Fur (Latn, 1,230,163 speakers), Bafut (Latn, 158,146 speakers), Nateni (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Makaa (Latn, 221,000 speakers).</p>
+ [code: soft-dotted]
 
 
 
@@ -7612,8 +3558,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 63 | 78 | 717 | 37 | 521 | 0 | 
-| 0% | 0% | 4% | 6% | 51% | 3% | 37% | 0% | 
+| 0 | 0 | 14 | 84 | 704 | 37 | 577 | 0 | 
+| 0% | 0% | 1% | 6% | 50% | 3% | 41% | 0% | 
 
 
 
