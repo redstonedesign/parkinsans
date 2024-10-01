@@ -11,7 +11,8 @@ j,
 "̇",
 "˙",
 "̀",
-"`"
+"`",
+"́"
 );
 axes = (
 {
@@ -44004,8 +44005,62 @@ instanceInterpolations = {
 name = Light;
 properties = (
 {
+key = familyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
 key = postscriptFullName;
 value = "Parkinsans Light";
+},
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Light;
+}
+);
+},
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
+key = styleMapStyleNames;
+values = (
+{
+language = dflt;
+value = Light;
+}
+);
+},
+{
+key = styleNames;
+values = (
+{
+language = dflt;
+value = Light;
+}
+);
 }
 );
 weightClass = 300;
@@ -44021,8 +44076,62 @@ instanceInterpolations = {
 name = Regular;
 properties = (
 {
+key = familyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
 key = postscriptFullName;
 value = "Parkinsans Regular";
+},
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Regular;
+}
+);
+},
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
+key = styleMapStyleNames;
+values = (
+{
+language = dflt;
+value = Regular;
+}
+);
+},
+{
+key = styleNames;
+values = (
+{
+language = dflt;
+value = Regular;
+}
+);
 }
 );
 },
@@ -44036,8 +44145,62 @@ instanceInterpolations = {
 name = Medium;
 properties = (
 {
+key = familyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
 key = postscriptFullName;
 value = "Parkinsans Medium";
+},
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Medium;
+}
+);
+},
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
+key = styleMapStyleNames;
+values = (
+{
+language = dflt;
+value = Medium;
+}
+);
+},
+{
+key = styleNames;
+values = (
+{
+language = dflt;
+value = Medium;
+}
+);
 }
 );
 weightClass = 500;
@@ -44066,6 +44229,42 @@ key = postscriptFullName;
 value = "Parkinsans Semibold";
 },
 {
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Semibold;
+}
+);
+},
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
+key = styleMapStyleNames;
+values = (
+{
+language = dflt;
+value = Semibold;
+}
+);
+},
+{
 key = styleNames;
 values = (
 {
@@ -44090,8 +44289,62 @@ linkStyle = Regular;
 name = Bold;
 properties = (
 {
+key = familyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
 key = postscriptFullName;
 value = "Parkinsans Bold";
+},
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Bold;
+}
+);
+},
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
+key = styleMapStyleNames;
+values = (
+{
+language = dflt;
+value = Bold;
+}
+);
+},
+{
+key = styleNames;
+values = (
+{
+language = dflt;
+value = Bold;
+}
+);
 }
 );
 weightClass = 700;
@@ -44117,6 +44370,42 @@ value = Parkinsans;
 {
 key = postscriptFullName;
 value = "Parkinsans Extrabold";
+},
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Extrabold;
+}
+);
+},
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
+key = styleMapStyleNames;
+values = (
+{
+language = dflt;
+value = Extrabold;
+}
+);
 },
 {
 key = styleNames;
