@@ -55,10 +55,10 @@ fontbakery version: 0.12.10
 </div>
 </details>
 
-<details><summary>[19] Parkinsans-Semibold.ttf</summary>
+<details><summary>[17] Parkinsans-Semibold.ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
 
@@ -67,22 +67,86 @@ fontbakery version: 0.12.10
 
 
 
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+1E9E: LATIN CAPITAL LETTER SHARP S</td>
-<td align="left">U+00DF: LATIN SMALL LETTER SHARP S</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
+* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
+<pre><code>- Glyph name: uni0126	Expected: 2
+
+- Glyph name: uni0127	Expected: 1
+
+- Glyph name: uni0237	Expected: 1
+
+- Glyph name: uni0300	Expected: 1
+
+- Glyph name: uni0301	Expected: 1
+
+- Glyph name: uni0302	Expected: 1
+
+- Glyph name: uni0303	Expected: 1
+
+- Glyph name: uni0304	Expected: 1
+
+- Glyph name: uni0306	Expected: 1
+
+- Glyph name: uni0307	Expected: 1
+
+- Glyph name: uni0308	Expected: 2
+
+- Glyph name: uni030A	Expected: 2
+
+- Glyph name: uni030B	Expected: 2
+
+- Glyph name: uni030C	Expected: 1
+
+- Glyph name: uni0326	Expected: 1
+
+- Glyph name: uni0327	Expected: 1
+
+- Glyph name: uni0328	Expected: 1
+
+- Glyph name: uni1E9E	Expected: 1
+
+- Glyph name: uni0237	Expected: 1
+
+- Glyph name: uni0300	Expected: 1
+
+- Glyph name: uni0301	Expected: 1
+
+- Glyph name: uni0302	Expected: 1
+
+- Glyph name: uni0303	Expected: 1
+
+- Glyph name: uni0304	Expected: 1
+
+- Glyph name: uni0306	Expected: 1
+
+- Glyph name: uni0307	Expected: 1
+
+- Glyph name: uni0308	Expected: 2
+
+- Glyph name: uni030A	Expected: 2
+
+- Glyph name: uni030B	Expected: 2
+
+- Glyph name: uni030C	Expected: 1
+
+- Glyph name: uni0326	Expected: 1
+
+- Glyph name: uni0327	Expected: 1
+
+- Glyph name: uni0328	Expected: 1
+
+- Glyph name: uni1E9E	Expected: 1
+</code></pre>
+ [code: no-contour]
+
+
+
+* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: liter	Contours detected: 1	Expected: 2
+
+- Glyph name: fi	Contours detected: 2	Expected: 3
+</code></pre>
+ [code: contour-count]
 
 
 
@@ -90,7 +154,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
 
@@ -99,68 +163,8 @@ fontbakery version: 0.12.10
 
 
 
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some base glyphs were missing: ß</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Shaper didn't attach uni0301 to j</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0301 to J</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some auxiliary glyphs were missing: ß</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
+* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 238 font units wide, non-breaking space named (uni00A0) is 369 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
+ [code: different-widths]
 
 
 
@@ -179,65 +183,6 @@ fontbakery version: 0.12.10
 
 * 🔥 **FAIL** <p>Expected &quot;ParkinsansSemibold-Regular.ttf. Got Parkinsans-Semibold.ttf.</p>
  [code: bad-filename]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x0060 (GRAVE ACCENT)
-
-
-- 0x00A8 (DIAERESIS)
-
-
-- 0x00AF (MACRON)
-
-
-- 0x00B4 (ACUTE ACCENT)
-
-
-- 0x00B8 (CEDILLA)
-
-
-- 0x00DF (LATIN SMALL LETTER SHARP S)
-
-
-- 0x02C6 (MODIFIER LETTER CIRCUMFLEX ACCENT)
-
-
-- 0x02C7 (CARON)
-
-
-- 0x02D8 (BREVE)
-
-
-- 0x02D9 (DOT ABOVE)
-
-
-- 0x02DA (RING ABOVE)
-
-
-- 0x02DB (OGONEK)
-
-
-- 0x02DC (SMALL TILDE)
-
-
-- 0x02DD (DOUBLE ACUTE ACCENT)
-</code></pre>
- [code: missing-codepoints]
 
 
 
@@ -291,31 +236,6 @@ fontbakery version: 0.12.10
 
 * ⚠️ **WARN** <p>tcaron is decomposed and therefore could not be checked. Please check manually.</p>
  [code: decomposed-outline]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
-<p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni0126	Contours detected: 1	Expected: 2
-
-- Glyph name: liter	Contours detected: 1	Expected: 2
-
-- Glyph name: fi	Contours detected: 2	Expected: 3
-</code></pre>
- [code: contour-count]
 
 
 
@@ -419,12 +339,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, todhri, old-permic, canadian-aboriginal, math, tai-le, tifinagh, malayalam, syriac, hebrew, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, syriac, math, malayalam, canadian-aboriginal, hebrew, todhri, duployan, tai-le, tifinagh, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
@@ -446,7 +369,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -488,8 +411,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ǐ i̦̇ i̦̊ i̦̋ ǐ̦ i̧̇ i̧̊ i̧̋ ǐ̧ ĵ j̆ j̇ j̊ j̋ ǰ j̦̀ j̦́ ĵ̦ j̦̃</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Kom (Latn, 360,685 speakers), Ekpeye (Latn, 226,000 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Ejagham (Latn, 120,000 speakers), Mundani (Latn, 34,000 speakers), Dan (Latn, 1,099,244 speakers), Cicipu (Latn, 44,000 speakers), Basaa (Latn, 332,940 speakers), Avokaya (Latn, 100,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Nzakara (Latn, 50,000 speakers), Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Belarusian (Cyrl, 10,064,517 speakers), Mango (Latn, 77,000 speakers), Bafut (Latn, 158,146 speakers), Koonzime (Latn, 40,000 speakers), Mfumte (Latn, 79,000 speakers), South Central Banda (Latn, 244,000 speakers), Sar (Latn, 500,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Yala (Latn, 200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Fur (Latn, 1,230,163 speakers), Vute (Latn, 21,000 speakers), Dii (Latn, 71,000 speakers), Zapotec (Latn, 490,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Makaa (Latn, 221,000 speakers), Gulay (Latn, 250,478 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Southern Kisi (Latn, 360,000 speakers), Aghem (Latn, 38,843 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Yala (Latn, 200,000 speakers), Dan (Latn, 1,099,244 speakers), Nzakara (Latn, 50,000 speakers), Vute (Latn, 21,000 speakers), Bafut (Latn, 158,146 speakers), Mango (Latn, 77,000 speakers), Southern Kisi (Latn, 360,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), South Central Banda (Latn, 244,000 speakers), Igbo (Latn, 27,823,640 speakers), Gulay (Latn, 250,478 speakers), Zapotec (Latn, 490,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Ekpeye (Latn, 226,000 speakers), Avokaya (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Makaa (Latn, 221,000 speakers), Dii (Latn, 71,000 speakers), Ma’di (Latn, 584,000 speakers), Ebira (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Mfumte (Latn, 79,000 speakers), Nateni (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Fur (Latn, 1,230,163 speakers), Ngbaka (Latn, 1,020,000 speakers), Mundani (Latn, 34,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Cicipu (Latn, 44,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Basaa (Latn, 332,940 speakers), Navajo (Latn, 166,319 speakers).</p>
  [code: soft-dotted]
 
 
@@ -600,6 +523,8 @@ definitions.</p>
 
 * aeacute (U+01FD) contains a short segment B&lt;&lt;686.0,202.5&gt;-&lt;667.0,203.0&gt;-&lt;663.0,203.0&gt;&gt;
 
+* germandbls (U+00DF) contains a short segment B&lt;&lt;434.0,392.0&gt;-&lt;434.0,382.0&gt;-&lt;441.5,372.5&gt;&gt;
+
 * uni0163 (U+0163) contains a short segment B&lt;&lt;279.0,-8.0&gt;-&lt;274.0,-8.0&gt;-&lt;269.0,-7.0&gt;&gt;
 
 * parenleft (U+0028) contains a short segment L&lt;&lt;468.0,924.0&gt;--&lt;468.0,911.0&gt;&gt;
@@ -615,8 +540,6 @@ definitions.</p>
 * ampersand (U+0026) contains a short segment B&lt;&lt;514.0,260.0&gt;-&lt;516.0,264.0&gt;-&lt;519.0,269.0&gt;&gt;
 
 * paragraph (U+00B6) contains a short segment L&lt;&lt;288.0,278.0&gt;--&lt;269.0,278.0&gt;&gt;
-
-* uni1E9E (U+1E9E) contains a short segment B&lt;&lt;434.0,392.0&gt;-&lt;434.0,382.0&gt;-&lt;441.5,372.5&gt;&gt;
 </code></pre>
  [code: found-short-segments]
 
@@ -757,10 +680,10 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[18] Parkinsans-Regular.ttf</summary>
+<details><summary>[16] Parkinsans-Regular.ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
 
@@ -769,159 +692,104 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+1E9E: LATIN CAPITAL LETTER SHARP S</td>
-<td align="left">U+00DF: LATIN SMALL LETTER SHARP S</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
+* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
+<pre><code>- Glyph name: uni0126	Expected: 2
 
+- Glyph name: uni0127	Expected: 1
 
+- Glyph name: uni0237	Expected: 1
 
-</div>
-</details>
+- Glyph name: uni0300	Expected: 1
 
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
+- Glyph name: uni0301	Expected: 1
 
+- Glyph name: uni0302	Expected: 1
 
+- Glyph name: uni0303	Expected: 1
 
+- Glyph name: uni0304	Expected: 1
 
+- Glyph name: uni0306	Expected: 1
 
+- Glyph name: uni0307	Expected: 1
 
+- Glyph name: uni0308	Expected: 2
 
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some base glyphs were missing: ß</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
+- Glyph name: uni030A	Expected: 2
 
+- Glyph name: uni030B	Expected: 2
 
+- Glyph name: uni030C	Expected: 1
 
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Shaper didn't attach uni0301 to j</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0301 to J</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
+- Glyph name: uni0326	Expected: 1
 
+- Glyph name: uni0327	Expected: 1
 
+- Glyph name: uni0328	Expected: 1
 
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some auxiliary glyphs were missing: ß</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
+- Glyph name: uni1E9E	Expected: 1
 
+- Glyph name: uni0237	Expected: 1
 
+- Glyph name: uni0300	Expected: 1
 
-</div>
-</details>
+- Glyph name: uni0301	Expected: 1
 
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
+- Glyph name: uni0302	Expected: 1
 
+- Glyph name: uni0303	Expected: 1
 
+- Glyph name: uni0304	Expected: 1
 
+- Glyph name: uni0306	Expected: 1
 
+- Glyph name: uni0307	Expected: 1
 
+- Glyph name: uni0308	Expected: 2
 
+- Glyph name: uni030A	Expected: 2
 
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x0060 (GRAVE ACCENT)
+- Glyph name: uni030B	Expected: 2
 
+- Glyph name: uni030C	Expected: 1
 
-- 0x00A8 (DIAERESIS)
+- Glyph name: uni0326	Expected: 1
 
+- Glyph name: uni0327	Expected: 1
 
-- 0x00AF (MACRON)
+- Glyph name: uni0328	Expected: 1
 
-
-- 0x00B4 (ACUTE ACCENT)
-
-
-- 0x00B8 (CEDILLA)
-
-
-- 0x00DF (LATIN SMALL LETTER SHARP S)
-
-
-- 0x02C6 (MODIFIER LETTER CIRCUMFLEX ACCENT)
-
-
-- 0x02C7 (CARON)
-
-
-- 0x02D8 (BREVE)
-
-
-- 0x02D9 (DOT ABOVE)
-
-
-- 0x02DA (RING ABOVE)
-
-
-- 0x02DB (OGONEK)
-
-
-- 0x02DC (SMALL TILDE)
-
-
-- 0x02DD (DOUBLE ACUTE ACCENT)
+- Glyph name: uni1E9E	Expected: 1
 </code></pre>
- [code: missing-codepoints]
+ [code: no-contour]
+
+
+
+* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: liter	Contours detected: 1	Expected: 2
+
+- Glyph name: fi	Contours detected: 2	Expected: 3
+</code></pre>
+ [code: contour-count]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 267 font units wide, non-breaking space named (uni00A0) is 438 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
+ [code: different-widths]
 
 
 
@@ -975,31 +843,6 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>tcaron is decomposed and therefore could not be checked. Please check manually.</p>
  [code: decomposed-outline]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
-<p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni0126	Contours detected: 1	Expected: 2
-
-- Glyph name: liter	Contours detected: 1	Expected: 2
-
-- Glyph name: fi	Contours detected: 2	Expected: 3
-</code></pre>
- [code: contour-count]
 
 
 
@@ -1103,12 +946,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, todhri, old-permic, canadian-aboriginal, math, tai-le, tifinagh, malayalam, syriac, hebrew, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, syriac, math, malayalam, canadian-aboriginal, hebrew, todhri, duployan, tai-le, tifinagh, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
@@ -1130,7 +976,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -1172,8 +1018,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ǐ i̦̇ i̦̊ i̦̋ ǐ̦ i̧̇ i̧̊ i̧̋ ǐ̧ ĵ j̆ j̇ j̊ j̋ ǰ j̦̀ j̦́ ĵ̦ j̦̃</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Kom (Latn, 360,685 speakers), Ekpeye (Latn, 226,000 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Ejagham (Latn, 120,000 speakers), Mundani (Latn, 34,000 speakers), Dan (Latn, 1,099,244 speakers), Cicipu (Latn, 44,000 speakers), Basaa (Latn, 332,940 speakers), Avokaya (Latn, 100,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Nzakara (Latn, 50,000 speakers), Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Belarusian (Cyrl, 10,064,517 speakers), Mango (Latn, 77,000 speakers), Bafut (Latn, 158,146 speakers), Koonzime (Latn, 40,000 speakers), Mfumte (Latn, 79,000 speakers), South Central Banda (Latn, 244,000 speakers), Sar (Latn, 500,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Yala (Latn, 200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Fur (Latn, 1,230,163 speakers), Vute (Latn, 21,000 speakers), Dii (Latn, 71,000 speakers), Zapotec (Latn, 490,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Makaa (Latn, 221,000 speakers), Gulay (Latn, 250,478 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Southern Kisi (Latn, 360,000 speakers), Aghem (Latn, 38,843 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Yala (Latn, 200,000 speakers), Dan (Latn, 1,099,244 speakers), Nzakara (Latn, 50,000 speakers), Vute (Latn, 21,000 speakers), Bafut (Latn, 158,146 speakers), Mango (Latn, 77,000 speakers), Southern Kisi (Latn, 360,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), South Central Banda (Latn, 244,000 speakers), Igbo (Latn, 27,823,640 speakers), Gulay (Latn, 250,478 speakers), Zapotec (Latn, 490,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Ekpeye (Latn, 226,000 speakers), Avokaya (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Makaa (Latn, 221,000 speakers), Dii (Latn, 71,000 speakers), Ma’di (Latn, 584,000 speakers), Ebira (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Mfumte (Latn, 79,000 speakers), Nateni (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Fur (Latn, 1,230,163 speakers), Ngbaka (Latn, 1,020,000 speakers), Mundani (Latn, 34,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Cicipu (Latn, 44,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Basaa (Latn, 332,940 speakers), Navajo (Latn, 166,319 speakers).</p>
  [code: soft-dotted]
 
 
@@ -1228,6 +1074,8 @@ definitions.</p>
 
 * otilde (U+00F5): X=208.0,Y=691.0 (should be at cap-height 692?)
 
+* germandbls (U+00DF): X=294.0,Y=694.0 (should be at cap-height 692?)
+
 * ubreve (U+016D): X=252.0,Y=693.5 (should be at cap-height 692?)
 
 * ubreve (U+016D): X=389.0,Y=693.5 (should be at cap-height 692?)
@@ -1250,11 +1098,9 @@ definitions.</p>
 
 * asciicircum (U+005E): X=357.0,Y=693.0 (should be at cap-height 692?)
 
-* uni1E9E (U+1E9E): X=294.0,Y=694.0 (should be at cap-height 692?)
+* breve (U+02D8): X=91.0,Y=693.5 (should be at cap-height 692?)
 
-* uni0306 (U+0306): X=91.0,Y=693.5 (should be at cap-height 692?)
-
-* uni0306 (U+0306): X=228.0,Y=693.5 (should be at cap-height 692?)
+* breve (U+02D8): X=228.0,Y=693.5 (should be at cap-height 692?)
 </code></pre>
  [code: found-misalignments]
 
@@ -1385,10 +1231,10 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[18] Parkinsans-Medium.ttf</summary>
+<details><summary>[15] Parkinsans-Medium.ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
 
@@ -1397,159 +1243,86 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+1E9E: LATIN CAPITAL LETTER SHARP S</td>
-<td align="left">U+00DF: LATIN SMALL LETTER SHARP S</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
+* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
+<pre><code>- Glyph name: uni0126	Expected: 2
 
+- Glyph name: uni0127	Expected: 1
 
+- Glyph name: uni0237	Expected: 1
 
-</div>
-</details>
+- Glyph name: uni0300	Expected: 1
 
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
+- Glyph name: uni0301	Expected: 1
 
+- Glyph name: uni0302	Expected: 1
 
+- Glyph name: uni0303	Expected: 1
 
+- Glyph name: uni0304	Expected: 1
 
+- Glyph name: uni0306	Expected: 1
 
+- Glyph name: uni0307	Expected: 1
 
+- Glyph name: uni0308	Expected: 2
 
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some base glyphs were missing: ß</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
+- Glyph name: uni030A	Expected: 2
 
+- Glyph name: uni030B	Expected: 2
 
+- Glyph name: uni030C	Expected: 1
 
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Shaper didn't attach uni0301 to j</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0301 to J</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
+- Glyph name: uni0326	Expected: 1
 
+- Glyph name: uni0327	Expected: 1
 
+- Glyph name: uni0328	Expected: 1
 
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some auxiliary glyphs were missing: ß</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
+- Glyph name: uni1E9E	Expected: 1
 
+- Glyph name: uni0237	Expected: 1
 
+- Glyph name: uni0300	Expected: 1
 
-</div>
-</details>
+- Glyph name: uni0301	Expected: 1
 
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
+- Glyph name: uni0302	Expected: 1
 
+- Glyph name: uni0303	Expected: 1
 
+- Glyph name: uni0304	Expected: 1
 
+- Glyph name: uni0306	Expected: 1
 
+- Glyph name: uni0307	Expected: 1
 
+- Glyph name: uni0308	Expected: 2
 
+- Glyph name: uni030A	Expected: 2
 
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x0060 (GRAVE ACCENT)
+- Glyph name: uni030B	Expected: 2
 
+- Glyph name: uni030C	Expected: 1
 
-- 0x00A8 (DIAERESIS)
+- Glyph name: uni0326	Expected: 1
 
+- Glyph name: uni0327	Expected: 1
 
-- 0x00AF (MACRON)
+- Glyph name: uni0328	Expected: 1
 
-
-- 0x00B4 (ACUTE ACCENT)
-
-
-- 0x00B8 (CEDILLA)
-
-
-- 0x00DF (LATIN SMALL LETTER SHARP S)
-
-
-- 0x02C6 (MODIFIER LETTER CIRCUMFLEX ACCENT)
-
-
-- 0x02C7 (CARON)
-
-
-- 0x02D8 (BREVE)
-
-
-- 0x02D9 (DOT ABOVE)
-
-
-- 0x02DA (RING ABOVE)
-
-
-- 0x02DB (OGONEK)
-
-
-- 0x02DC (SMALL TILDE)
-
-
-- 0x02DD (DOUBLE ACUTE ACCENT)
+- Glyph name: uni1E9E	Expected: 1
 </code></pre>
- [code: missing-codepoints]
+ [code: no-contour]
+
+
+
+* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: liter	Contours detected: 1	Expected: 2
+
+- Glyph name: fi	Contours detected: 2	Expected: 3
+</code></pre>
+ [code: contour-count]
 
 
 
@@ -1603,31 +1376,6 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>tcaron is decomposed and therefore could not be checked. Please check manually.</p>
  [code: decomposed-outline]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
-<p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni0126	Contours detected: 1	Expected: 2
-
-- Glyph name: liter	Contours detected: 1	Expected: 2
-
-- Glyph name: fi	Contours detected: 2	Expected: 3
-</code></pre>
- [code: contour-count]
 
 
 
@@ -1731,12 +1479,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, todhri, old-permic, canadian-aboriginal, math, tai-le, tifinagh, malayalam, syriac, hebrew, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, syriac, math, malayalam, canadian-aboriginal, hebrew, todhri, duployan, tai-le, tifinagh, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
@@ -1758,7 +1509,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -1800,8 +1551,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ǐ i̦̇ i̦̊ i̦̋ ǐ̦ i̧̇ i̧̊ i̧̋ ǐ̧ ĵ j̆ j̇ j̊ j̋ ǰ j̦̀ j̦́ ĵ̦ j̦̃</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Kom (Latn, 360,685 speakers), Ekpeye (Latn, 226,000 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Ejagham (Latn, 120,000 speakers), Mundani (Latn, 34,000 speakers), Dan (Latn, 1,099,244 speakers), Cicipu (Latn, 44,000 speakers), Basaa (Latn, 332,940 speakers), Avokaya (Latn, 100,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Nzakara (Latn, 50,000 speakers), Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Belarusian (Cyrl, 10,064,517 speakers), Mango (Latn, 77,000 speakers), Bafut (Latn, 158,146 speakers), Koonzime (Latn, 40,000 speakers), Mfumte (Latn, 79,000 speakers), South Central Banda (Latn, 244,000 speakers), Sar (Latn, 500,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Yala (Latn, 200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Fur (Latn, 1,230,163 speakers), Vute (Latn, 21,000 speakers), Dii (Latn, 71,000 speakers), Zapotec (Latn, 490,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Makaa (Latn, 221,000 speakers), Gulay (Latn, 250,478 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Southern Kisi (Latn, 360,000 speakers), Aghem (Latn, 38,843 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Yala (Latn, 200,000 speakers), Dan (Latn, 1,099,244 speakers), Nzakara (Latn, 50,000 speakers), Vute (Latn, 21,000 speakers), Bafut (Latn, 158,146 speakers), Mango (Latn, 77,000 speakers), Southern Kisi (Latn, 360,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), South Central Banda (Latn, 244,000 speakers), Igbo (Latn, 27,823,640 speakers), Gulay (Latn, 250,478 speakers), Zapotec (Latn, 490,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Ekpeye (Latn, 226,000 speakers), Avokaya (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Makaa (Latn, 221,000 speakers), Dii (Latn, 71,000 speakers), Ma’di (Latn, 584,000 speakers), Ebira (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Mfumte (Latn, 79,000 speakers), Nateni (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Fur (Latn, 1,230,163 speakers), Ngbaka (Latn, 1,020,000 speakers), Mundani (Latn, 34,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Cicipu (Latn, 44,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Basaa (Latn, 332,940 speakers), Navajo (Latn, 166,319 speakers).</p>
  [code: soft-dotted]
 
 
@@ -1878,7 +1629,7 @@ definitions.</p>
 
 * asciicircum (U+005E): X=381.0,Y=696.0 (should be at cap-height 695?)
 
-* uni0303 (U+0303): X=49.0,Y=696.0 (should be at cap-height 695?)
+* tilde (U+02DC): X=49.0,Y=696.0 (should be at cap-height 695?)
 </code></pre>
  [code: found-misalignments]
 
@@ -2053,10 +1804,10 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[18] Parkinsans-Light.ttf</summary>
+<details><summary>[16] Parkinsans-Light.ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
 
@@ -2065,159 +1816,104 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+1E9E: LATIN CAPITAL LETTER SHARP S</td>
-<td align="left">U+00DF: LATIN SMALL LETTER SHARP S</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
+* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
+<pre><code>- Glyph name: uni0126	Expected: 2
 
+- Glyph name: uni0127	Expected: 1
 
+- Glyph name: uni0237	Expected: 1
 
-</div>
-</details>
+- Glyph name: uni0300	Expected: 1
 
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
+- Glyph name: uni0301	Expected: 1
 
+- Glyph name: uni0302	Expected: 1
 
+- Glyph name: uni0303	Expected: 1
 
+- Glyph name: uni0304	Expected: 1
 
+- Glyph name: uni0306	Expected: 1
 
+- Glyph name: uni0307	Expected: 1
 
+- Glyph name: uni0308	Expected: 2
 
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some base glyphs were missing: ß</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
+- Glyph name: uni030A	Expected: 2
 
+- Glyph name: uni030B	Expected: 2
 
+- Glyph name: uni030C	Expected: 1
 
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Shaper didn't attach uni0301 to j</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0301 to J</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
+- Glyph name: uni0326	Expected: 1
 
+- Glyph name: uni0327	Expected: 1
 
+- Glyph name: uni0328	Expected: 1
 
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some auxiliary glyphs were missing: ß</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
+- Glyph name: uni1E9E	Expected: 1
 
+- Glyph name: uni0237	Expected: 1
 
+- Glyph name: uni0300	Expected: 1
 
-</div>
-</details>
+- Glyph name: uni0301	Expected: 1
 
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
+- Glyph name: uni0302	Expected: 1
 
+- Glyph name: uni0303	Expected: 1
 
+- Glyph name: uni0304	Expected: 1
 
+- Glyph name: uni0306	Expected: 1
 
+- Glyph name: uni0307	Expected: 1
 
+- Glyph name: uni0308	Expected: 2
 
+- Glyph name: uni030A	Expected: 2
 
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x0060 (GRAVE ACCENT)
+- Glyph name: uni030B	Expected: 2
 
+- Glyph name: uni030C	Expected: 1
 
-- 0x00A8 (DIAERESIS)
+- Glyph name: uni0326	Expected: 1
 
+- Glyph name: uni0327	Expected: 1
 
-- 0x00AF (MACRON)
+- Glyph name: uni0328	Expected: 1
 
-
-- 0x00B4 (ACUTE ACCENT)
-
-
-- 0x00B8 (CEDILLA)
-
-
-- 0x00DF (LATIN SMALL LETTER SHARP S)
-
-
-- 0x02C6 (MODIFIER LETTER CIRCUMFLEX ACCENT)
-
-
-- 0x02C7 (CARON)
-
-
-- 0x02D8 (BREVE)
-
-
-- 0x02D9 (DOT ABOVE)
-
-
-- 0x02DA (RING ABOVE)
-
-
-- 0x02DB (OGONEK)
-
-
-- 0x02DC (SMALL TILDE)
-
-
-- 0x02DD (DOUBLE ACUTE ACCENT)
+- Glyph name: uni1E9E	Expected: 1
 </code></pre>
- [code: missing-codepoints]
+ [code: no-contour]
+
+
+
+* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: liter	Contours detected: 1	Expected: 2
+
+- Glyph name: fi	Contours detected: 2	Expected: 3
+</code></pre>
+ [code: contour-count]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 274 font units wide, non-breaking space named (uni00A0) is 600 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
+ [code: different-widths]
 
 
 
@@ -2271,31 +1967,6 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>tcaron is decomposed and therefore could not be checked. Please check manually.</p>
  [code: decomposed-outline]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
-<p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni0126	Contours detected: 1	Expected: 2
-
-- Glyph name: liter	Contours detected: 1	Expected: 2
-
-- Glyph name: fi	Contours detected: 2	Expected: 3
-</code></pre>
- [code: contour-count]
 
 
 
@@ -2399,12 +2070,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, todhri, old-permic, canadian-aboriginal, math, tai-le, tifinagh, malayalam, syriac, hebrew, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, syriac, math, malayalam, canadian-aboriginal, hebrew, todhri, duployan, tai-le, tifinagh, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
@@ -2426,7 +2100,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -2468,8 +2142,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ǐ i̦̇ i̦̊ i̦̋ ǐ̦ i̧̇ i̧̊ i̧̋ ǐ̧ ĵ j̆ j̇ j̊ j̋ ǰ j̦̀ j̦́ ĵ̦ j̦̃</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Kom (Latn, 360,685 speakers), Ekpeye (Latn, 226,000 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Ejagham (Latn, 120,000 speakers), Mundani (Latn, 34,000 speakers), Dan (Latn, 1,099,244 speakers), Cicipu (Latn, 44,000 speakers), Basaa (Latn, 332,940 speakers), Avokaya (Latn, 100,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Nzakara (Latn, 50,000 speakers), Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Belarusian (Cyrl, 10,064,517 speakers), Mango (Latn, 77,000 speakers), Bafut (Latn, 158,146 speakers), Koonzime (Latn, 40,000 speakers), Mfumte (Latn, 79,000 speakers), South Central Banda (Latn, 244,000 speakers), Sar (Latn, 500,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Yala (Latn, 200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Fur (Latn, 1,230,163 speakers), Vute (Latn, 21,000 speakers), Dii (Latn, 71,000 speakers), Zapotec (Latn, 490,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Makaa (Latn, 221,000 speakers), Gulay (Latn, 250,478 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Southern Kisi (Latn, 360,000 speakers), Aghem (Latn, 38,843 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Yala (Latn, 200,000 speakers), Dan (Latn, 1,099,244 speakers), Nzakara (Latn, 50,000 speakers), Vute (Latn, 21,000 speakers), Bafut (Latn, 158,146 speakers), Mango (Latn, 77,000 speakers), Southern Kisi (Latn, 360,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), South Central Banda (Latn, 244,000 speakers), Igbo (Latn, 27,823,640 speakers), Gulay (Latn, 250,478 speakers), Zapotec (Latn, 490,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Ekpeye (Latn, 226,000 speakers), Avokaya (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Makaa (Latn, 221,000 speakers), Dii (Latn, 71,000 speakers), Ma’di (Latn, 584,000 speakers), Ebira (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Mfumte (Latn, 79,000 speakers), Nateni (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Fur (Latn, 1,230,163 speakers), Ngbaka (Latn, 1,020,000 speakers), Mundani (Latn, 34,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Cicipu (Latn, 44,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Basaa (Latn, 332,940 speakers), Navajo (Latn, 166,319 speakers).</p>
  [code: soft-dotted]
 
 
@@ -2526,6 +2200,8 @@ definitions.</p>
 
 * obreve (U+014F): X=392.5,Y=688.0 (should be at cap-height 690?)
 
+* germandbls (U+00DF): X=473.0,Y=688.0 (should be at cap-height 690?)
+
 * t (U+0074): X=293.0,Y=0.5 (should be at baseline 0?)
 
 * tcaron (U+0165): X=293.0,Y=0.5 (should be at baseline 0?)
@@ -2554,11 +2230,9 @@ definitions.</p>
 
 * ampersand (U+0026): X=399.0,Y=688.0 (should be at cap-height 690?)
 
+* circumflex (U+02C6): X=158.0,Y=688.0 (should be at cap-height 690?)
+
 * turkishlira: X=208.0,Y=-1.0 (should be at baseline 0?)
-
-* uni1E9E (U+1E9E): X=473.0,Y=688.0 (should be at cap-height 690?)
-
-* uni0302 (U+0302): X=158.0,Y=688.0 (should be at cap-height 690?)
 </code></pre>
  [code: found-misalignments]
 
@@ -2703,10 +2377,10 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[19] Parkinsans-Extrabold.ttf</summary>
+<details><summary>[17] Parkinsans-Extrabold.ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
 
@@ -2715,22 +2389,86 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+1E9E: LATIN CAPITAL LETTER SHARP S</td>
-<td align="left">U+00DF: LATIN SMALL LETTER SHARP S</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
+* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
+<pre><code>- Glyph name: uni0126	Expected: 2
+
+- Glyph name: uni0127	Expected: 1
+
+- Glyph name: uni0237	Expected: 1
+
+- Glyph name: uni0300	Expected: 1
+
+- Glyph name: uni0301	Expected: 1
+
+- Glyph name: uni0302	Expected: 1
+
+- Glyph name: uni0303	Expected: 1
+
+- Glyph name: uni0304	Expected: 1
+
+- Glyph name: uni0306	Expected: 1
+
+- Glyph name: uni0307	Expected: 1
+
+- Glyph name: uni0308	Expected: 2
+
+- Glyph name: uni030A	Expected: 2
+
+- Glyph name: uni030B	Expected: 2
+
+- Glyph name: uni030C	Expected: 1
+
+- Glyph name: uni0326	Expected: 1
+
+- Glyph name: uni0327	Expected: 1
+
+- Glyph name: uni0328	Expected: 1
+
+- Glyph name: uni1E9E	Expected: 1
+
+- Glyph name: uni0237	Expected: 1
+
+- Glyph name: uni0300	Expected: 1
+
+- Glyph name: uni0301	Expected: 1
+
+- Glyph name: uni0302	Expected: 1
+
+- Glyph name: uni0303	Expected: 1
+
+- Glyph name: uni0304	Expected: 1
+
+- Glyph name: uni0306	Expected: 1
+
+- Glyph name: uni0307	Expected: 1
+
+- Glyph name: uni0308	Expected: 2
+
+- Glyph name: uni030A	Expected: 2
+
+- Glyph name: uni030B	Expected: 2
+
+- Glyph name: uni030C	Expected: 1
+
+- Glyph name: uni0326	Expected: 1
+
+- Glyph name: uni0327	Expected: 1
+
+- Glyph name: uni0328	Expected: 1
+
+- Glyph name: uni1E9E	Expected: 1
+</code></pre>
+ [code: no-contour]
+
+
+
+* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: liter	Contours detected: 1	Expected: 2
+
+- Glyph name: fi	Contours detected: 2	Expected: 3
+</code></pre>
+ [code: contour-count]
 
 
 
@@ -2738,7 +2476,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
 
@@ -2747,68 +2485,8 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some base glyphs were missing: ß</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Shaper didn't attach uni0301 to j</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0301 to J</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some auxiliary glyphs were missing: ß</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
+* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 191 font units wide, non-breaking space named (uni00A0) is 600 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
+ [code: different-widths]
 
 
 
@@ -2827,65 +2505,6 @@ definitions.</p>
 
 * 🔥 **FAIL** <p>Expected &quot;ParkinsansExtrabold-Regular.ttf. Got Parkinsans-Extrabold.ttf.</p>
  [code: bad-filename]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x0060 (GRAVE ACCENT)
-
-
-- 0x00A8 (DIAERESIS)
-
-
-- 0x00AF (MACRON)
-
-
-- 0x00B4 (ACUTE ACCENT)
-
-
-- 0x00B8 (CEDILLA)
-
-
-- 0x00DF (LATIN SMALL LETTER SHARP S)
-
-
-- 0x02C6 (MODIFIER LETTER CIRCUMFLEX ACCENT)
-
-
-- 0x02C7 (CARON)
-
-
-- 0x02D8 (BREVE)
-
-
-- 0x02D9 (DOT ABOVE)
-
-
-- 0x02DA (RING ABOVE)
-
-
-- 0x02DB (OGONEK)
-
-
-- 0x02DC (SMALL TILDE)
-
-
-- 0x02DD (DOUBLE ACUTE ACCENT)
-</code></pre>
- [code: missing-codepoints]
 
 
 
@@ -2939,31 +2558,6 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>tcaron is decomposed and therefore could not be checked. Please check manually.</p>
  [code: decomposed-outline]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
-<p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni0126	Contours detected: 1	Expected: 2
-
-- Glyph name: liter	Contours detected: 1	Expected: 2
-
-- Glyph name: fi	Contours detected: 2	Expected: 3
-</code></pre>
- [code: contour-count]
 
 
 
@@ -3067,12 +2661,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, todhri, old-permic, canadian-aboriginal, math, tai-le, tifinagh, malayalam, syriac, hebrew, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, syriac, math, malayalam, canadian-aboriginal, hebrew, todhri, duployan, tai-le, tifinagh, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
@@ -3094,7 +2691,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -3136,8 +2733,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ǐ i̦̇ i̦̊ i̦̋ ǐ̦ i̧̇ i̧̊ i̧̋ ǐ̧ ĵ j̆ j̇ j̊ j̋ ǰ j̦̀ j̦́ ĵ̦ j̦̃</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Kom (Latn, 360,685 speakers), Ekpeye (Latn, 226,000 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Ejagham (Latn, 120,000 speakers), Mundani (Latn, 34,000 speakers), Dan (Latn, 1,099,244 speakers), Cicipu (Latn, 44,000 speakers), Basaa (Latn, 332,940 speakers), Avokaya (Latn, 100,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Nzakara (Latn, 50,000 speakers), Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Belarusian (Cyrl, 10,064,517 speakers), Mango (Latn, 77,000 speakers), Bafut (Latn, 158,146 speakers), Koonzime (Latn, 40,000 speakers), Mfumte (Latn, 79,000 speakers), South Central Banda (Latn, 244,000 speakers), Sar (Latn, 500,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Yala (Latn, 200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Fur (Latn, 1,230,163 speakers), Vute (Latn, 21,000 speakers), Dii (Latn, 71,000 speakers), Zapotec (Latn, 490,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Makaa (Latn, 221,000 speakers), Gulay (Latn, 250,478 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Southern Kisi (Latn, 360,000 speakers), Aghem (Latn, 38,843 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Yala (Latn, 200,000 speakers), Dan (Latn, 1,099,244 speakers), Nzakara (Latn, 50,000 speakers), Vute (Latn, 21,000 speakers), Bafut (Latn, 158,146 speakers), Mango (Latn, 77,000 speakers), Southern Kisi (Latn, 360,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), South Central Banda (Latn, 244,000 speakers), Igbo (Latn, 27,823,640 speakers), Gulay (Latn, 250,478 speakers), Zapotec (Latn, 490,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Ekpeye (Latn, 226,000 speakers), Avokaya (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Makaa (Latn, 221,000 speakers), Dii (Latn, 71,000 speakers), Ma’di (Latn, 584,000 speakers), Ebira (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Mfumte (Latn, 79,000 speakers), Nateni (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Fur (Latn, 1,230,163 speakers), Ngbaka (Latn, 1,020,000 speakers), Mundani (Latn, 34,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Cicipu (Latn, 44,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Basaa (Latn, 332,940 speakers), Navajo (Latn, 166,319 speakers).</p>
  [code: soft-dotted]
 
 
@@ -3232,6 +2829,8 @@ definitions.</p>
 
 * oe (U+0153) contains a short segment B&lt;&lt;641.0,199.0&gt;-&lt;632.0,199.0&gt;-&lt;623.0,200.0&gt;&gt;
 
+* germandbls (U+00DF) contains a short segment B&lt;&lt;511.0,396.0&gt;-&lt;511.0,388.0&gt;-&lt;516.5,381.0&gt;&gt;
+
 * uni0163 (U+0163) contains a short segment B&lt;&lt;320.0,-7.0&gt;-&lt;316.0,-7.0&gt;-&lt;312.0,-7.0&gt;&gt;
 
 * fi (U+FB01) contains a short segment L&lt;&lt;93.0,561.0&gt;--&lt;93.0,566.0&gt;&gt;
@@ -3253,8 +2852,6 @@ definitions.</p>
 * integral (U+222B) contains a short segment L&lt;&lt;-38.0,-121.0&gt;--&lt;-21.0,-121.0&gt;&gt;
 
 * uni00B5 (U+00B5) contains a short segment B&lt;&lt;291.0,-5.0&gt;-&lt;281.0,-5.0&gt;-&lt;271.0,-3.0&gt;&gt;
-
-* uni1E9E (U+1E9E) contains a short segment B&lt;&lt;511.0,396.0&gt;-&lt;511.0,388.0&gt;-&lt;516.5,381.0&gt;&gt;
 </code></pre>
  [code: found-short-segments]
 
@@ -3391,10 +2988,10 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[18] Parkinsans-Bold.ttf</summary>
+<details><summary>[16] Parkinsans-Bold.ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
 
@@ -3403,159 +3000,104 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+1E9E: LATIN CAPITAL LETTER SHARP S</td>
-<td align="left">U+00DF: LATIN SMALL LETTER SHARP S</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
+* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
+<pre><code>- Glyph name: uni0126	Expected: 2
 
+- Glyph name: uni0127	Expected: 1
 
+- Glyph name: uni0237	Expected: 1
 
-</div>
-</details>
+- Glyph name: uni0300	Expected: 1
 
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
+- Glyph name: uni0301	Expected: 1
 
+- Glyph name: uni0302	Expected: 1
 
+- Glyph name: uni0303	Expected: 1
 
+- Glyph name: uni0304	Expected: 1
 
+- Glyph name: uni0306	Expected: 1
 
+- Glyph name: uni0307	Expected: 1
 
+- Glyph name: uni0308	Expected: 2
 
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some base glyphs were missing: ß</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
+- Glyph name: uni030A	Expected: 2
 
+- Glyph name: uni030B	Expected: 2
 
+- Glyph name: uni030C	Expected: 1
 
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Shaper didn't attach uni0301 to j</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0301 to J</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
+- Glyph name: uni0326	Expected: 1
 
+- Glyph name: uni0327	Expected: 1
 
+- Glyph name: uni0328	Expected: 1
 
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">de_Latn (German)</td>
-<td align="left">Some auxiliary glyphs were missing: ß</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
+- Glyph name: uni1E9E	Expected: 1
 
+- Glyph name: uni0237	Expected: 1
 
+- Glyph name: uni0300	Expected: 1
 
-</div>
-</details>
+- Glyph name: uni0301	Expected: 1
 
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
+- Glyph name: uni0302	Expected: 1
 
+- Glyph name: uni0303	Expected: 1
 
+- Glyph name: uni0304	Expected: 1
 
+- Glyph name: uni0306	Expected: 1
 
+- Glyph name: uni0307	Expected: 1
 
+- Glyph name: uni0308	Expected: 2
 
+- Glyph name: uni030A	Expected: 2
 
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x0060 (GRAVE ACCENT)
+- Glyph name: uni030B	Expected: 2
 
+- Glyph name: uni030C	Expected: 1
 
-- 0x00A8 (DIAERESIS)
+- Glyph name: uni0326	Expected: 1
 
+- Glyph name: uni0327	Expected: 1
 
-- 0x00AF (MACRON)
+- Glyph name: uni0328	Expected: 1
 
-
-- 0x00B4 (ACUTE ACCENT)
-
-
-- 0x00B8 (CEDILLA)
-
-
-- 0x00DF (LATIN SMALL LETTER SHARP S)
-
-
-- 0x02C6 (MODIFIER LETTER CIRCUMFLEX ACCENT)
-
-
-- 0x02C7 (CARON)
-
-
-- 0x02D8 (BREVE)
-
-
-- 0x02D9 (DOT ABOVE)
-
-
-- 0x02DA (RING ABOVE)
-
-
-- 0x02DB (OGONEK)
-
-
-- 0x02DC (SMALL TILDE)
-
-
-- 0x02DD (DOUBLE ACUTE ACCENT)
+- Glyph name: uni1E9E	Expected: 1
 </code></pre>
- [code: missing-codepoints]
+ [code: no-contour]
+
+
+
+* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: liter	Contours detected: 1	Expected: 2
+
+- Glyph name: fi	Contours detected: 2	Expected: 3
+</code></pre>
+ [code: contour-count]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 212 font units wide, non-breaking space named (uni00A0) is 495 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
+ [code: different-widths]
 
 
 
@@ -3616,31 +3158,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
-<p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni0126	Contours detected: 1	Expected: 2
-
-- Glyph name: liter	Contours detected: 1	Expected: 2
-
-- Glyph name: fi	Contours detected: 2	Expected: 3
-</code></pre>
- [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
@@ -3671,7 +3188,7 @@ minus</p>
 <p>Width = 686:
 notequal</p>
 <p>Width = 519:
-lessequal, greaterequal</p>
+greaterequal, lessequal</p>
  [code: width-outliers]
 
 
@@ -3735,12 +3252,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, todhri, old-permic, canadian-aboriginal, math, tai-le, tifinagh, malayalam, syriac, hebrew, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, syriac, math, malayalam, canadian-aboriginal, hebrew, todhri, duployan, tai-le, tifinagh, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
@@ -3762,7 +3282,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -3804,8 +3324,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ǐ i̦̇ i̦̊ i̦̋ ǐ̦ i̧̇ i̧̊ i̧̋ ǐ̧ ĵ j̆ j̇ j̊ j̋ ǰ j̦̀ j̦́ ĵ̦ j̦̃</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Kom (Latn, 360,685 speakers), Ekpeye (Latn, 226,000 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Ejagham (Latn, 120,000 speakers), Mundani (Latn, 34,000 speakers), Dan (Latn, 1,099,244 speakers), Cicipu (Latn, 44,000 speakers), Basaa (Latn, 332,940 speakers), Avokaya (Latn, 100,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Nzakara (Latn, 50,000 speakers), Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Belarusian (Cyrl, 10,064,517 speakers), Mango (Latn, 77,000 speakers), Bafut (Latn, 158,146 speakers), Koonzime (Latn, 40,000 speakers), Mfumte (Latn, 79,000 speakers), South Central Banda (Latn, 244,000 speakers), Sar (Latn, 500,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Yala (Latn, 200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Fur (Latn, 1,230,163 speakers), Vute (Latn, 21,000 speakers), Dii (Latn, 71,000 speakers), Zapotec (Latn, 490,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Makaa (Latn, 221,000 speakers), Gulay (Latn, 250,478 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Southern Kisi (Latn, 360,000 speakers), Aghem (Latn, 38,843 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Yala (Latn, 200,000 speakers), Dan (Latn, 1,099,244 speakers), Nzakara (Latn, 50,000 speakers), Vute (Latn, 21,000 speakers), Bafut (Latn, 158,146 speakers), Mango (Latn, 77,000 speakers), Southern Kisi (Latn, 360,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), South Central Banda (Latn, 244,000 speakers), Igbo (Latn, 27,823,640 speakers), Gulay (Latn, 250,478 speakers), Zapotec (Latn, 490,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Ekpeye (Latn, 226,000 speakers), Avokaya (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Makaa (Latn, 221,000 speakers), Dii (Latn, 71,000 speakers), Ma’di (Latn, 584,000 speakers), Ebira (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Mfumte (Latn, 79,000 speakers), Nateni (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Fur (Latn, 1,230,163 speakers), Ngbaka (Latn, 1,020,000 speakers), Mundani (Latn, 34,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Cicipu (Latn, 44,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Basaa (Latn, 332,940 speakers), Navajo (Latn, 166,319 speakers).</p>
  [code: soft-dotted]
 
 
@@ -3884,6 +3404,8 @@ definitions.</p>
 
 * oe (U+0153) contains a short segment B&lt;&lt;644.5,200.5&gt;-&lt;631.0,201.0&gt;-&lt;625.0,202.0&gt;&gt;
 
+* germandbls (U+00DF) contains a short segment B&lt;&lt;476.0,394.0&gt;-&lt;476.0,385.0&gt;-&lt;482.5,377.0&gt;&gt;
+
 * uni0163 (U+0163) contains a short segment B&lt;&lt;301.0,-7.0&gt;-&lt;297.0,-7.0&gt;-&lt;292.0,-7.0&gt;&gt;
 
 * fi (U+FB01) contains a short segment L&lt;&lt;99.0,558.0&gt;--&lt;99.0,573.0&gt;&gt;
@@ -3891,8 +3413,6 @@ definitions.</p>
 * parenleft (U+0028) contains a short segment L&lt;&lt;471.0,913.0&gt;--&lt;471.0,897.0&gt;&gt;
 
 * parenright (U+0029) contains a short segment L&lt;&lt;16.0,-209.0&gt;--&lt;16.0,-193.0&gt;&gt;
-
-* uni1E9E (U+1E9E) contains a short segment B&lt;&lt;476.0,394.0&gt;-&lt;476.0,385.0&gt;-&lt;482.5,377.0&gt;&gt;
 </code></pre>
  [code: found-short-segments]
 
@@ -4026,8 +3546,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 21 | 90 | 704 | 37 | 564 | 0 | 
-| 0% | 0% | 1% | 6% | 50% | 3% | 40% | 0% | 
+| 0 | 0 | 14 | 84 | 704 | 37 | 577 | 0 | 
+| 0% | 0% | 1% | 6% | 50% | 3% | 41% | 0% | 
 
 
 
