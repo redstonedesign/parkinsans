@@ -44003,66 +44003,6 @@ instanceInterpolations = {
 "6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1;
 };
 name = Light;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = postscriptFullName;
-value = "Parkinsans Light";
-},
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = Light;
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = styleMapStyleNames;
-values = (
-{
-language = dflt;
-value = Light;
-}
-);
-},
-{
-key = styleNames;
-values = (
-{
-language = dflt;
-value = Light;
-}
-);
-}
-);
 weightClass = 300;
 },
 {
@@ -44074,66 +44014,6 @@ instanceInterpolations = {
 "6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 0.52273;
 };
 name = Regular;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = postscriptFullName;
-value = "Parkinsans Regular";
-},
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = Regular;
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = styleMapStyleNames;
-values = (
-{
-language = dflt;
-value = Regular;
-}
-);
-},
-{
-key = styleNames;
-values = (
-{
-language = dflt;
-value = Regular;
-}
-);
-}
-);
 },
 {
 axesValues = (
@@ -44143,66 +44023,6 @@ instanceInterpolations = {
 "4D0F633C-81E1-4D6C-A640-637CE706A5C5" = 1;
 };
 name = Medium;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = postscriptFullName;
-value = "Parkinsans Medium";
-},
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = Medium;
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = styleMapStyleNames;
-values = (
-{
-language = dflt;
-value = Medium;
-}
-);
-},
-{
-key = styleNames;
-values = (
-{
-language = dflt;
-value = Medium;
-}
-);
-}
-);
 weightClass = 500;
 },
 {
@@ -44214,66 +44034,6 @@ instanceInterpolations = {
 "86171893-955A-4CD1-BD1B-2F7A53CC85DC" = 0.32099;
 };
 name = Semibold;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = postscriptFullName;
-value = "Parkinsans Semibold";
-},
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = Semibold;
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = styleMapStyleNames;
-values = (
-{
-language = dflt;
-value = Semibold;
-}
-);
-},
-{
-key = styleNames;
-values = (
-{
-language = dflt;
-value = Semibold;
-}
-);
-}
-);
 weightClass = 600;
 },
 {
@@ -44287,66 +44047,6 @@ instanceInterpolations = {
 isBold = 1;
 linkStyle = Regular;
 name = Bold;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = postscriptFullName;
-value = "Parkinsans Bold";
-},
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = Bold;
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = styleMapStyleNames;
-values = (
-{
-language = dflt;
-value = Bold;
-}
-);
-},
-{
-key = styleNames;
-values = (
-{
-language = dflt;
-value = Bold;
-}
-);
-}
-);
 weightClass = 700;
 },
 {
@@ -44357,66 +44057,6 @@ instanceInterpolations = {
 "86171893-955A-4CD1-BD1B-2F7A53CC85DC" = 1;
 };
 name = Extrabold;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = postscriptFullName;
-value = "Parkinsans Extrabold";
-},
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = Extrabold;
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = styleMapStyleNames;
-values = (
-{
-language = dflt;
-value = Extrabold;
-}
-);
-},
-{
-key = styleNames;
-values = (
-{
-language = dflt;
-value = Extrabold;
-}
-);
-}
-);
 weightClass = 800;
 }
 );
@@ -44494,10 +44134,6 @@ value = "Indian Type Foundry";
 {
 key = manufacturerURL;
 value = "https://indiantypefoundry.com";
-},
-{
-key = postscriptFullName;
-value = Parkinsans;
 }
 );
 settings = {
