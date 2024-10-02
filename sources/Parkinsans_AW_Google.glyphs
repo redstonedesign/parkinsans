@@ -44238,11 +44238,20 @@ value = Semibold;
 );
 },
 {
-key = styleMapStyleNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
 value = "Parkinsans Semibold";
+}
+);
+},
+{
+key = styleMapStyleNames;
+values = (
+{
+language = dflt;
+value = Regular;
 }
 );
 }
@@ -44331,11 +44340,20 @@ value = Extrabold;
 );
 },
 {
-key = styleMapStyleNames;
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
 value = "Parkinsans Extrabold";
+}
+);
+},
+{
+key = styleMapStyleNames;
+values = (
+{
+language = dflt;
+value = Regular;
 }
 );
 }
