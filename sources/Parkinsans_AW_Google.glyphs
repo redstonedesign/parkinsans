@@ -44207,6 +44207,10 @@ instanceInterpolations = {
 name = Semibold;
 properties = (
 {
+key = postscriptFontName;
+value = "ParkinsansSemibold-Regular";
+},
+{
 key = postscriptFullNames;
 values = (
 {
@@ -44243,7 +44247,6 @@ value = "Parkinsans Semibold";
 );
 }
 );
-weightClass = 600;
 },
 {
 axesValues = (
@@ -44297,6 +44300,10 @@ instanceInterpolations = {
 name = Extrabold;
 properties = (
 {
+key = postscriptFontName;
+value = "ParkinsansExtrabold-Regular";
+},
+{
 key = postscriptFullNames;
 values = (
 {
@@ -44333,7 +44340,6 @@ value = "Parkinsans Extrabold";
 );
 }
 );
-weightClass = 800;
 }
 );
 metrics = (
