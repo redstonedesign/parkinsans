@@ -14,12 +14,6 @@ j,
 "`",
 "́"
 );
-axes = (
-{
-name = Weight;
-tag = wght;
-}
-);
 customParameters = (
 {
 name = glyphOrder;
@@ -447,9 +441,6 @@ date = "2024-08-05 10:39:34 +0000";
 familyName = Parkinsans;
 fontMaster = (
 {
-axesValues = (
-0
-);
 customParameters = (
 {
 name = typoAscender;
@@ -516,9 +507,6 @@ GSCornerRadius = 45;
 };
 },
 {
-axesValues = (
-44
-);
 customParameters = (
 {
 name = typoAscender;
@@ -584,9 +572,6 @@ GSCornerRadius = 75;
 };
 },
 {
-axesValues = (
-125
-);
 customParameters = (
 {
 name = typoAscender;
@@ -43996,50 +43981,115 @@ type = glyphMetric;
 );
 instances = (
 {
-axesValues = (
-0
-);
 instanceInterpolations = {
 "6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1;
 };
 name = Light;
+properties = (
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "Parkinsans Light";
+}
+);
+},
+{
+key = styleMapStyleNames;
+values = (
+{
+language = dflt;
+value = Regular;
+}
+);
+}
+);
 weightClass = 300;
 },
 {
-axesValues = (
-21
-);
 instanceInterpolations = {
 "4D0F633C-81E1-4D6C-A640-637CE706A5C5" = 0.47727;
 "6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 0.52273;
 };
 name = Regular;
+properties = (
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
 },
 {
-axesValues = (
-44
+key = styleMapStyleNames;
+values = (
+{
+language = dflt;
+value = Regular;
+}
 );
+}
+);
+},
+{
 instanceInterpolations = {
 "4D0F633C-81E1-4D6C-A640-637CE706A5C5" = 1;
 };
 name = Medium;
+properties = (
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "Parkinsans Medium";
+}
+);
+},
+{
+key = styleMapStyleNames;
+values = (
+{
+language = dflt;
+value = Regular;
+}
+);
+}
+);
 weightClass = 500;
 },
 {
-axesValues = (
-70
-);
 instanceInterpolations = {
 "4D0F633C-81E1-4D6C-A640-637CE706A5C5" = 0.67901;
 "86171893-955A-4CD1-BD1B-2F7A53CC85DC" = 0.32099;
 };
 name = Semibold;
+properties = (
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "Parkinsans Semibold";
+}
+);
+},
+{
+key = styleMapStyleNames;
+values = (
+{
+language = dflt;
+value = Regular;
+}
+);
+}
+);
 weightClass = 600;
 },
 {
-axesValues = (
-100
-);
 instanceInterpolations = {
 "4D0F633C-81E1-4D6C-A640-637CE706A5C5" = 0.30864;
 "86171893-955A-4CD1-BD1B-2F7A53CC85DC" = 0.69136;
@@ -44047,16 +44097,53 @@ instanceInterpolations = {
 isBold = 1;
 linkStyle = Regular;
 name = Bold;
+properties = (
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
+key = styleMapStyleNames;
+values = (
+{
+language = dflt;
+value = Bold;
+}
+);
+}
+);
 weightClass = 700;
 },
 {
-axesValues = (
-125
-);
 instanceInterpolations = {
 "86171893-955A-4CD1-BD1B-2F7A53CC85DC" = 1;
 };
 name = Extrabold;
+properties = (
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "Parkinsans Extrabold";
+}
+);
+},
+{
+key = styleMapStyleNames;
+values = (
+{
+language = dflt;
+value = Regular;
+}
+);
+}
+);
 weightClass = 800;
 }
 );
@@ -44134,6 +44221,10 @@ value = "Indian Type Foundry";
 {
 key = manufacturerURL;
 value = "https://indiantypefoundry.com";
+},
+{
+key = postscriptFontName;
+value = Parkinsans;
 }
 );
 settings = {
