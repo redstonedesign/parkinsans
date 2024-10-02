@@ -44082,6 +44082,26 @@ instanceInterpolations = {
 "6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1;
 };
 name = Light;
+properties = (
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "Parkinsans Light";
+}
+);
+}
+);
 weightClass = 300;
 },
 {
@@ -44102,6 +44122,26 @@ instanceInterpolations = {
 "4D0F633C-81E1-4D6C-A640-637CE706A5C5" = 1;
 };
 name = Medium;
+properties = (
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "Parkinsans Medium";
+}
+);
+}
+);
 weightClass = 500;
 },
 {
@@ -44113,6 +44153,26 @@ instanceInterpolations = {
 "86171893-955A-4CD1-BD1B-2F7A53CC85DC" = 0.32099;
 };
 name = Semibold;
+properties = (
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "Parkinsans Semibold";
+}
+);
+}
+);
 weightClass = 600;
 },
 {
@@ -44136,6 +44196,26 @@ instanceInterpolations = {
 "86171893-955A-4CD1-BD1B-2F7A53CC85DC" = 1;
 };
 name = Extrabold;
+properties = (
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "Parkinsans Extrabold";
+}
+);
+}
+);
 weightClass = 800;
 }
 );
