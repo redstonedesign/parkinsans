@@ -43994,15 +43994,6 @@ language = dflt;
 value = "Parkinsans Light";
 }
 );
-},
-{
-key = styleMapStyleNames;
-values = (
-{
-language = dflt;
-value = Regular;
-}
-);
 }
 );
 weightClass = 300;
@@ -44022,15 +44013,6 @@ language = dflt;
 value = Parkinsans;
 }
 );
-},
-{
-key = styleMapStyleNames;
-values = (
-{
-language = dflt;
-value = Regular;
-}
-);
 }
 );
 },
@@ -44046,15 +44028,6 @@ values = (
 {
 language = dflt;
 value = "Parkinsans Medium";
-}
-);
-},
-{
-key = styleMapStyleNames;
-values = (
-{
-language = dflt;
-value = Regular;
 }
 );
 }
@@ -44074,15 +44047,6 @@ values = (
 {
 language = dflt;
 value = "Parkinsans Semibold";
-}
-);
-},
-{
-key = styleMapStyleNames;
-values = (
-{
-language = dflt;
-value = Regular;
 }
 );
 }
@@ -44106,15 +44070,6 @@ language = dflt;
 value = Parkinsans;
 }
 );
-},
-{
-key = styleMapStyleNames;
-values = (
-{
-language = dflt;
-value = Bold;
-}
-);
 }
 );
 weightClass = 700;
@@ -44131,15 +44086,6 @@ values = (
 {
 language = dflt;
 value = "Parkinsans Extrabold";
-}
-);
-},
-{
-key = styleMapStyleNames;
-values = (
-{
-language = dflt;
-value = Regular;
 }
 );
 }
