@@ -44106,7 +44106,7 @@ key = styleMapStyleNames;
 values = (
 {
 language = dflt;
-value = "Parkinsans Light";
+value = Light;
 }
 );
 }
@@ -44146,7 +44146,7 @@ key = styleMapStyleNames;
 values = (
 {
 language = dflt;
-value = "Parkinsans Regular";
+value = Regular;
 }
 );
 }
@@ -44184,7 +44184,7 @@ key = styleMapStyleNames;
 values = (
 {
 language = dflt;
-value = "Parkinsans Medium";
+value = Medium;
 }
 );
 }
@@ -44224,7 +44224,7 @@ key = styleMapStyleNames;
 values = (
 {
 language = dflt;
-value = "Parkinsans Semibold";
+value = Semibold;
 }
 );
 }
@@ -44266,7 +44266,7 @@ key = styleMapStyleNames;
 values = (
 {
 language = dflt;
-value = "Parkinsans Bold";
+value = Bold;
 }
 );
 }
@@ -44305,7 +44305,7 @@ key = styleMapStyleNames;
 values = (
 {
 language = dflt;
-value = "Parkinsans Extrabold";
+value = Extrabold;
 }
 );
 }
