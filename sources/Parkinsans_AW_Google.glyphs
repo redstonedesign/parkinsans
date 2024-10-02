@@ -517,7 +517,7 @@ GSCornerRadius = 45;
 },
 {
 axesValues = (
-0
+44
 );
 customParameters = (
 {
@@ -585,7 +585,7 @@ GSCornerRadius = 75;
 },
 {
 axesValues = (
-0
+125
 );
 customParameters = (
 {
@@ -44003,103 +44003,46 @@ instanceInterpolations = {
 "6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1;
 };
 name = Light;
-properties = (
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = "Parkinsans Light";
-}
-);
-}
-);
 weightClass = 300;
 },
 {
 axesValues = (
-0
+21
 );
 instanceInterpolations = {
-"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1;
+"4D0F633C-81E1-4D6C-A640-637CE706A5C5" = 0.47727;
+"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 0.52273;
 };
 name = Regular;
 },
 {
 axesValues = (
-0
+44
 );
 instanceInterpolations = {
-"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1;
+"4D0F633C-81E1-4D6C-A640-637CE706A5C5" = 1;
 };
 name = Medium;
-properties = (
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = "Parkinsans Medium";
-}
-);
-}
-);
 weightClass = 500;
 },
 {
 axesValues = (
-0
+70
 );
 instanceInterpolations = {
-"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1;
+"4D0F633C-81E1-4D6C-A640-637CE706A5C5" = 0.67901;
+"86171893-955A-4CD1-BD1B-2F7A53CC85DC" = 0.32099;
 };
 name = Semibold;
-properties = (
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = "Parkinsans Semibold";
-}
-);
-}
-);
 weightClass = 600;
 },
 {
 axesValues = (
-0
+100
 );
 instanceInterpolations = {
-"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1;
+"4D0F633C-81E1-4D6C-A640-637CE706A5C5" = 0.30864;
+"86171893-955A-4CD1-BD1B-2F7A53CC85DC" = 0.69136;
 };
 isBold = 1;
 linkStyle = Regular;
@@ -44108,32 +44051,12 @@ weightClass = 700;
 },
 {
 axesValues = (
-0
+125
 );
 instanceInterpolations = {
-"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1;
+"86171893-955A-4CD1-BD1B-2F7A53CC85DC" = 1;
 };
 name = Extrabold;
-properties = (
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = "Parkinsans Extrabold";
-}
-);
-}
-);
 weightClass = 800;
 }
 );
@@ -44211,10 +44134,6 @@ value = "Indian Type Foundry";
 {
 key = manufacturerURL;
 value = "https://indiantypefoundry.com";
-},
-{
-key = postscriptFontName;
-value = Parkinsans;
 }
 );
 settings = {
