@@ -44207,6 +44207,15 @@ instanceInterpolations = {
 name = Semibold;
 properties = (
 {
+key = compatibleFullNames;
+values = (
+{
+language = dflt;
+value = "Parkinsans Semibold Regular";
+}
+);
+},
+{
 key = postscriptFontName;
 value = "ParkinsansSemibold-Regular";
 },
@@ -44308,6 +44317,15 @@ instanceInterpolations = {
 };
 name = Extrabold;
 properties = (
+{
+key = compatibleFullNames;
+values = (
+{
+language = dflt;
+value = "Parkinsans Extrabold Regular";
+}
+);
+},
 {
 key = postscriptFontName;
 value = "ParkinsansExtrabold-Regular";
