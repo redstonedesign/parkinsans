@@ -44207,6 +44207,15 @@ instanceInterpolations = {
 name = Semibold;
 properties = (
 {
+key = postscriptFullNames;
+values = (
+{
+language = dflt;
+value = "Parkinsans Semibold Regular";
+}
+);
+},
+{
 key = preferredFamilyNames;
 values = (
 {
@@ -44287,6 +44296,15 @@ instanceInterpolations = {
 };
 name = Extrabold;
 properties = (
+{
+key = postscriptFullNames;
+values = (
+{
+language = dflt;
+value = "Parkinsans Extrabold Regular";
+}
+);
+},
 {
 key = preferredFamilyNames;
 values = (
