@@ -14,6 +14,12 @@ j,
 "`",
 "́"
 );
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
 customParameters = (
 {
 name = glyphOrder;
@@ -441,6 +447,9 @@ date = "2024-08-05 10:39:34 +0000";
 familyName = Parkinsans;
 fontMaster = (
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = typoAscender;
@@ -507,6 +516,9 @@ GSCornerRadius = 45;
 };
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = typoAscender;
@@ -572,6 +584,9 @@ GSCornerRadius = 75;
 };
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = typoAscender;
@@ -43981,6 +43996,9 @@ type = glyphMetric;
 );
 instances = (
 {
+axesValues = (
+0
+);
 instanceInterpolations = {
 "6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1;
 };
@@ -44008,15 +44026,20 @@ value = "Parkinsans Light";
 weightClass = 300;
 },
 {
+axesValues = (
+0
+);
 instanceInterpolations = {
-"4D0F633C-81E1-4D6C-A640-637CE706A5C5" = 0.47727;
-"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 0.52273;
+"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1;
 };
 name = Regular;
 },
 {
+axesValues = (
+0
+);
 instanceInterpolations = {
-"4D0F633C-81E1-4D6C-A640-637CE706A5C5" = 1;
+"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1;
 };
 name = Medium;
 properties = (
@@ -44042,9 +44065,11 @@ value = "Parkinsans Medium";
 weightClass = 500;
 },
 {
+axesValues = (
+0
+);
 instanceInterpolations = {
-"4D0F633C-81E1-4D6C-A640-637CE706A5C5" = 0.67901;
-"86171893-955A-4CD1-BD1B-2F7A53CC85DC" = 0.32099;
+"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1;
 };
 name = Semibold;
 properties = (
@@ -44070,9 +44095,11 @@ value = "Parkinsans Semibold";
 weightClass = 600;
 },
 {
+axesValues = (
+0
+);
 instanceInterpolations = {
-"4D0F633C-81E1-4D6C-A640-637CE706A5C5" = 0.30864;
-"86171893-955A-4CD1-BD1B-2F7A53CC85DC" = 0.69136;
+"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1;
 };
 isBold = 1;
 linkStyle = Regular;
@@ -44080,8 +44107,11 @@ name = Bold;
 weightClass = 700;
 },
 {
+axesValues = (
+0
+);
 instanceInterpolations = {
-"86171893-955A-4CD1-BD1B-2F7A53CC85DC" = 1;
+"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1;
 };
 name = Extrabold;
 properties = (
