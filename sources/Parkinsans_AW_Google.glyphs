@@ -43987,6 +43987,15 @@ instanceInterpolations = {
 name = Light;
 properties = (
 {
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
 key = styleMapFamilyNames;
 values = (
 {
@@ -44004,17 +44013,6 @@ instanceInterpolations = {
 "6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 0.52273;
 };
 name = Regular;
-properties = (
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-}
-);
 },
 {
 instanceInterpolations = {
@@ -44022,6 +44020,15 @@ instanceInterpolations = {
 };
 name = Medium;
 properties = (
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
 {
 key = styleMapFamilyNames;
 values = (
@@ -44042,6 +44049,15 @@ instanceInterpolations = {
 name = Semibold;
 properties = (
 {
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
+{
 key = styleMapFamilyNames;
 values = (
 {
@@ -44061,17 +44077,6 @@ instanceInterpolations = {
 isBold = 1;
 linkStyle = Regular;
 name = Bold;
-properties = (
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-}
-);
 weightClass = 700;
 },
 {
@@ -44080,6 +44085,15 @@ instanceInterpolations = {
 };
 name = Extrabold;
 properties = (
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = Parkinsans;
+}
+);
+},
 {
 key = styleMapFamilyNames;
 values = (
