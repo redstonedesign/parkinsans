@@ -18076,9 +18076,15 @@ unicode = 297;
 {
 color = 4;
 glyphname = j;
-lastChange = "2024-08-04 21:10:23 +0000";
+lastChange = "2024-10-02 14:58:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (143,551);
+}
+);
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
 shapes = (
 {
@@ -18123,6 +18129,12 @@ nodes = (
 width = 288;
 },
 {
+anchors = (
+{
+name = top;
+pos = (163,561);
+}
+);
 layerId = "86171893-955A-4CD1-BD1B-2F7A53CC85DC";
 shapes = (
 {
@@ -18167,6 +18179,12 @@ nodes = (
 width = 326;
 },
 {
+anchors = (
+{
+name = top;
+pos = (122,546);
+}
+);
 layerId = "6D7935D2-FE9A-430A-A298-15DA7AF44FAE";
 shapes = (
 {
