@@ -1,104 +1,52 @@
-# The configuration for the builder is in YAML format. You can use
-# https://www.yamllint.com/ to make sure that your configuration
-# file is correctly formatted.
+# Configuration file for fontmake
 
-# First we need to define the source files to build. Please list
-# all sources in the same family. These are expected to be in the
-# sources/ directory, so all paths should be relative to that
-# directory.
 sources:
-  - Parkinsans_AW_Google.glyphs
-# You don't have to supply the family name, but builds are slightly
-# faster if you do.
-#familyName: "Parkinsans"
+  - path: Parkinsans_AW_Google.glyphs
+    familyName: Parkinsans
+    styleName: Regular
+    weight: 400
+  - path: Parkinsans_AW_Google.glyphs
+    familyName: Parkinsans
+    styleName: Light
+    weight: 300
+  - path: Parkinsans_AW_Google.glyphs
+    familyName: Parkinsans
+    styleName: Semibold
+    weight: 600
+  - path: Parkinsans_AW_Google.glyphs
+    familyName: Parkinsans
+    styleName: Bold
+    weight: 700
+  - path: Parkinsans_AW_Google.glyphs
+    familyName: Parkinsans
+    styleName: Extrabold
+    weight: 800
 
-# Next you can supply alternative paths for where you want the
-# binaries to live. But we'd recommend you stick to the defaults
-# especially if you are planning to upload your font to Google Fonts.
+output:
+  variable: false  # Set to true if you want to create a variable font
+  formats:
+    - ttf  # Add other formats if needed, e.g., otf
 
-outputDir: ../fonts
-# vfDir: $outputDir/variable
-ttDir: $outputDir/ttf
-otDir: $outputDir/otf
-woffDir: $outputDir/webfonts
+instances:
+  - familyName: Parkinsans
+    styleName: Regular
+    location:
+      wght: 400
+  - familyName: Parkinsans
+    styleName: Light
+    location:
+      wght: 300
+  - familyName: Parkinsans
+    styleName: Semibold
+    location:
+      wght: 600
+  - familyName: Parkinsans
+    styleName: Bold
+    location:
+      wght: 700
+  - familyName: Parkinsans
+    styleName: Extrabold
+    location:
+      wght: 800
 
-# The following entries, which are either "true" or "false"
-# determine which targets to build. We turn off OTFs for this demo.
-
-buildVariable: false
-buildStatic: true
-buildTTF: true
-buildOTF: false
-# buildSmallCap: false
-
-# The next flags control autohinting.
-# autohintTTF: true
-# autohintOTF: false
-# ttfaUseScript: false  # Set this to true if your font is not Latin
-
-# The "fix" operation can optionally fix some problems which
-# are better dealt with in the font sources. Set this to true if you
-# want gftools-fix to automatically fix source problems.
-# includeSourceFixes: true
-
-# These options give fine-grained control over how fontmake builds
-# the fonts.
-# flattenComponents: true
-# decomposeTransformedComponents: true
-# checkCompatibility: true
-# overlaps: booleanOperations
-# expandFeaturesToInstances: false
-# reverseOutlineDirection: true
-# removeOutlineOverlaps: true
-# extraFontmakeArgs: ""
-# extraVariableFontmakeArgs: ""
-# extraStaticFontmakeArgs: ""
-# glyphData: GlyphData.xml
-
-# This control how STAT tables are generated. The STAT table is
-# specified here as a list of axis names, tags and values. You
-# can either map a list to each output VF, or provide a single
-# list which is used for all VFs. Note that the build will fail
-# if you specify a dictionary which does not contain an entry
-# for each VF file built.
-# stat:
-#   RadioCanadaDisplay[wght].ttf:
-#   - name: Weight
-#     tag: wght
-#     values:
-#     - name: Regular
-#       value: 400
-#       linkedValue: 700
-#       flags: 2
-#     - name: Medium
-#       value: 500
-#     - name: SemiBold
-#       value: 600
-#     - name: Bold
-#       value: 700
-#   - name: Italic
-#     tag: ital
-#     values:
-#     - name: Roman
-#       value: 0
-#       linkedValue: 1
-#       flags: 2
-#   RadioCanadaDisplay-Italic[wght].ttf:
-#   - name: Weight
-#     tag: wght
-#     values:
-#     - name: Regular
-#       value: 400
-#       linkedValue: 700
-#       flags: 2
-#     - name: Medium
-#       value: 500
-#     - name: SemiBold
-#       value: 600
-#     - name: Bold
-#       value: 700
-#   - name: Italic
-#     tag: ital
-#     values:
-#     - name: Italic
-#       value: 1
+# Optional settings can go here
