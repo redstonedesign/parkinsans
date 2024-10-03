@@ -103,25 +103,3 @@ buildOTF: false
 #     - name: Italic
 #       value: 1
 # Configuration file for fontmake
-
-instances:
-  - familyName: Parkinsans
-      styleName: Regular
-      location:
-        wght: 400
-  - familyName: Parkinsans
-      styleName: Light
-      location:
-        wght: 300
-  - familyName: Parkinsans
-      styleName: Semibold
-      location:
-        wght: 600
-  - familyName: Parkinsans
-      styleName: Bold
-      location:
-        wght: 700
-  - familyName: Parkinsans
-      styleName: Extrabold
-      location:
-        wght: 800
