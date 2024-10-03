@@ -10,7 +10,7 @@
 Parkinsans a static typeface with five weights. It is derived from Indian Type Foundry's Poppins and has been created for the UK charity Parkinson's UK. Full of joy and persoanlity, Parkinsans reflects the positive and human personality Parkinson's UK.
 
 
-![Parkinsans](documentation/Parkinsans.jpg)
+![Parkinsans](documentation/Parkinsans.png)
 
 ## About
 
