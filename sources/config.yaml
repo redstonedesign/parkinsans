@@ -24,6 +24,7 @@ sources:
 
 output:
   variable: false  # Set to true if you want to create a variable font
+  static: true
   formats:
     - ttf  # Add other formats if needed, e.g., otf
 
