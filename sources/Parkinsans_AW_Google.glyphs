@@ -44129,45 +44129,6 @@ type = glyphMetric;
 instances = (
 {
 axesValues = (
-0
-);
-instanceInterpolations = {
-"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1;
-};
-name = Light;
-properties = (
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = Parkinsans;
-}
-);
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = Light;
-}
-);
-},
-{
-key = styleMapStyleNames;
-values = (
-{
-language = dflt;
-value = "Parkinsans Light";
-}
-);
-}
-);
-weightClass = 300;
-},
-{
-axesValues = (
 21
 );
 instanceInterpolations = {

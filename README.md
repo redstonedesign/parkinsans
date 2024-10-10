@@ -7,14 +7,20 @@
 [Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgooglefonts%2Fgooglefonts-project-template%2Fgh-pages%2Fbadges%2Foverall.json
 
 
-Parkinsans is a static typeface with six weights. It is derived from Indian Type Foundry's Poppins and has been created for the UK charity Parkinson's UK. Full of joy and personality, Parkinsans reflects the positive and human personality Parkinson's UK.
+Parkinsans is a geometric sans serif designed for UK charity Parkinson’s UK.
+
+Energetic, human, accessible, approachable – Parkinsans embodies Parkinson’s UK’s relentless energy, whilst typographic quirks celebrate imperfection and the unique experience of every Parkinson’s journey.
+
+Consisting of 5 weights, Parkinsans is designed to grab attention at display sizes and provides an accessible, easy reading experience for short form copy.
+
+Designed by award-winning, London based creative agency Red Stone, Parkinsans is derived from Indian Type Foundry's Poppins.
 
 
 ![Parkinsans](documentation/Parkinsans.png)
 
 ## About
 
-Red Stone is a multi-award-winning creative agency based in East London.
+Red Stone is an award-winning creative agency based in East London. We partner with ambitious and courageous organisations looking to make a positive change to the world.
 
 ## Building
 
