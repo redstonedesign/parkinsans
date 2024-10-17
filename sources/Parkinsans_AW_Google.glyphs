@@ -13,7 +13,10 @@ DisplayStrings = (
 "İ",
 "Ż",
 "ċ",
-"ė"
+"ė",
+"ℓ",
+"ﬁ",
+"+"
 );
 axes = (
 {
@@ -464,6 +467,53 @@ tag = slng;
 );
 date = "2024-08-05 10:39:34 +0000";
 familyName = Parkinsans;
+features = (
+{
+code = "script latn;
+language AZE;
+lookup locl_latn_0 {
+	sub i by idotaccent;
+} locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
+
+script latn;
+language ROM;
+lookup locl_latn_1 {
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+} locl_latn_1;
+language MOL;
+lookup locl_latn_1;
+
+script latn;
+language CAT;
+lookup locl_latn_2 {
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_2;
+
+script latn;
+language TRK;
+sub i by i.loclTRK;
+
+script latn;
+language CAT;
+sub periodcentered by periodcentered.loclCAT;
+
+sub periodcentered by periodcentered.loclCAT.case;
+";
+tag = locl;
+}
+);
 fontMaster = (
 {
 axesValues = (
@@ -42151,6 +42201,145 @@ width = 686;
 }
 );
 unicode = 295;
+},
+{
+color = 4;
+glyphname = i.loclTRK;
+lastChange = "2024-10-17 15:57:40 +0000";
+layers = (
+{
+anchors = (
+{
+name = ogonek;
+pos = (192,1);
+}
+);
+layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
+shapes = (
+{
+closed = 1;
+nodes = (
+(192,0,l),
+(192,551,l),
+(78,551,l),
+(78,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(183,624,o),
+(222,659,o),
+(222,704,cs),
+(222,749,o),
+(183,785,o),
+(136,785,cs),
+(88,785,o),
+(50,749,o),
+(50,704,cs),
+(50,659,o),
+(88,624,o),
+(136,624,cs)
+);
+}
+);
+width = 272;
+},
+{
+anchors = (
+{
+name = ogonek;
+pos = (245,-1);
+}
+);
+layerId = "86171893-955A-4CD1-BD1B-2F7A53CC85DC";
+shapes = (
+{
+closed = 1;
+nodes = (
+(245,0,l),
+(245,561,l),
+(49,561,l),
+(49,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(221,614,o),
+(270,659,o),
+(270,721,cs),
+(270,784,o),
+(221,830,o),
+(148,830,cs),
+(74,830,o),
+(25,784,o),
+(25,721,cs),
+(25,659,o),
+(74,614,o),
+(148,614,cs)
+);
+}
+);
+width = 295;
+},
+{
+anchors = (
+{
+name = ogonek;
+pos = (155,1);
+}
+);
+layerId = "6D7935D2-FE9A-430A-A298-15DA7AF44FAE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(155,0,l),
+(155,546,l),
+(85,546,l),
+(85,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(151,649,o),
+(176,672,o),
+(176,703,cs),
+(176,733,o),
+(151,755,o),
+(120,755,cs),
+(86,755,o),
+(64,733,o),
+(64,703,cs),
+(64,672,o),
+(90,649,o),
+(120,649,cs)
+);
+}
+);
+width = 239;
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.ColorIndex = 4;
+com.typemytype.robofont.guides = (
+{
+angle = 0;
+isGlobal = 0;
+magnetic = 5;
+x = 82;
+y = 540;
+}
+);
+com.typesupply.AccentFactory.yCoordinates = {
+bottom = {
+name = origin;
+type = glyphMetric;
+};
+};
+};
 },
 {
 color = 4;
