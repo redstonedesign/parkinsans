@@ -507,10 +507,7 @@ sub i by i.loclTRK;
 
 script latn;
 language CAT;
-sub periodcentered by periodcentered.loclCAT;
-
-sub periodcentered by periodcentered.loclCAT.case;
-";
+sub periodcentered by periodcentered.loclCAT;";
 tag = locl;
 }
 );
