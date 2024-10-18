@@ -15,8 +15,10 @@ DisplayStrings = (
 ".÷",
 "×",
 ">",
-"lℓ",
-"ﬁ"
+"llℓ",
+"ﬁ",
+"ħ",
+"ﬂ"
 );
 axes = (
 {
@@ -26072,9 +26074,15 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 {
 color = 4;
 glyphname = fi;
-lastChange = "2024-10-18 14:32:18 +0000";
+lastChange = "2024-10-18 14:55:09 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (306,0);
+}
+);
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
 shapes = (
 {
@@ -26108,6 +26116,18 @@ ref = i;
 width = 612;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (356.5,0);
+}
+);
+guides = (
+{
+angle = 270;
+pos = (405,436);
+}
+);
 layerId = "86171893-955A-4CD1-BD1B-2F7A53CC85DC";
 shapes = (
 {
@@ -26141,6 +26161,12 @@ ref = i;
 width = 713;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (286.5,0);
+}
+);
 layerId = "6D7935D2-FE9A-430A-A298-15DA7AF44FAE";
 shapes = (
 {
@@ -26182,9 +26208,15 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 {
 color = 4;
 glyphname = fl;
-lastChange = "2024-08-05 09:22:04 +0000";
+lastChange = "2024-10-18 14:55:26 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (314.5,0);
+}
+);
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
 shapes = (
 {
@@ -26235,6 +26267,12 @@ nodes = (
 width = 629;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (367.5,0);
+}
+);
 layerId = "86171893-955A-4CD1-BD1B-2F7A53CC85DC";
 shapes = (
 {
@@ -26285,6 +26323,12 @@ nodes = (
 width = 735;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (287.5,0);
+}
+);
 layerId = "6D7935D2-FE9A-430A-A298-15DA7AF44FAE";
 shapes = (
 {
@@ -39358,22 +39402,13 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 {
 color = 4;
 glyphname = liter;
-lastChange = "2024-10-18 14:30:24 +0000";
+lastChange = "2024-10-18 14:44:00 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
 shapes = (
 {
 ref = l;
-},
-{
-closed = 1;
-nodes = (
-(129,675,l),
-(140,675,l),
-(140,686,l),
-(129,686,l)
-);
 }
 );
 width = 298;
@@ -39383,15 +39418,6 @@ layerId = "86171893-955A-4CD1-BD1B-2F7A53CC85DC";
 shapes = (
 {
 ref = l;
-},
-{
-closed = 1;
-nodes = (
-(129,675,l),
-(140,675,l),
-(140,686,l),
-(129,686,l)
-);
 }
 );
 width = 362;
@@ -39401,15 +39427,6 @@ layerId = "6D7935D2-FE9A-430A-A298-15DA7AF44FAE";
 shapes = (
 {
 ref = l;
-},
-{
-closed = 1;
-nodes = (
-(129,675,l),
-(140,675,l),
-(140,686,l),
-(129,686,l)
-);
 }
 );
 width = 264;
