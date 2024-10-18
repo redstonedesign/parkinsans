@@ -460,7 +460,7 @@ data = "en, cy";
 tag = dlng;
 },
 {
-data = Latn;
+data = "Latn, Latn-ext, canadian-aboriginal, yi, math, tifinagh, cherokee, coptic, old-permic, todhri, hebrew, duployan, tai-le, syriac, malayalam, greek, vietnamese, adlam, symbols";
 tag = slng;
 }
 );
