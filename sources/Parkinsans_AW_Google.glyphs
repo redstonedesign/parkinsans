@@ -11,7 +11,13 @@ DisplayStrings = (
 "¶",
 "₹",
 "™",
-"¥"
+"¥",
+"Ų",
+"æ",
+"ǽ",
+"ę",
+f,
+"ȷ"
 );
 axes = (
 {
@@ -504,6 +510,41 @@ script latn;
 language CAT;
 sub periodcentered by periodcentered.loclCAT;";
 tag = locl;
+},
+{
+code = "lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub fi by f i;
+	sub fl by f l;
+	sub Ldot by L periodcentered.loclCAT.case;
+	sub ldot by l periodcentered.loclCAT;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
+
+# Remove the dot from soft-dotted characters when combined with diacritics
+
+sub i by dotlessi;
+sub j by jdotless;
+
+# Now define the specific cases where combining marks require dotless versions
+sub dotlessi uni030A by dotlessi;     # i̊ (i with ring above)
+sub dotlessi uni030B by dotlessi;  # i̋ (i with double acute)
+sub dotlessi uni0300 by dotlessi;    # ì (i with grave accent)
+sub dotlessi uni0301 by dotlessi;    # í (i with acute accent)
+sub dotlessi uni0303 by dotlessi;    # ĩ (i with tilde)
+sub dotlessi uni0304 by dotlessi;   # ī (i with macron)
+sub dotlessi uni0308 by dotlessi;# ï (i with diaeresis)
+sub dotlessi uni0302 by dotlessi;# î (i with circumflex)
+# Repeat for jdotless
+sub jdotless uni0300 by jdotless;    # j̀ (j with grave accent)
+sub jdotless uni0301 by jdotless;    # j́ (j with acute accent)
+sub jdotless uni0303 by jdotless;    # j̃ (j with tilde)
+# Handle cases like i ogonek (į) combined with other marks
+sub dotlessi uni0300 by dotlessi;    # į̀ (i with ogonek and grave)
+sub dotlessi uni0301 by dotlessi;    # į́ (i with ogonek and acute)";
+tag = ccmp;
 }
 );
 fontMaster = (
@@ -9914,7 +9955,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 {
 color = 4;
 glyphname = Uogonek;
-lastChange = "2024-08-04 17:52:54 +0000";
+lastChange = "2024-10-18 13:19:36 +0000";
 layers = (
 {
 anchors = (
@@ -10078,9 +10119,9 @@ nodes = (
 (388,-112,o),
 (365,-112,cs),
 (341,-112,o),
-(326,-101,o),
-(326,-85,cs),
-(326,-64,o),
+(326,-102,o),
+(326,-83,cs),
+(326,-62,o),
 (346,-44,o),
 (398,-18,cs),
 (442,4,l),
@@ -12610,7 +12651,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 {
 color = 4;
 glyphname = ae;
-lastChange = "2024-08-05 09:36:18 +0000";
+lastChange = "2024-10-18 13:23:11 +0000";
 layers = (
 {
 background = {
@@ -13089,10 +13130,10 @@ nodes = (
 (756,136,o),
 (702,165,o),
 (693,200,c),
-(705,199,o),
-(717,199,o),
-(730,199,cs),
-(875,199,o),
+(714,199,o),
+(727,199,o),
+(750,199,cs),
+(861,199,o),
 (1051,242,o),
 (1051,380,cs),
 (1051,498,o),
@@ -13109,8 +13150,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(711,320,o),
-(692,321,o),
+(718,320,o),
+(701,320,o),
 (683,322,c),
 (686,363,o),
 (724,425,o),
@@ -13119,8 +13160,8 @@ nodes = (
 (865,408,o),
 (865,380,cs),
 (865,331,o),
-(788,320,o),
-(726,320,cs)
+(800,320,o),
+(738,320,cs)
 );
 }
 );
@@ -16156,7 +16197,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 {
 color = 4;
 glyphname = eogonek;
-lastChange = "2024-10-18 11:08:21 +0000";
+lastChange = "2024-10-18 13:25:16 +0000";
 layers = (
 {
 background = {
@@ -16317,10 +16358,10 @@ nodes = (
 (282,148,o),
 (239,164,o),
 (224,205,c),
-(235,205,o),
-(249,205,o),
-(262,206,cs),
-(384,213,o),
+(239,205,o),
+(255,206,o),
+(275,208,cs),
+(388,219,o),
 (569,250,o),
 (569,381,cs),
 (569,499,o),
@@ -16489,7 +16530,7 @@ unicode = 7869;
 {
 color = 4;
 glyphname = f;
-lastChange = "2024-08-04 19:11:49 +0000";
+lastChange = "2024-10-18 13:26:10 +0000";
 layers = (
 {
 anchors = (
@@ -16557,8 +16598,8 @@ nodes = (
 (357,622,c),
 (357,788,l),
 (230,799,o),
-(74,754,o),
-(74,566,cs),
+(74,751,o),
+(74,585,cs),
 (74,561,l),
 (13,561,l),
 (13,398,l),
@@ -33981,7 +34022,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 {
 color = 4;
 glyphname = yen;
-lastChange = "2024-10-18 13:07:48 +0000";
+lastChange = "2024-10-18 13:14:18 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -33990,7 +34031,7 @@ shapes = (
 closed = 1;
 nodes = (
 (355,311,l),
-(560,313,l),
+(560,311,l),
 (560,395,l),
 (369,395,l)
 );
@@ -34022,7 +34063,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(46,313,l),
+(46,311,l),
 (269,311,l),
 (255,395,l),
 (46,395,l)
@@ -38015,7 +38056,7 @@ width = 672;
 {
 color = 4;
 glyphname = paragraph;
-lastChange = "2024-10-18 12:58:37 +0000";
+lastChange = "2024-10-18 13:15:57 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -38028,9 +38069,8 @@ nodes = (
 (35,601,o),
 (35,488,cs),
 (35,375,o),
-(107,282,o),
-(272,282,cs),
-(286,282,l),
+(121,282,o),
+(286,282,c),
 (286,0,l),
 (387,0,l),
 (387,606,l),
@@ -38054,9 +38094,8 @@ nodes = (
 (25,596,o),
 (25,486,cs),
 (25,377,o),
-(93,269,o),
-(264,269,cs),
-(291,269,l),
+(120,269,o),
+(291,269,c),
 (291,0,l),
 (449,0,l),
 (449,557,l),
@@ -38817,7 +38856,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 {
 color = 4;
 glyphname = trademark;
-lastChange = "2024-10-18 13:07:25 +0000";
+lastChange = "2024-10-18 13:15:05 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -38827,8 +38866,8 @@ closed = 1;
 nodes = (
 (24,627,l),
 (103,627,l),
-(101,343,l),
-(191,343,l),
+(103,343,l),
+(190,343,l),
 (190,627,l),
 (269,627,l),
 (269,695,l),
@@ -38846,12 +38885,12 @@ nodes = (
 (567,343,l),
 (690,638,l),
 (666,632,l),
-(668,343,l),
+(666,343,l),
 (750,343,l),
 (750,695,l),
 (640,695,l),
 (522,406,l),
-(555,407,l),
+(555,406,l),
 (443,695,l),
 (327,695,l)
 );
@@ -38867,7 +38906,7 @@ closed = 1;
 nodes = (
 (29,592,l),
 (113,592,l),
-(112,355,l),
+(113,355,l),
 (251,355,l),
 (251,592,l),
 (335,592,l),
@@ -38890,7 +38929,7 @@ nodes = (
 (878,355,l),
 (878,705,l),
 (705,705,l),
-(585,410,l),
+(585,412,l),
 (670,412,l),
 (572,705,l),
 (384,705,l)
@@ -41625,8 +41664,8 @@ width = 347;
 },
 {
 color = 4;
-glyphname = uni0237;
-lastChange = "2024-10-03 11:45:31 +0000";
+glyphname = jdotless;
+lastChange = "2024-10-18 13:32:31 +0000";
 layers = (
 {
 anchors = (
