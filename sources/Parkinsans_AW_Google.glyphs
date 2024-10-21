@@ -728,6 +728,7 @@ sub i by dotlessi;
 sub j by jdotless;
 
 # Now define the specific cases where combining marks require dotless versions
+lookup COMBINING_MARKS {
 sub dotlessi uni030A by dotlessi;     # i̊ (i with ring above)
 sub dotlessi uni030B by dotlessi;  # i̋ (i with double acute)
 sub dotlessi uni0300 by dotlessi;    # ì (i with grave accent)
@@ -742,7 +743,8 @@ sub jdotless uni0301 by jdotless;    # j́ (j with acute accent)
 sub jdotless uni0303 by jdotless;    # j̃ (j with tilde)
 # Handle cases like i ogonek (į) combined with other marks
 sub dotlessi uni0300 by dotlessi;    # į̀ (i with ogonek and grave)
-sub dotlessi uni0301 by dotlessi;    # į́ (i with ogonek and acute)";
+sub dotlessi uni0301 by dotlessi;    # į́ (i with ogonek and acute)
+} COMBINING_MARKS;";
 tag = ccmp;
 },
 {
