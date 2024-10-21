@@ -13,24 +13,6 @@ fontbakery version: 0.12.10
 <details><summary>[9] Parkinsans-Bold.ttf</summary>
 <div>
 <details>
-    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
- [code: lacks-kern-info]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
@@ -92,16 +74,16 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, coptic, tai-le, syriac, tifinagh, malayalam, canadian-aboriginal, old-permic, todhri, math</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, old-permic, canadian-aboriginal, math, tai-le, coptic, syriac, hebrew, todhri, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -120,7 +102,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: kharoshthi, javanese, old-permic, tagbanwa, zanabazar-square, coptic, hanifi-rohingya, lepcha, syriac, kannada, dogra, mahajani, gunjala-gondi, oriya, psalter-pahlavi, phags-pa, tai-le, chakma, kaithi, hanunoo, kayah-li, buhid, manichaean, nko, mandaic, malayalam, canadian-aboriginal, khojki, telugu, grantha, music, thai, mende-kikakui, rejang, limbu, osage, elbasan, myanmar, math, devanagari, bengali, masaram-gondi, balinese, siddham, khudawadi, adlam, buginese, takri, tagalog, lao, sundanese, marchen, symbols, hebrew, khmer, tamil, miao, newa, sogdian, tai-tham, tifinagh, modi, syloti-nagri, gujarati, sinhala, new-tai-lue, duployan, meetei-mayek, tibetan, thaana, batak, caucasian-albanian, tai-viet, gurmukhi, yi, cham, wancho, brahmi, pahawh-hmong, bhaiksuki, sharada, soyombo, tirhuta, warang-citi, ahom, saurashtra, bassa-vah, mongolian, armenian</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: symbols, marchen, kayah-li, math, music, tai-viet, tai-tham, chakma, tirhuta, mandaic, thai, dogra, takri, siddham, buginese, warang-citi, bassa-vah, bengali, duployan, canadian-aboriginal, myanmar, grantha, gujarati, rejang, soyombo, hanifi-rohingya, batak, psalter-pahlavi, mahajani, oriya, osage, hebrew, ahom, kaithi, manichaean, tai-le, limbu, tifinagh, elbasan, armenian, mende-kikakui, cham, telugu, syriac, lao, khudawadi, phags-pa, yi, syloti-nagri, kannada, pahawh-hmong, javanese, modi, brahmi, wancho, sinhala, saurashtra, gunjala-gondi, masaram-gondi, lepcha, khmer, meetei-mayek, kharoshthi, coptic, khojki, tagalog, caucasian-albanian, sharada, sundanese, miao, malayalam, nko, buhid, new-tai-lue, bhaiksuki, devanagari, adlam, old-permic, tamil, zanabazar-square, tibetan, sogdian, balinese, thaana, tagbanwa, newa, hanunoo, gurmukhi, mongolian</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -144,8 +126,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̧̀ į̧́ į̧̂ į̧̃</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Heiltsuk (Latn, 300 speakers), Avokaya (Latn, 100,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Southern Kisi (Latn, 360,000 speakers), Makaa (Latn, 221,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Ekpeye (Latn, 226,000 speakers), Mfumte (Latn, 79,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Mango (Latn, 77,000 speakers), Vute (Latn, 21,000 speakers), Gulay (Latn, 250,478 speakers), Koonzime (Latn, 40,000 speakers), Bafut (Latn, 158,146 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Yala (Latn, 200,000 speakers), Dan (Latn, 1,099,244 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Mundani (Latn, 34,000 speakers), Lugbara (Latn, 2,200,000 speakers), Han (Latn, 6 speakers), Nateni (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Fur (Latn, 1,230,163 speakers), Zapotec (Latn, 490,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nzakara (Latn, 50,000 speakers), Igbo (Latn, 27,823,640 speakers), South Central Banda (Latn, 244,000 speakers), Kaska (Latn, 125 speakers), Navajo (Latn, 166,319 speakers), Dii (Latn, 71,000 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Kpelle, Guinea (Latn, 622,000 speakers), Aghem (Latn, 38,843 speakers), Makaa (Latn, 221,000 speakers), Kom (Latn, 360,685 speakers), Fur (Latn, 1,230,163 speakers), South Central Banda (Latn, 244,000 speakers), Dan (Latn, 1,099,244 speakers), Ebira (Latn, 2,200,000 speakers), Mfumte (Latn, 79,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Han (Latn, 6 speakers), Ma’di (Latn, 584,000 speakers), Nateni (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Yala (Latn, 200,000 speakers), Nzakara (Latn, 50,000 speakers), Kaska (Latn, 125 speakers), Ekpeye (Latn, 226,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Dii (Latn, 71,000 speakers), Igbo (Latn, 27,823,640 speakers), Ejagham (Latn, 120,000 speakers), Gulay (Latn, 250,478 speakers), Mundani (Latn, 34,000 speakers), Heiltsuk (Latn, 300 speakers), Mango (Latn, 77,000 speakers), Cicipu (Latn, 44,000 speakers), Southern Kisi (Latn, 360,000 speakers), Navajo (Latn, 166,319 speakers), Vute (Latn, 21,000 speakers), Teke-Ebo (Latn, 260,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -262,6 +244,28 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Is there kerning info for non-ligated sequences? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gpos.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- f + i
+
+- f + l
+</code></pre>
+ [code: lacks-kern-info]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
     <div>
 
@@ -366,24 +370,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
- [code: lacks-kern-info]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
@@ -443,16 +429,16 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, coptic, tai-le, syriac, tifinagh, malayalam, canadian-aboriginal, old-permic, todhri, math</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, old-permic, canadian-aboriginal, math, tai-le, coptic, syriac, hebrew, todhri, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -471,7 +457,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: kharoshthi, javanese, old-permic, tagbanwa, zanabazar-square, coptic, hanifi-rohingya, lepcha, syriac, kannada, dogra, mahajani, gunjala-gondi, oriya, psalter-pahlavi, phags-pa, tai-le, chakma, kaithi, hanunoo, kayah-li, buhid, manichaean, nko, mandaic, malayalam, canadian-aboriginal, khojki, telugu, grantha, music, thai, mende-kikakui, rejang, limbu, osage, elbasan, myanmar, math, devanagari, bengali, masaram-gondi, balinese, siddham, khudawadi, adlam, buginese, takri, tagalog, lao, sundanese, marchen, symbols, hebrew, khmer, tamil, miao, newa, sogdian, tai-tham, tifinagh, modi, syloti-nagri, gujarati, sinhala, new-tai-lue, duployan, meetei-mayek, tibetan, thaana, batak, caucasian-albanian, tai-viet, gurmukhi, yi, cham, wancho, brahmi, pahawh-hmong, bhaiksuki, sharada, soyombo, tirhuta, warang-citi, ahom, saurashtra, bassa-vah, mongolian, armenian</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: symbols, marchen, kayah-li, math, music, tai-viet, tai-tham, chakma, tirhuta, mandaic, thai, dogra, takri, siddham, buginese, warang-citi, bassa-vah, bengali, duployan, canadian-aboriginal, myanmar, grantha, gujarati, rejang, soyombo, hanifi-rohingya, batak, psalter-pahlavi, mahajani, oriya, osage, hebrew, ahom, kaithi, manichaean, tai-le, limbu, tifinagh, elbasan, armenian, mende-kikakui, cham, telugu, syriac, lao, khudawadi, phags-pa, yi, syloti-nagri, kannada, pahawh-hmong, javanese, modi, brahmi, wancho, sinhala, saurashtra, gunjala-gondi, masaram-gondi, lepcha, khmer, meetei-mayek, kharoshthi, coptic, khojki, tagalog, caucasian-albanian, sharada, sundanese, miao, malayalam, nko, buhid, new-tai-lue, bhaiksuki, devanagari, adlam, old-permic, tamil, zanabazar-square, tibetan, sogdian, balinese, thaana, tagbanwa, newa, hanunoo, gurmukhi, mongolian</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -495,8 +481,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̧̀ į̧́ į̧̂ į̧̃</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Heiltsuk (Latn, 300 speakers), Avokaya (Latn, 100,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Southern Kisi (Latn, 360,000 speakers), Makaa (Latn, 221,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Ekpeye (Latn, 226,000 speakers), Mfumte (Latn, 79,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Mango (Latn, 77,000 speakers), Vute (Latn, 21,000 speakers), Gulay (Latn, 250,478 speakers), Koonzime (Latn, 40,000 speakers), Bafut (Latn, 158,146 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Yala (Latn, 200,000 speakers), Dan (Latn, 1,099,244 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Mundani (Latn, 34,000 speakers), Lugbara (Latn, 2,200,000 speakers), Han (Latn, 6 speakers), Nateni (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Fur (Latn, 1,230,163 speakers), Zapotec (Latn, 490,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nzakara (Latn, 50,000 speakers), Igbo (Latn, 27,823,640 speakers), South Central Banda (Latn, 244,000 speakers), Kaska (Latn, 125 speakers), Navajo (Latn, 166,319 speakers), Dii (Latn, 71,000 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Kpelle, Guinea (Latn, 622,000 speakers), Aghem (Latn, 38,843 speakers), Makaa (Latn, 221,000 speakers), Kom (Latn, 360,685 speakers), Fur (Latn, 1,230,163 speakers), South Central Banda (Latn, 244,000 speakers), Dan (Latn, 1,099,244 speakers), Ebira (Latn, 2,200,000 speakers), Mfumte (Latn, 79,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Han (Latn, 6 speakers), Ma’di (Latn, 584,000 speakers), Nateni (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Yala (Latn, 200,000 speakers), Nzakara (Latn, 50,000 speakers), Kaska (Latn, 125 speakers), Ekpeye (Latn, 226,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Dii (Latn, 71,000 speakers), Igbo (Latn, 27,823,640 speakers), Ejagham (Latn, 120,000 speakers), Gulay (Latn, 250,478 speakers), Mundani (Latn, 34,000 speakers), Heiltsuk (Latn, 300 speakers), Mango (Latn, 77,000 speakers), Cicipu (Latn, 44,000 speakers), Southern Kisi (Latn, 360,000 speakers), Navajo (Latn, 166,319 speakers), Vute (Latn, 21,000 speakers), Teke-Ebo (Latn, 260,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -639,6 +625,28 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Is there kerning info for non-ligated sequences? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gpos.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- f + i
+
+- f + l
+</code></pre>
+ [code: lacks-kern-info]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
     <div>
 
@@ -660,24 +668,6 @@ definitions.</p>
 
 <details><summary>[9] Parkinsans-Medium.ttf</summary>
 <div>
-<details>
-    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
- [code: lacks-kern-info]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -738,16 +728,16 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, coptic, tai-le, syriac, tifinagh, malayalam, canadian-aboriginal, old-permic, todhri, math</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, old-permic, canadian-aboriginal, math, tai-le, coptic, syriac, hebrew, todhri, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -766,7 +756,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: kharoshthi, javanese, old-permic, tagbanwa, zanabazar-square, coptic, hanifi-rohingya, lepcha, syriac, kannada, dogra, mahajani, gunjala-gondi, oriya, psalter-pahlavi, phags-pa, tai-le, chakma, kaithi, hanunoo, kayah-li, buhid, manichaean, nko, mandaic, malayalam, canadian-aboriginal, khojki, telugu, grantha, music, thai, mende-kikakui, rejang, limbu, osage, elbasan, myanmar, math, devanagari, bengali, masaram-gondi, balinese, siddham, khudawadi, adlam, buginese, takri, tagalog, lao, sundanese, marchen, symbols, hebrew, khmer, tamil, miao, newa, sogdian, tai-tham, tifinagh, modi, syloti-nagri, gujarati, sinhala, new-tai-lue, duployan, meetei-mayek, tibetan, thaana, batak, caucasian-albanian, tai-viet, gurmukhi, yi, cham, wancho, brahmi, pahawh-hmong, bhaiksuki, sharada, soyombo, tirhuta, warang-citi, ahom, saurashtra, bassa-vah, mongolian, armenian</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: symbols, marchen, kayah-li, math, music, tai-viet, tai-tham, chakma, tirhuta, mandaic, thai, dogra, takri, siddham, buginese, warang-citi, bassa-vah, bengali, duployan, canadian-aboriginal, myanmar, grantha, gujarati, rejang, soyombo, hanifi-rohingya, batak, psalter-pahlavi, mahajani, oriya, osage, hebrew, ahom, kaithi, manichaean, tai-le, limbu, tifinagh, elbasan, armenian, mende-kikakui, cham, telugu, syriac, lao, khudawadi, phags-pa, yi, syloti-nagri, kannada, pahawh-hmong, javanese, modi, brahmi, wancho, sinhala, saurashtra, gunjala-gondi, masaram-gondi, lepcha, khmer, meetei-mayek, kharoshthi, coptic, khojki, tagalog, caucasian-albanian, sharada, sundanese, miao, malayalam, nko, buhid, new-tai-lue, bhaiksuki, devanagari, adlam, old-permic, tamil, zanabazar-square, tibetan, sogdian, balinese, thaana, tagbanwa, newa, hanunoo, gurmukhi, mongolian</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -790,8 +780,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̧̀ į̧́ į̧̂ į̧̃</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Heiltsuk (Latn, 300 speakers), Avokaya (Latn, 100,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Southern Kisi (Latn, 360,000 speakers), Makaa (Latn, 221,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Ekpeye (Latn, 226,000 speakers), Mfumte (Latn, 79,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Mango (Latn, 77,000 speakers), Vute (Latn, 21,000 speakers), Gulay (Latn, 250,478 speakers), Koonzime (Latn, 40,000 speakers), Bafut (Latn, 158,146 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Yala (Latn, 200,000 speakers), Dan (Latn, 1,099,244 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Mundani (Latn, 34,000 speakers), Lugbara (Latn, 2,200,000 speakers), Han (Latn, 6 speakers), Nateni (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Fur (Latn, 1,230,163 speakers), Zapotec (Latn, 490,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nzakara (Latn, 50,000 speakers), Igbo (Latn, 27,823,640 speakers), South Central Banda (Latn, 244,000 speakers), Kaska (Latn, 125 speakers), Navajo (Latn, 166,319 speakers), Dii (Latn, 71,000 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Kpelle, Guinea (Latn, 622,000 speakers), Aghem (Latn, 38,843 speakers), Makaa (Latn, 221,000 speakers), Kom (Latn, 360,685 speakers), Fur (Latn, 1,230,163 speakers), South Central Banda (Latn, 244,000 speakers), Dan (Latn, 1,099,244 speakers), Ebira (Latn, 2,200,000 speakers), Mfumte (Latn, 79,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Han (Latn, 6 speakers), Ma’di (Latn, 584,000 speakers), Nateni (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Yala (Latn, 200,000 speakers), Nzakara (Latn, 50,000 speakers), Kaska (Latn, 125 speakers), Ekpeye (Latn, 226,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Dii (Latn, 71,000 speakers), Igbo (Latn, 27,823,640 speakers), Ejagham (Latn, 120,000 speakers), Gulay (Latn, 250,478 speakers), Mundani (Latn, 34,000 speakers), Heiltsuk (Latn, 300 speakers), Mango (Latn, 77,000 speakers), Cicipu (Latn, 44,000 speakers), Southern Kisi (Latn, 360,000 speakers), Navajo (Latn, 166,319 speakers), Vute (Latn, 21,000 speakers), Teke-Ebo (Latn, 260,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -942,6 +932,28 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Is there kerning info for non-ligated sequences? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gpos.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- f + i
+
+- f + l
+</code></pre>
+ [code: lacks-kern-info]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
     <div>
 
@@ -963,24 +975,6 @@ definitions.</p>
 
 <details><summary>[9] Parkinsans-Regular.ttf</summary>
 <div>
-<details>
-    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
- [code: lacks-kern-info]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -1041,16 +1035,16 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, coptic, tai-le, syriac, tifinagh, malayalam, canadian-aboriginal, old-permic, todhri, math</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, old-permic, canadian-aboriginal, math, tai-le, coptic, syriac, hebrew, todhri, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -1069,7 +1063,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: kharoshthi, javanese, old-permic, tagbanwa, zanabazar-square, coptic, hanifi-rohingya, lepcha, syriac, kannada, dogra, mahajani, gunjala-gondi, oriya, psalter-pahlavi, phags-pa, tai-le, chakma, kaithi, hanunoo, kayah-li, buhid, manichaean, nko, mandaic, malayalam, canadian-aboriginal, khojki, telugu, grantha, music, thai, mende-kikakui, rejang, limbu, osage, elbasan, myanmar, math, devanagari, bengali, masaram-gondi, balinese, siddham, khudawadi, adlam, buginese, takri, tagalog, lao, sundanese, marchen, symbols, hebrew, khmer, tamil, miao, newa, sogdian, tai-tham, tifinagh, modi, syloti-nagri, gujarati, sinhala, new-tai-lue, duployan, meetei-mayek, tibetan, thaana, batak, caucasian-albanian, tai-viet, gurmukhi, yi, cham, wancho, brahmi, pahawh-hmong, bhaiksuki, sharada, soyombo, tirhuta, warang-citi, ahom, saurashtra, bassa-vah, mongolian, armenian</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: symbols, marchen, kayah-li, math, music, tai-viet, tai-tham, chakma, tirhuta, mandaic, thai, dogra, takri, siddham, buginese, warang-citi, bassa-vah, bengali, duployan, canadian-aboriginal, myanmar, grantha, gujarati, rejang, soyombo, hanifi-rohingya, batak, psalter-pahlavi, mahajani, oriya, osage, hebrew, ahom, kaithi, manichaean, tai-le, limbu, tifinagh, elbasan, armenian, mende-kikakui, cham, telugu, syriac, lao, khudawadi, phags-pa, yi, syloti-nagri, kannada, pahawh-hmong, javanese, modi, brahmi, wancho, sinhala, saurashtra, gunjala-gondi, masaram-gondi, lepcha, khmer, meetei-mayek, kharoshthi, coptic, khojki, tagalog, caucasian-albanian, sharada, sundanese, miao, malayalam, nko, buhid, new-tai-lue, bhaiksuki, devanagari, adlam, old-permic, tamil, zanabazar-square, tibetan, sogdian, balinese, thaana, tagbanwa, newa, hanunoo, gurmukhi, mongolian</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -1093,8 +1087,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̧̀ į̧́ į̧̂ į̧̃</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Heiltsuk (Latn, 300 speakers), Avokaya (Latn, 100,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Southern Kisi (Latn, 360,000 speakers), Makaa (Latn, 221,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Ekpeye (Latn, 226,000 speakers), Mfumte (Latn, 79,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Mango (Latn, 77,000 speakers), Vute (Latn, 21,000 speakers), Gulay (Latn, 250,478 speakers), Koonzime (Latn, 40,000 speakers), Bafut (Latn, 158,146 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Yala (Latn, 200,000 speakers), Dan (Latn, 1,099,244 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Mundani (Latn, 34,000 speakers), Lugbara (Latn, 2,200,000 speakers), Han (Latn, 6 speakers), Nateni (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Fur (Latn, 1,230,163 speakers), Zapotec (Latn, 490,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nzakara (Latn, 50,000 speakers), Igbo (Latn, 27,823,640 speakers), South Central Banda (Latn, 244,000 speakers), Kaska (Latn, 125 speakers), Navajo (Latn, 166,319 speakers), Dii (Latn, 71,000 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Kpelle, Guinea (Latn, 622,000 speakers), Aghem (Latn, 38,843 speakers), Makaa (Latn, 221,000 speakers), Kom (Latn, 360,685 speakers), Fur (Latn, 1,230,163 speakers), South Central Banda (Latn, 244,000 speakers), Dan (Latn, 1,099,244 speakers), Ebira (Latn, 2,200,000 speakers), Mfumte (Latn, 79,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Han (Latn, 6 speakers), Ma’di (Latn, 584,000 speakers), Nateni (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Yala (Latn, 200,000 speakers), Nzakara (Latn, 50,000 speakers), Kaska (Latn, 125 speakers), Ekpeye (Latn, 226,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Dii (Latn, 71,000 speakers), Igbo (Latn, 27,823,640 speakers), Ejagham (Latn, 120,000 speakers), Gulay (Latn, 250,478 speakers), Mundani (Latn, 34,000 speakers), Heiltsuk (Latn, 300 speakers), Mango (Latn, 77,000 speakers), Cicipu (Latn, 44,000 speakers), Southern Kisi (Latn, 360,000 speakers), Navajo (Latn, 166,319 speakers), Vute (Latn, 21,000 speakers), Teke-Ebo (Latn, 260,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -1221,6 +1215,28 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Is there kerning info for non-ligated sequences? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gpos.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- f + i
+
+- f + l
+</code></pre>
+ [code: lacks-kern-info]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
     <div>
 
@@ -1325,24 +1341,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
- [code: lacks-kern-info]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
 
@@ -1402,16 +1400,16 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, coptic, tai-le, syriac, tifinagh, malayalam, canadian-aboriginal, old-permic, todhri, math</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, old-permic, canadian-aboriginal, math, tai-le, coptic, syriac, hebrew, todhri, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -1430,7 +1428,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: kharoshthi, javanese, old-permic, tagbanwa, zanabazar-square, coptic, hanifi-rohingya, lepcha, syriac, kannada, dogra, mahajani, gunjala-gondi, oriya, psalter-pahlavi, phags-pa, tai-le, chakma, kaithi, hanunoo, kayah-li, buhid, manichaean, nko, mandaic, malayalam, canadian-aboriginal, khojki, telugu, grantha, music, thai, mende-kikakui, rejang, limbu, osage, elbasan, myanmar, math, devanagari, bengali, masaram-gondi, balinese, siddham, khudawadi, adlam, buginese, takri, tagalog, lao, sundanese, marchen, symbols, hebrew, khmer, tamil, miao, newa, sogdian, tai-tham, tifinagh, modi, syloti-nagri, gujarati, sinhala, new-tai-lue, duployan, meetei-mayek, tibetan, thaana, batak, caucasian-albanian, tai-viet, gurmukhi, yi, cham, wancho, brahmi, pahawh-hmong, bhaiksuki, sharada, soyombo, tirhuta, warang-citi, ahom, saurashtra, bassa-vah, mongolian, armenian</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: symbols, marchen, kayah-li, math, music, tai-viet, tai-tham, chakma, tirhuta, mandaic, thai, dogra, takri, siddham, buginese, warang-citi, bassa-vah, bengali, duployan, canadian-aboriginal, myanmar, grantha, gujarati, rejang, soyombo, hanifi-rohingya, batak, psalter-pahlavi, mahajani, oriya, osage, hebrew, ahom, kaithi, manichaean, tai-le, limbu, tifinagh, elbasan, armenian, mende-kikakui, cham, telugu, syriac, lao, khudawadi, phags-pa, yi, syloti-nagri, kannada, pahawh-hmong, javanese, modi, brahmi, wancho, sinhala, saurashtra, gunjala-gondi, masaram-gondi, lepcha, khmer, meetei-mayek, kharoshthi, coptic, khojki, tagalog, caucasian-albanian, sharada, sundanese, miao, malayalam, nko, buhid, new-tai-lue, bhaiksuki, devanagari, adlam, old-permic, tamil, zanabazar-square, tibetan, sogdian, balinese, thaana, tagbanwa, newa, hanunoo, gurmukhi, mongolian</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -1454,8 +1452,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̧̀ į̧́ į̧̂ į̧̃</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Heiltsuk (Latn, 300 speakers), Avokaya (Latn, 100,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Southern Kisi (Latn, 360,000 speakers), Makaa (Latn, 221,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Ekpeye (Latn, 226,000 speakers), Mfumte (Latn, 79,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Mango (Latn, 77,000 speakers), Vute (Latn, 21,000 speakers), Gulay (Latn, 250,478 speakers), Koonzime (Latn, 40,000 speakers), Bafut (Latn, 158,146 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Yala (Latn, 200,000 speakers), Dan (Latn, 1,099,244 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Mundani (Latn, 34,000 speakers), Lugbara (Latn, 2,200,000 speakers), Han (Latn, 6 speakers), Nateni (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Fur (Latn, 1,230,163 speakers), Zapotec (Latn, 490,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nzakara (Latn, 50,000 speakers), Igbo (Latn, 27,823,640 speakers), South Central Banda (Latn, 244,000 speakers), Kaska (Latn, 125 speakers), Navajo (Latn, 166,319 speakers), Dii (Latn, 71,000 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Kpelle, Guinea (Latn, 622,000 speakers), Aghem (Latn, 38,843 speakers), Makaa (Latn, 221,000 speakers), Kom (Latn, 360,685 speakers), Fur (Latn, 1,230,163 speakers), South Central Banda (Latn, 244,000 speakers), Dan (Latn, 1,099,244 speakers), Ebira (Latn, 2,200,000 speakers), Mfumte (Latn, 79,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Han (Latn, 6 speakers), Ma’di (Latn, 584,000 speakers), Nateni (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Yala (Latn, 200,000 speakers), Nzakara (Latn, 50,000 speakers), Kaska (Latn, 125 speakers), Ekpeye (Latn, 226,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Dii (Latn, 71,000 speakers), Igbo (Latn, 27,823,640 speakers), Ejagham (Latn, 120,000 speakers), Gulay (Latn, 250,478 speakers), Mundani (Latn, 34,000 speakers), Heiltsuk (Latn, 300 speakers), Mango (Latn, 77,000 speakers), Cicipu (Latn, 44,000 speakers), Southern Kisi (Latn, 360,000 speakers), Navajo (Latn, 166,319 speakers), Vute (Latn, 21,000 speakers), Teke-Ebo (Latn, 260,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -1612,6 +1610,28 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Is there kerning info for non-ligated sequences? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gpos.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- f + i
+
+- f + l
+</code></pre>
+ [code: lacks-kern-info]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
     <div>
 
@@ -1633,24 +1653,6 @@ definitions.</p>
 
 <details><summary>[8] Parkinsans-Light.ttf</summary>
 <div>
-<details>
-    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
- [code: lacks-kern-info]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -1711,16 +1713,16 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, coptic, tai-le, syriac, tifinagh, malayalam, canadian-aboriginal, old-permic, todhri, math</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, old-permic, canadian-aboriginal, math, tai-le, coptic, syriac, hebrew, todhri, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -1739,7 +1741,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: kharoshthi, javanese, old-permic, tagbanwa, zanabazar-square, coptic, hanifi-rohingya, lepcha, syriac, kannada, dogra, mahajani, gunjala-gondi, oriya, psalter-pahlavi, phags-pa, tai-le, chakma, kaithi, hanunoo, kayah-li, buhid, manichaean, nko, mandaic, malayalam, canadian-aboriginal, khojki, telugu, grantha, music, thai, mende-kikakui, rejang, limbu, osage, elbasan, myanmar, math, devanagari, bengali, masaram-gondi, balinese, siddham, khudawadi, adlam, buginese, takri, tagalog, lao, sundanese, marchen, symbols, hebrew, khmer, tamil, miao, newa, sogdian, tai-tham, tifinagh, modi, syloti-nagri, gujarati, sinhala, new-tai-lue, duployan, meetei-mayek, tibetan, thaana, batak, caucasian-albanian, tai-viet, gurmukhi, yi, cham, wancho, brahmi, pahawh-hmong, bhaiksuki, sharada, soyombo, tirhuta, warang-citi, ahom, saurashtra, bassa-vah, mongolian, armenian</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: symbols, marchen, kayah-li, math, music, tai-viet, tai-tham, chakma, tirhuta, mandaic, thai, dogra, takri, siddham, buginese, warang-citi, bassa-vah, bengali, duployan, canadian-aboriginal, myanmar, grantha, gujarati, rejang, soyombo, hanifi-rohingya, batak, psalter-pahlavi, mahajani, oriya, osage, hebrew, ahom, kaithi, manichaean, tai-le, limbu, tifinagh, elbasan, armenian, mende-kikakui, cham, telugu, syriac, lao, khudawadi, phags-pa, yi, syloti-nagri, kannada, pahawh-hmong, javanese, modi, brahmi, wancho, sinhala, saurashtra, gunjala-gondi, masaram-gondi, lepcha, khmer, meetei-mayek, kharoshthi, coptic, khojki, tagalog, caucasian-albanian, sharada, sundanese, miao, malayalam, nko, buhid, new-tai-lue, bhaiksuki, devanagari, adlam, old-permic, tamil, zanabazar-square, tibetan, sogdian, balinese, thaana, tagbanwa, newa, hanunoo, gurmukhi, mongolian</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -1763,8 +1765,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̧̀ į̧́ į̧̂ į̧̃</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Heiltsuk (Latn, 300 speakers), Avokaya (Latn, 100,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Southern Kisi (Latn, 360,000 speakers), Makaa (Latn, 221,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Ekpeye (Latn, 226,000 speakers), Mfumte (Latn, 79,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Mango (Latn, 77,000 speakers), Vute (Latn, 21,000 speakers), Gulay (Latn, 250,478 speakers), Koonzime (Latn, 40,000 speakers), Bafut (Latn, 158,146 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Yala (Latn, 200,000 speakers), Dan (Latn, 1,099,244 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Mundani (Latn, 34,000 speakers), Lugbara (Latn, 2,200,000 speakers), Han (Latn, 6 speakers), Nateni (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Fur (Latn, 1,230,163 speakers), Zapotec (Latn, 490,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nzakara (Latn, 50,000 speakers), Igbo (Latn, 27,823,640 speakers), South Central Banda (Latn, 244,000 speakers), Kaska (Latn, 125 speakers), Navajo (Latn, 166,319 speakers), Dii (Latn, 71,000 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Kpelle, Guinea (Latn, 622,000 speakers), Aghem (Latn, 38,843 speakers), Makaa (Latn, 221,000 speakers), Kom (Latn, 360,685 speakers), Fur (Latn, 1,230,163 speakers), South Central Banda (Latn, 244,000 speakers), Dan (Latn, 1,099,244 speakers), Ebira (Latn, 2,200,000 speakers), Mfumte (Latn, 79,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Han (Latn, 6 speakers), Ma’di (Latn, 584,000 speakers), Nateni (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Yala (Latn, 200,000 speakers), Nzakara (Latn, 50,000 speakers), Kaska (Latn, 125 speakers), Ekpeye (Latn, 226,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Dii (Latn, 71,000 speakers), Igbo (Latn, 27,823,640 speakers), Ejagham (Latn, 120,000 speakers), Gulay (Latn, 250,478 speakers), Mundani (Latn, 34,000 speakers), Heiltsuk (Latn, 300 speakers), Mango (Latn, 77,000 speakers), Cicipu (Latn, 44,000 speakers), Southern Kisi (Latn, 360,000 speakers), Navajo (Latn, 166,319 speakers), Vute (Latn, 21,000 speakers), Teke-Ebo (Latn, 260,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -1849,6 +1851,28 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Is there kerning info for non-ligated sequences? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gpos.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- f + i
+
+- f + l
+</code></pre>
+ [code: lacks-kern-info]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
     <div>
 
@@ -1875,7 +1899,7 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 4 | 53 | 698 | 43 | 618 | 0 | 
+| 0 | 0 | 4 | 53 | 692 | 43 | 624 | 0 | 
 | 0% | 0% | 0% | 4% | 49% | 3% | 44% | 0% | 
 
 
