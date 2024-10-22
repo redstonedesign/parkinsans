@@ -3,6 +3,8 @@
 .formatVersion = 3;
 DisplayStrings = (
 "HHOOHOHOHHAH
+
+
 AVATAR
 HAWAII
 AWAIT
@@ -188,7 +190,77 @@ $01 $12 $23 $34 $45 $56 $67 $78 $89 $90
 18pt ¶ Ailurophile, Ærospace, 10%Assemblage, Becoming, -Beleaguer-, Bucolic, {Bungalow}, Chatoyant, Comely, Conflate, Cynosure, Dalliance, Demesne, Demure, @Denouement, Desuetude, 87 Desultory, Diaphanous, Dissemble, Dulcet, Ebullience, Effervescent, Efflorescence, Elision+Elixir, Eloquence, Embrocation, Emollient, Ephemeral & Epiphany, ‹Erstwhile› Ethereal, Evanescent, • Evocative, 36 Fetching, Felicity, Forbearance, »Fugacious« Furtive, Gambol, Glamour, Gossamer, Halcyon, Harbinger, Imbrication, ^Imbroglio, Imbue, Incipient, #Ineffable, , Ingénue, 2 Inglenook, Insouciance, Inure, Labyrinthine, Lagniappe, Lagoon*, Languor, Lassitude, Leisure, Lilt, Lissome, Lithe=, Love, Mellifluous, Moiety, Mondegreen, Murmurous, Nemesis, Offing, Onomatopoeia, Opulent, Palimpsest, Panacea, Panoply, Pastiche, Penumbra, Petrichor, Plethora, 4 Propinquity, Pyrrhic, Quintessential, Ratatouille, [Ravel], Redolent, 5 Riparian, Ripple, $cintilla, Sempiternal, Seraglio, Serendipity, §ummery, Sumptuous, Surreptitious!, Susquehanna, Susurrous, Talisman, Tintinnabulation, Umbrella, Untoward, Vestigial, Wafture, (Wherewithal), 9 Woebegone, Xylographic, Youthful? Zephyr
 
 18pt Sphinx of black quartz, judge my vow, pa’s wijze lynx bezag vroom het fikse aquaduct, portez ce vieux whisky au juge blond qui fume, pchnąć w tę łódź jeża lub ośm skrzyń fig, vår sære Zulu fra badeøya spilte jo whist, kæmi ný öxi hér, þjófum nú bæði víl og ádrepa, Þú dazt á hnéð í vök og yfir blóm sexý pæju, jó foxim és don Quijote húszwattos lámpánál ülve egy pár bűvös cipőt készít, Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich, llinkdama fechtuotojo špaga sublykčiojusi pragręžė apvalų arbūzą, nechť již hříšné saxofony ďáblů rozezvučí síň úděsnými tóny waltzu, tanga a quickstepu, Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más exquisita champaña del menú, høj bly gom vandt fræk sexquiz på wc, pranzo d’acqua fa volti sghembi, gojazni đačić s biciklom drži hmelj i finu vatu u džepu nošnje.
-"
+",
+"Tyrell
+Tyrene
+render
+raster
+
+Fiona
+Florida
+fi
+fl
+Rational
+Rats
+Radio
+Remember
+\"Elf\", \"Santa\", \"Reindeer\"
+'Hello’. \"Success\". \"Well, she said”.
+*Asterisk*. Hello*, *Help*:
+**Bold**.
+1: 2: 3: 4: 5: 6: 7: 8: 9: 0:
+1) 2) 3) 4) 5) 6) 7) 8) 9) 0)
+-a-b-c-d-e -f-g-h-i-j-k-l-m-n-o-p-q-r-s-t-u-v-w-x-y-z
+FJ
+ELK, ELK.  
+Elk, elk.
+AH, AH.
+ah, ah.
+FAB, FAB.
+Fab, fab.
+FIT, FIT.
+Fit, Fit.
+",
+"groan
+hungry
+punish
+regret
+produce
+humorous
+occur
+winter
+thoughtless
+stove
+quince
+dull
+measure
+strip
+necessary
+absorbing
+safe
+flow
+flesh
+cushion
+tricky
+parched
+whirl
+organic
+birthday
+sprout
+debonair
+matter
+exist
+receive
+polystyrene
+advise
+coal
+average
+connect
+sweltering
+mere",
+"/.notdef",
+"’",
+"”"
 );
 axes = (
 {
@@ -5534,7 +5606,7 @@ unicode = 296;
 {
 color = 4;
 glyphname = J;
-lastChange = "2024-10-02 15:10:20 +0000";
+lastChange = "2024-10-22 10:03:38 +0000";
 layers = (
 {
 anchors = (
@@ -11986,7 +12058,7 @@ color = 4;
 glyphname = a;
 kernLeft = a;
 kernRight = a;
-lastChange = "2024-10-21 14:55:31 +0000";
+lastChange = "2024-10-22 09:58:50 +0000";
 layers = (
 {
 anchors = (
@@ -15820,7 +15892,7 @@ color = 4;
 glyphname = e;
 kernLeft = c;
 kernRight = e;
-lastChange = "2024-10-21 14:55:31 +0000";
+lastChange = "2024-10-22 10:18:02 +0000";
 layers = (
 {
 anchors = (
@@ -17844,7 +17916,7 @@ type = fontInfo;
 {
 color = 4;
 glyphname = i;
-lastChange = "2024-10-18 11:30:29 +0000";
+lastChange = "2024-10-22 10:09:10 +0000";
 layers = (
 {
 anchors = (
@@ -18900,7 +18972,7 @@ color = 4;
 glyphname = l;
 kernLeft = l;
 kernRight = l;
-lastChange = "2024-10-21 14:55:31 +0000";
+lastChange = "2024-10-22 10:17:19 +0000";
 layers = (
 {
 anchors = (
@@ -20049,7 +20121,7 @@ color = 4;
 glyphname = n;
 kernLeft = dotlessi;
 kernRight = h;
-lastChange = "2024-10-21 14:55:31 +0000";
+lastChange = "2024-10-22 09:58:16 +0000";
 layers = (
 {
 anchors = (
@@ -22607,7 +22679,7 @@ color = 4;
 glyphname = r;
 kernLeft = dotlessi;
 kernRight = r;
-lastChange = "2024-10-21 14:55:31 +0000";
+lastChange = "2024-10-22 09:56:18 +0000";
 layers = (
 {
 anchors = (
@@ -23845,7 +23917,7 @@ color = 4;
 glyphname = t;
 kernLeft = t;
 kernRight = t;
-lastChange = "2024-10-21 14:55:31 +0000";
+lastChange = "2024-10-22 10:09:21 +0000";
 layers = (
 {
 anchors = (
@@ -24412,7 +24484,7 @@ com.typesupply.AccentFactory.compileType = manual;
 color = 4;
 glyphname = u;
 kernLeft = u;
-lastChange = "2024-10-21 14:55:31 +0000";
+lastChange = "2024-10-22 10:08:59 +0000";
 layers = (
 {
 anchors = (
@@ -25332,7 +25404,7 @@ unicode = 361;
 {
 color = 4;
 glyphname = v;
-lastChange = "2024-08-05 08:08:06 +0000";
+lastChange = "2024-10-22 10:10:18 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -25969,7 +26041,7 @@ color = 4;
 glyphname = y;
 kernLeft = y;
 kernRight = y;
-lastChange = "2024-10-21 14:55:31 +0000";
+lastChange = "2024-10-22 09:54:58 +0000";
 layers = (
 {
 anchors = (
@@ -29847,7 +29919,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 {
 color = 4;
 glyphname = colon;
-lastChange = "2024-08-04 21:25:00 +0000";
+lastChange = "2024-10-22 10:01:17 +0000";
 layers = (
 {
 background = {
@@ -29923,7 +29995,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 3;
 {
 color = 4;
 glyphname = comma;
-lastChange = "2024-08-04 21:26:35 +0000";
+lastChange = "2024-10-22 10:21:59 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -30515,7 +30587,7 @@ color = 4;
 glyphname = period;
 kernLeft = period;
 kernRight = period;
-lastChange = "2024-10-21 14:55:31 +0000";
+lastChange = "2024-10-22 10:19:31 +0000";
 layers = (
 {
 background = {
@@ -31713,7 +31785,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 3;
 {
 color = 4;
 glyphname = parenright;
-lastChange = "2024-06-18 16:59:19 +0000";
+lastChange = "2024-10-22 10:02:12 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -46078,8 +46150,10 @@ q = 10;
 "@MMK_R_C" = -20;
 "@MMK_R_a" = -10;
 "@MMK_R_c" = -10;
+"@MMK_R_period" = 10;
 "@MMK_R_u" = -10;
 "@MMK_R_y" = 10;
+comma = 35;
 };
 "@MMK_L_L" = {
 "@MMK_R_A" = 20;
@@ -46100,7 +46174,8 @@ v = -10;
 "@MMK_R_U" = -30;
 "@MMK_R_V" = -60;
 "@MMK_R_W" = -50;
-"@MMK_R_c" = -40;
+"@MMK_R_a" = -30;
+"@MMK_R_c" = -35;
 "@MMK_R_g" = -20;
 "@MMK_R_l" = -20;
 "@MMK_R_t" = -20;
@@ -46109,6 +46184,7 @@ v = -20;
 };
 "@MMK_L_S" = {
 "@MMK_R_Y" = -40;
+"@MMK_R_a" = -10;
 "@MMK_R_h" = -10;
 "@MMK_R_l" = -10;
 "@MMK_R_t" = -20;
@@ -46127,6 +46203,7 @@ i = -10;
 "@MMK_R_period" = -80;
 "@MMK_R_s" = -20;
 "@MMK_R_u" = -40;
+"@MMK_R_y" = -40;
 J = -100;
 comma = -80;
 four = -60;
@@ -46220,17 +46297,20 @@ exclam = -10;
 "@MMK_R_V" = -40;
 "@MMK_R_W" = -40;
 "@MMK_R_c" = 10;
+"@MMK_R_dotlessi" = -20;
 "@MMK_R_hyphen" = 30;
 "@MMK_R_t" = 0;
 comma = 0;
 exclam = -10;
 f = 10;
+i = -20;
 parenright = -20;
 v = 0;
 x = -10;
 };
 "@MMK_L_c" = {
 "@MMK_R_hyphen" = 20;
+"@MMK_R_u" = -20;
 };
 "@MMK_L_e" = {
 "@MMK_R_Y" = -60;
@@ -46241,6 +46321,7 @@ v = 0;
 j = 40;
 };
 "@MMK_L_h" = {
+"@MMK_R_a" = -10;
 "@MMK_R_hyphen" = 10;
 asterisk = -40;
 comma = 10;
@@ -46284,10 +46365,13 @@ zero = -30;
 "@MMK_R_A" = -110;
 "@MMK_R_C" = -20;
 "@MMK_R_c" = -20;
+"@MMK_R_period" = -40;
 "@MMK_R_s" = -20;
 f = 20;
 };
 "@MMK_L_r" = {
+"@MMK_R_a" = -12;
+"@MMK_R_c" = -15;
 "@MMK_R_hyphen" = 30;
 "@MMK_R_period" = -60;
 "@MMK_R_t" = 20;
@@ -46299,11 +46383,13 @@ f = 30;
 v = 10;
 };
 "@MMK_L_s" = {
+"@MMK_R_t" = -15;
 "@MMK_R_z" = 10;
 };
 "@MMK_L_t" = {
-"@MMK_R_c" = -10;
+"@MMK_R_c" = -20;
 "@MMK_R_t" = -10;
+comma = 30;
 quoteright = -10;
 };
 "@MMK_L_w" = {
@@ -46318,6 +46404,7 @@ f = 40;
 x = 20;
 };
 "@MMK_L_y" = {
+"@MMK_R_dotlessi" = 7;
 comma = 10;
 j = 30;
 };
@@ -46335,9 +46422,12 @@ F = {
 "@MMK_R_c" = -30;
 "@MMK_R_dotlessi" = -20;
 "@MMK_R_g" = -50;
+"@MMK_R_l" = -10;
 "@MMK_R_period" = -80;
 "@MMK_R_s" = -50;
+J = -25;
 comma = -100;
+i = -10;
 p = -20;
 q = -50;
 };
@@ -46346,8 +46436,9 @@ H = {
 "@MMK_R_V" = 10;
 "@MMK_R_Y" = 10;
 "@MMK_R_hyphen" = 20;
-"@MMK_R_period" = 0;
+"@MMK_R_period" = -10;
 D = 10;
+comma = -10;
 f = 10;
 };
 I = {
@@ -46409,6 +46500,8 @@ one = 10;
 asterisk = {
 "@MMK_R_A" = -90;
 "@MMK_R_C" = -40;
+"@MMK_R_period" = -50;
+comma = -50;
 };
 at = {
 "@MMK_R_y" = -10;
@@ -46444,6 +46537,7 @@ nine = -20;
 one = 20;
 seven = -30;
 six = -50;
+space = 0;
 three = -30;
 two = 20;
 v = -70;
@@ -46451,11 +46545,13 @@ zero = -60;
 };
 d = {
 "@MMK_R_hyphen" = 20;
+v = 10;
 };
 eight = {
 "@MMK_R_period" = -20;
 comma = -20;
 eight = -20;
+parenright = -20;
 two = -20;
 zero = -10;
 };
@@ -46487,6 +46583,7 @@ five = {
 "@MMK_R_period" = -20;
 comma = -20;
 five = -20;
+parenright = -20;
 six = -20;
 three = -20;
 two = -20;
@@ -46495,6 +46592,7 @@ four = {
 "@MMK_R_T" = -20;
 five = -40;
 one = 20;
+parenright = -20;
 seven = -10;
 };
 greater = {
@@ -46512,8 +46610,10 @@ parenright = 40;
 };
 k = {
 "@MMK_R_c" = -10;
+"@MMK_R_period" = 15;
 "@MMK_R_t" = 10;
 "@MMK_R_w" = 20;
+comma = 35;
 f = 20;
 x = 10;
 };
@@ -46521,9 +46621,11 @@ nine = {
 "@MMK_R_period" = -20;
 comma = -40;
 five = -40;
+parenright = -30;
 };
 one = {
 "@MMK_R_period" = 30;
+colon = 20;
 comma = 20;
 five = -40;
 four = -20;
@@ -46544,6 +46646,9 @@ j = 100;
 questiondown = {
 j = 60;
 };
+quotedbl = {
+"@MMK_R_period" = -50;
+};
 quotedblbase = {
 "@MMK_R_V" = -60;
 };
@@ -46561,6 +46666,9 @@ quoteleft = {
 "@MMK_R_c" = -30;
 J = -120;
 };
+quotesingle = {
+"@MMK_R_period" = -40;
+};
 seven = {
 "@MMK_R_A" = -30;
 "@MMK_R_period" = -90;
@@ -46574,6 +46682,7 @@ six = {
 comma = -20;
 five = -40;
 one = 20;
+parenright = -10;
 six = -20;
 };
 slash = {
@@ -46590,6 +46699,7 @@ six = -20;
 three = {
 comma = -30;
 five = -60;
+parenright = -20;
 plus = 0;
 six = -20;
 three = -20;
@@ -46626,6 +46736,7 @@ zero = {
 "@MMK_R_period" = -50;
 eight = -10;
 one = 10;
+parenright = -40;
 three = -40;
 };
 };
