@@ -1105,7 +1105,7 @@ pos = 561;
 pos = -350;
 }
 );
-name = Extrabold;
+name = ExtraBold;
 userData = {
 GSCornerRadius = 95;
 };
@@ -42579,7 +42579,7 @@ shapes = (
 ref = dotlessi;
 },
 {
-pos = (-4,1);
+pos = (-5,0);
 ref = uni0307;
 }
 );
@@ -46485,27 +46485,27 @@ instanceInterpolations = {
 "4D0F633C-81E1-4D6C-A640-637CE706A5C5" = 0.67901;
 "86171893-955A-4CD1-BD1B-2F7A53CC85DC" = 0.32099;
 };
-name = Semibold;
+name = SemiBold;
 properties = (
 {
 key = compatibleFullNames;
 values = (
 {
 language = dflt;
-value = "Parkinsans Semibold Regular";
+value = "Parkinsans SemiBold Regular";
 }
 );
 },
 {
 key = postscriptFontName;
-value = "ParkinsansSemibold-Regular";
+value = "ParkinsansSemiBold-Regular";
 },
 {
 key = postscriptFullNames;
 values = (
 {
 language = dflt;
-value = "Parkinsans Semibold Regular";
+value = "Parkinsans SemiBold Regular";
 }
 );
 },
@@ -46523,7 +46523,7 @@ key = preferredSubfamilyNames;
 values = (
 {
 language = dflt;
-value = Semibold;
+value = SemiBold;
 }
 );
 },
@@ -46532,7 +46532,7 @@ key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
-value = "Parkinsans Semibold";
+value = "Parkinsans SemiBold";
 }
 );
 },
@@ -46597,27 +46597,27 @@ axesValues = (
 instanceInterpolations = {
 "86171893-955A-4CD1-BD1B-2F7A53CC85DC" = 1;
 };
-name = Extrabold;
+name = ExtraBold;
 properties = (
 {
 key = compatibleFullNames;
 values = (
 {
 language = dflt;
-value = "Parkinsans Extrabold Regular";
+value = "Parkinsans ExtraBold Regular";
 }
 );
 },
 {
 key = postscriptFontName;
-value = "ParkinsansExtrabold-Regular";
+value = "ParkinsansExtraBold-Regular";
 },
 {
 key = postscriptFullNames;
 values = (
 {
 language = dflt;
-value = "Parkinsans Extrabold Regular";
+value = "Parkinsans ExtraBold Regular";
 }
 );
 },
@@ -46635,7 +46635,7 @@ key = preferredSubfamilyNames;
 values = (
 {
 language = dflt;
-value = Extrabold;
+value = ExtraBold;
 }
 );
 },
@@ -46644,7 +46644,7 @@ key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
-value = "Parkinsans Extrabold";
+value = "Parkinsans ExtraBold";
 }
 );
 },
