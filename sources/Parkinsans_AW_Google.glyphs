@@ -752,6 +752,16 @@ uni0326,
 uni0327,
 uni0328
 );
+},
+{
+name = "Axis Mappings";
+value = {
+wght = {
+300 = 300;
+500 = 500;
+800 = 800;
+};
+};
 }
 );
 date = "2024-08-05 10:39:34 +0000";
@@ -46323,11 +46333,10 @@ type = glyphMetric;
 instances = (
 {
 axesValues = (
-0
+300
 );
 instanceInterpolations = {
-"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1.6;
-"86171893-955A-4CD1-BD1B-2F7A53CC85DC" = -0.6;
+"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1;
 };
 name = Light;
 properties = (
@@ -46363,11 +46372,11 @@ weightClass = 300;
 },
 {
 axesValues = (
-21
+400
 );
 instanceInterpolations = {
-"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1.558;
-"86171893-955A-4CD1-BD1B-2F7A53CC85DC" = -0.558;
+"4D0F633C-81E1-4D6C-A640-637CE706A5C5" = 0.5;
+"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 0.5;
 };
 name = Regular;
 properties = (
@@ -46402,11 +46411,10 @@ value = "Parkinsans Regular";
 },
 {
 axesValues = (
-44
+500
 );
 instanceInterpolations = {
-"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1.512;
-"86171893-955A-4CD1-BD1B-2F7A53CC85DC" = -0.512;
+"4D0F633C-81E1-4D6C-A640-637CE706A5C5" = 1;
 };
 name = Medium;
 properties = (
@@ -46442,11 +46450,11 @@ weightClass = 500;
 },
 {
 axesValues = (
-70
+600
 );
 instanceInterpolations = {
-"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1.46;
-"86171893-955A-4CD1-BD1B-2F7A53CC85DC" = -0.46;
+"4D0F633C-81E1-4D6C-A640-637CE706A5C5" = 0.66667;
+"86171893-955A-4CD1-BD1B-2F7A53CC85DC" = 0.33333;
 };
 name = SemiBold;
 properties = (
@@ -46513,11 +46521,11 @@ weightClass = 600;
 },
 {
 axesValues = (
-100
+700
 );
 instanceInterpolations = {
-"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1.4;
-"86171893-955A-4CD1-BD1B-2F7A53CC85DC" = -0.4;
+"4D0F633C-81E1-4D6C-A640-637CE706A5C5" = 0.33333;
+"86171893-955A-4CD1-BD1B-2F7A53CC85DC" = 0.66667;
 };
 isBold = 1;
 linkStyle = Regular;
@@ -46555,11 +46563,10 @@ weightClass = 700;
 },
 {
 axesValues = (
-125
+800
 );
 instanceInterpolations = {
-"6D7935D2-FE9A-430A-A298-15DA7AF44FAE" = 1.35;
-"86171893-955A-4CD1-BD1B-2F7A53CC85DC" = -0.35;
+"86171893-955A-4CD1-BD1B-2F7A53CC85DC" = 1;
 };
 name = ExtraBold;
 properties = (
