@@ -46498,7 +46498,7 @@ value = "Parkinsans SemiBold Regular";
 },
 {
 key = postscriptFontName;
-value = "ParkinsansSemiBold-Regular";
+value = "Parkinsans-SemiBold";
 },
 {
 key = postscriptFullNames;
@@ -46610,7 +46610,7 @@ value = "Parkinsans ExtraBold Regular";
 },
 {
 key = postscriptFontName;
-value = "ParkinsansExtraBold-Regular";
+value = "Parkinsans-ExtraBold";
 },
 {
 key = postscriptFullNames;
