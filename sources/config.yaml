@@ -4,3 +4,4 @@ buildVariable: true
 buildStatic: true
 buildTTF: true
 buildOTF: false
+cleanUp: true
