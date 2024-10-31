@@ -2,284 +2,14 @@
 .appVersion = "3260";
 .formatVersion = 3;
 DisplayStrings = (
-"Tyrell
-Tyrene
-render
-raster
-
-Fiona
-Florida
-fi
-fl
-Rational
-Rats
-Radio
-Remember
-\"Elf\", \"Santa\", \"Reindeer'.
-'Hello’. \"Success\". \"Well, she said”.
-*Asterisk*. Hello*, *Help*:
-**Bold**.
-15,100
-,1: ,2: ,3: ,4: ,5: ,6: ,7: ,8: ,9: ,0:
-1,200
-2,100
-3,200
-3,400
-5,60
-
-
-,1,2,3,4,5,6,7,8,9,0,
-1) 2) 3) 4) 5) 6) 7) 8) 9) 0)
--a-b-c-d-e -f-g-h-i-j-k-l-m-n-o-p-q-r-s-t-u-v-w-x-y-z
-walk-through
-FJ
-ELK, ELK.  
-Elk, elk.
-AH, AH.
-ah, ah.
-FAB, FAB.
-Fab, fab.
-FIT, FIT.
-Fit, Fit.
-",
-"groan
-hungry
-punish
-regret
-produce
-humorous
-occur
-winter
-thoughtless
-stove
-quince
-dull
-measure
-strip
-necessary
-absorbing
-safe
-flow
-flesh
-cushion
-tricky
-parched
-whirl
-organic
-birthday
-sprout
-debonair
-matter
-exist
-receive
-polystyrene
-advise
-coal
-average
-connect
-sweltering
-mere",
-"HHOOHOHOHHAH
-AVATAR
-HAWAII
-AWAIT
-PAPAYA
-HAMBURGER
-Hamburger
-LAVALAMAP
-Tour
-Parkinson’s
-PARKINSON’S UK
-
-—
-Supplied Spacing-kerning checks file
-—
-Spacing
-HHOHHOOHOO HIHOIO
-uuonouonoo ninoioolonlniuo
-010 080 030 020 050 060 070
-3+4=7 5>2 2x²−(8×7)÷9≈1
-L·L l·l
-
-OHno
-
-Kerning
-HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH
-
-Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř
-
-HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj
-
-nin non nvn ovo oxo ayn fl fi fj ft gj ko rento
-
-ďá ďu gj ľk włw yły ółr fħ ílïlîl
-
-H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-
-
-n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}
-
-¿o,O? w@y «n•n» n*
-
-080 076 474 973 94 7078 54 24 272 679
-
-P4T47A .47,9.7-»4
-
-42°2129N 71°0349W 11
-
-d² m³ 15°C
-
-
-—
-
-Glyps course 
-
-Kerning pairs — Uppercase to Uppercase
-
-HHATAHH HHTÆHH HAUAHH HHUÆHH HHAVAHH HHVÆHH HHAWAHH HHWÆHH 
-HHAYAHH HHYÆHH HHAOAHH HHAQAHH HHACHH HHAGHH HHDAHH HOÆHH 
-HHDÆHH HHQÆHH HOTOHH HHQTQHH HHDTHH HHTCHH HHTGHH HHOVOHH HHQVQHH HHDVHH HHVCHH HHVGHH HOWOHH HHQWQHH HHDWHH HHWCHH HHWGHH HOXOHH HHQXQHH HHDXHH HHXCHH HHXGHH HOYOHH HHQYQHH 
-HHDYHH HHYCHH HHYGHH HKOHH HHKCHH HHKGHH HHKQHH HLOHH HHLCHH 
-HHLGHH HHLQHH HEOHH HHECHH HHEGHH HHEQHH HHFOHH HHFCHH HHFGHH HHFQHH HFAHH HHFÆHH HPAHH HHPÆHH HSYHH HHYSHH HBTHH HHLTHH HHRTHH HHBVHH HHLVHH HHPVHH HHRVHH HHGVHH HBWHH HHLWHH HHPWHH HHRWHH HHGWHH HHBXHH HHLXHH HHPXHH HHRXHH HHGXHH HHBYHH HHLYHH HHPYHH HHRYHH HHGYHH HFJHH HHPJHH HHTJHH HHVJHH HHWJHH HHYJHH HLUHH HHRUHH HAAHH HHLAHH HHRAHH HHKAHH
-
-
-Fannon Kannon Pannon Tannon Vannon Wannon Yannon Fcnnon Kcnnon Pcnnon Tcnnon Vcnnon Wcnnon Xcnnon Ycnnon Fdnnon Kdnnon Pdnnon Tdnnon Vdnnon Wdnnon Xdnnon Ydnnon Fennon Kennon Pennon Tennon Vennon Wennon Xennon Yennon Fqnnon Kqnnon Pqnnon Tqnnon Vqnnon Wqnnon Xqnnon Yqnnon onnon Konnon Ponnon Tonnon Vonnon Wonnon Xonnon Yonnon Fgnnon Kgnnon Pgnnon Tgnnon Vgnnon Wgnnon Xgnnon Ygnnon Vinnon Winnon Yinnon Tmnnon Vmnnon Wmnnon Ymnnon Tnnnon Vnnnon Wnnnon Ynnnon pnnon Vpnnon Wpnnon Ypnnon Trnnon Vrnnon Wrnnon Yrnnon Tsnnon Vsnnon Wsnnon Ysnnon Atnnon Ytnnon Funnon Kunnon Tunnon Vunnon Wunnon Yunnon Xunnon Avnnon Kvnnon Lvnnon Tvnnon Vvnnon Yvnnon Xvnnon Awnnon Kwnnon Lwnnon Twnnon Vwnnon Ywnnon Xwnnon Txnnon Yxnnon Aynnon Kynnon Lynnon Tynnon Vynnon Wynnon Yynnon Xynnon Tznnon Yznnon
-—
-HH‘AHH HHA’HH HH’AHH HH‘OHH HHO’HH HH’OHH HHL’HH HH“AHH HHA”HH HH”AHH HH“OHH HHO”HH HH”OHH HHL”HH HH’A’HH HH’O’HH HHL’HH HH”A”HH HH”O”HH HHL”HH
-HH*A*HH HH*O*HH HHL*HH HH.O.HH HH.T.HH HH.U.HH HH.V.HH HH.W.HH HH.Y.HH
-HHD.HH HHF.HH HHP.HH HH,O,HH HH,T,HH HH,U,HH HH,V,HH HH,W,HH HH,Y,HH
-HHD,HH HHF,HH HHP,HH HHK-HH HHL-HH HH-T-HH HH-V-HH HH-W-HH HH-X-HH HH-Y-HH HH-Z-HH HHT:HH HHV:HH HHW:HH HHY:HH HHT;HH HHV;HH HHW;HH HHY;HH
-HH¿JHH HH¡JHH 
-
-nn.f.nn nn.o.nn nn.v.nn nn.w.nn nn.y.nn nnr.nn nn,f,nn nn,o,nn nn,v,nn nn,w,nn nn,y,nn nnr,nn
-nonf*non nonf?non non(f)non non[f]non non{f}non nonf’non nonf”non nonf’non nonf”non nonf‘non nonf“non non¿jnon non(j)non non[j]non non{j}non nonk-non nonr-non non-x-non non’snon
-
-HOEH nonon aesbfhikltgjpqyx
-n.o,n:o;n*o’n‘o’n ¡jf!¿jf?
-(jf){jf}[jf]f*t’tf‘tf’tftf
-—
-Kerning strings
-aabacadaeafagahaiajakalamanaoapaqarasatauavawaxayaza
-babbcbdbebfbgbhbibjbkblbmbnbobpbqbrbsbtbubvbwbxbybzb
-cacbccdcecfcgchcicjckclcmcncocpcqcrcsctcucvcwcxcyczc
-dadbdcddedfdgdhdidjdkdldmdndodpdqdrdsdtdudvdwdxdydzd
-eaebecedeefegeheiejekelemeneoepeqereseteuevewexeyeze
-fafbfcfdfeffgfhfifjfkflfmfnfofpfqfrfsftfufvfwfxfyfzf
-gagbgcgdgegfgghgigjgkglgmgngogpgqgrgsgtgugvgwgxgygzg
-hahbhchdhehfhghhihjhkhlhmhnhohphqhrhshthuhvhwhxhyhzh
-iaibicidieifigihiijikiliminioipiqirisitiuiviwixiyizi
-jajbjcjdjejfjgjhjijjkjljmjnjojpjqjrjsjtjujvjwjxjyjzj
-kakbkckdkekfkgkhkikjkklkmknkokpkqkrksktkukvkwkxkykzk
-lalblcldlelflglhliljlkllmlnlolplqlrlsltlulvlwlxlylzl
-mambmcmdmemfmgmhmimjmkmlmmnmompmqmrmsmtmumvmwmxmymzm
-nanbncndnenfngnhninjnknlnmnnonpnqnrnsntqjnunvnwnxnynzn
-oaobocodoeofogohoiojokolomonoopoqorosotouovowoxoyozo
-papbpcpdpepfpgphpipjpkplpmpnpoppqprpsptpupvpwpxpypzp
-qaqbqcqdqeqfqgqhqi
-qjqkqlqmqnqoqpqqrqsqtquqvqwqxqyqzq
-rarbrcrdrerfrgrhrirjrkrlrmrnrorprqrrsrtrurvrwrxryrzr
-sasbscsdsesfsgshsisjskslsmsnsospsqsrsstsusvswsxsyszs
-tatbtctdtetftgthtitjtktltmtntotptqtrtsttutvtwtxtytzt
-uaubucudueufuguhuiujukulumunuoupuqurusutuuvuwuxuyuzu
-vavbvcvdvevfvgvhvivjvkvlvmvnvovpvqvrvsvtvuvvwvxvyvzv
-wawbwcwdwewfwgwhwiwjwkwlwmwnwowpwqwrwswtwuwvwwxwywzw
-xaxbxcxdxexfxgxhxixjxkxlxmxnxoxpxqxrxsxtxuxvxwxxyxzx
-yaybycydyeyfygyhyiyjykylymynyoypyqyrysytyuyvywyxyyzy
-zazbzczdzezfzgzhzizjzkzlzmznzozpzqzrzsztzuzvzwzxzyzz
-—
-Aa Ab Ac Ad Ae Af Ag Ah Ai Aj Ak Al Am An Ao Ap Aq Ar As At Au Av Aw Ax Ay Az Ba Bb Bc Bd Be Bf Bg Bh Bi Bj Bk Bl Bm Bn Bo Bp Bq Br Bs Bt Bu Bv Bw Bx By Bz Ca Cb Cc Cd Ce Cf Cg Ch Ci Cj Ck Cl Cm Cn Co Cp Cq Cr Cs Ct Cu Cv Cw Cx Cy Cz Da Db Dc Dd De Df Dg Dh Di Dj Dk Dl Dm Dn Do Dp Dq Dr Ds Dt Du Dv Dw Dx Dy Dz Ea Eb Ec Ed Ee Ef Eg Eh Ei Ej Ek El Em En Eo Ep Eq Er Es Et Eu Ev Ew Ex Ey Ez Fa Fb Fc Fd Fe Ff Fg Fh Fi Fj Fk Fl Fm Fn Fo Fp Fq Fr Fs Ft Fu Fv Fw Fx Fy Fz Ga Gb Gc Gd Ge Gf Gg Gh Gi Gj Gk Gl Gm Gn Go Gp Gq Gr Gs Gt Gu Gv Gw Gx Gy Gz Ha Hb Hc Hd He Hf Hg Hh Hi Hj Hk Hl Hm Hn Ho Hp Hq Hr Hs Ht Hu Hv Hw Hx Hy Hz Ia Ib Ic Id Ie If Ig Ih Ii Ij Ik Il Im In Io Ip Iq Ir Is It Iu Iv Iw Ix Iy Iz Ja Jb Jc Jd Je Jf Jg Jh Ji Jj Jk Jl Jm Jn Jo Jp Jq Jr Js Jt Ju Jv Jw Jx Jy Jz Ka Kb Kc Kd Ke Kf Kg Kh Ki Kj Kk Kl Km Kn Ko Kp Kq Kr Ks Kt Ku Kv Kw Kx Ky Kz La Lb Lc Ld Le Lf Lg Lh Li Lj Lk Ll Lm Ln Lo Lp Lq Lr Ls Lt Lu Lv Lw Lx Ly Lz Ma Mb Mc Md Me Mf Mg Mh Mi Mj Mk Ml Mm Mn Mo Mp Mq Mr Ms Mt Mu Mv Mw Mx My Mz 
-Na Nb Nc Nd Ne Nf Ng Nh Ni Nj Nk Nl Nm Nn No Np Nq Nr Ns Nt Nu Nv Nw Nx Ny Nz Oa Ob Oc Od Oe Of Og Oh Oi Oj Ok Ol Om On Oo Op  Oq Or Os Ot Ou Ov Ow Ox Oy Oz Pa Pb Pc Pd Pe Pf Pg Ph Pi Pj Pk Pl Pm Pn Po Pp Pq Pr Ps Pt Pu Pv Pw Px Py Pz Qa Qb Qc Qd Qe Qf Qg Qh Qi Qj Qk Ql Qm Qn Qo Qp Qq Qr Qs Qt Qu Qv Qw Qx Qy Qz Ra Rb Rc Rd Re Rf Rg Rh Ri Rj Rk Rl Rm Rn Ro Rp Rq Rr Rs Rt Ru Rv Rw Rx Ry Rz Sa Sb Sc Sd Se Sf Sg Sh Si Sj Sk Sl Sm Sn So Sp Sq Sr Ss St Su Sv Sw Sx Sy Sz Ta Tb Tc Td Te Tf Tg Th Ti Tj Tk Tl Tm Tn To Tp Tq Tr Ts Tt Tu Tv Tw Tx Ty Tz Ua Ub Uc Ud Ue Uf Ug Uh Ui Uj Uk Ul Um Un Uo Up Uq Ur Us Ut Uu Uv Uw Ux Uy Uz Va Vb Vc Vd Ve Vf Vg Vh Vi Vj Vk Vl Vm Vn Vo Vp Vq Vr Vs Vt Vu Vv Vw Vx Vy Vz Wa Wb Wc Wd We Wf Wg Wh Wi Wj Wk Wl Wm Wn Wo Wp Wq Wr Ws Wt Wu Wv Ww Wx Wy Wz Xa Xb Xc Xd Xe Xf Xg Xh Xi Xj Xk Xl Xm Xn Xo Xp Xq Xr Xs Xt Xu Xv Xw Xx Xy Xz Ya Yb Yc Yd Ye Yf Yg Yh Yi Yj Yk Yl Ym Yn Yo Yp Yq Yr Ys Yt Yu Yv Yw Yx Yy Yz Za Zb Zc Zd Ze Zf Zg Zh Zi Zj Zk Zl Zm Zn Zo Zp Zq Zr Zs Zt Zu Zv Zw Zx Zy Zz
-
-Kerning words
-—
-Abbygail Ability Abrupt Absolute Academy Accept Acquaint Action Adapt Adjunct Admirers Adverb Aegean Aeroport Aesthete Affable After Again Aggregate Agriculture Aha Alliteration Alpine Aluminum Always American Animal Anyway Aorta Aplomb Appear Apron Aqua Ardennes Arrange Asop Asimilate Assume Attitude Auction Average Avor Awesome Awful Awkward Axis Azureße Backfire Background Ball Bangkok Banquet Baptism Barge Bashful Basque Bawl Bazaar Bel Bedpost Beefeater Beginning Behind Bellhop Bezel Bigtown Bismarck Blackjack Blacktop Blazer Blitz Bloom Blow Bobcat Bookcase Boxwood Bozo Brawn Brunch Buggy Bulge Bummer Buys Bygone Byte Byzantine Calculate Camp Cantor Cash Celebration Certified Chamfer Child Chimney Church Circumflex Circumvent Clervaux Clever Cobweb Cockpit Cod Coffee Comb Community Company Cook Cop Coral Cotton Could Cover Crest Croquet Crowd Cupboard Cupcake Cutback Dab Damage Damsel Daring Dass Dauntless Dawg Declared Deliver Did Dimly Dinner Dirty Does Donut Doppler Dose Dragon Drink Drive Dynamo Each Earthquake Ebb Eccentric Economy Ecstasy Edelweiss Efficient Effort Egger Eggs Egypt Eject ElbowAuElevate Eliminate Eminent Enterprise Eons Equestrian Equip Erschrift Erase Essence Estrange Etiquette Europe Everyday Everything Evolve Exact Excel Exchange Exhausting Expectation Extra Eyeball Fall Fashion Fasting Feet Fence Fetch Fight Fishpond Flower Fluffy Fluid Fluss Font Forget Franklin Fridge Fun Game Gel Get Girder Golly Gone Gong Goon Great Grope Gurge Gymnast Halfway Halt Happy Harm Harness Healthier Helpful Hobo Homology Honeymoon Honor Hornet Hotplate How Humanity Humility Hundred Hybrid Hygienic Icon Idiot Ignore Illumination Important Infinite Intrepid Invincible Irritate Iterate Jar Jazzy Jelly Joint Joke Judgment Jumped Justice Juvenile Kellogs Kind King Knight Knowledge Kumquat Kwikset Lab Lesson Lightning Little Logjam Loner Long Lung Manufacture Map Mash Master Mathematics May Medieval Member Men Mercy Metrics Minimum Misframe Mist Mother Mr. Ms Myself Nanny Nasty Neither Nell Nerve Newmarket Nile Non Nothing Noxious Oat Obfuscate Oblong Obstruct Obvious Octagon Oddball Oddity Offbeat Offensive Offer Offhand Offprint Oily Olympic Ominous Only Onyx Opportunity Optical Orange Ourselves Out Owl Oxbow Oxymoron Paper Parcel Parks Parse Particularly Paths Pearl Pencil Pepper Perfect Pest Phase Philosophy Physical Pillow Plural Pod Popper Poppy Popular Portal Potter Preprint Pressure Price Prize Pro Puppet Puppy Pushcart Queen Question Qwertzuiop Receive Record Red Reek Referee Rest Retro Ripped Risk Roses Rower Runny 
-Said Sam Sample Sand Sap Say School Shame Shine Shop Sick Significant Silken Silly Sister Sitting Skate Skill Slab Slave Slip Slop Slot Slow Smell Smoke Snoop Snow Soap Sock Soggy Soho Sorrow Soup South Spoke Spruce Square Squid Star Stickman Stiffs Stop Street Strofe Subhead Subject Submit Subplot Subs Subtle Subtype Success Sue Suffer Sultry Sunny Superb Surprise Sword System Ter Tambourine Tangerine Task Tatter Taxman Temptation Tenaru Tennis Terminal Terry Tests Theater Themselves Theology They Think Those Thoughtless Thud Thug Thwack Tippy Tipsy Tomorrow Toronto Total Trac Trial Troy Truck Truk Tub Tuna Tungsten Typografie Tussie Twist Type Typhoon Ugly Uh Umbrella Undefined Underwear Upbeat Upper Uptown Usage Utter Valley Valve Vampire Vat Vegetable Very Vile Vindicator Vodka Volga Volume Volva Vrooooom Vulcan Vulgar Wack Wacombiere Waft Wallow Werme Warmth Warps Wasp Wavy Web Wedding Welcome Wheeler When Whine Wildcat Winter Woman Wonder Woodlark World Worry Wreck Wring Wunder Warmer Xray Yankee Year Yellow Yippee Yours Zealous Zero Zigzag Zombie Zurich Zygote
-
-—
-Punctuation
-
--aa- -bb- -cc- -dd- -ee- -ff- -gg- -hh- -ii- -jj- -kk- -ll- -mm- -nn- -oo- -pp- -qq- -rr- -ss- -tt- -uu- -vv- -ww- -xx- -yy- -zz-
-–aa– –bb– –cc– –dd– –ee– –ff– –gg– –hh– –ii– –jj– –kk– –ll–  –mm– –nn– –oo– –pp– –qq– –rr– –ss– –tt– –uu– –vv– –ww– –xx– –yy– –zz–
-—aa— —bb— —cc— —dd— —ee— —ff— —gg— —hh—  —ii— —jj— —kk— —ll— —mm— —nn— —oo— —pp— —qq— —rr— —ss— —tt— —uu— —vv— —ww— —xx— —yy— —zz—
--AA- -BB- -CC- -DD- -EE- -FF- -GG- -HH- -II- -JJ- -KK- -LL- -MM- -NN- -OO- -PP- -QQ- -RR- -SS- -TT- -UU- -VV- -WW- -XX- -YY- -ZZ-
-–AA– –BB– –CC– –DD– –EE– –FF– –GG– –HH– –II– –JJ– –KK– –LL–  –MM– –NN– –OO– –PP– –QQ– –RR– –SS– –TT– –UU– –VV– –WW– –XX– –YY– –ZZ–
-—AA— —BB— —CC— —DD— —EE— —FF— —GG— —HH—  —II— —JJ— —KK— —LL— —MM— —NN— —OO— —PP— —QQ— —RR— —SS— —TT— —UU— —VV— —WW— —XX— —YY— —ZZ—
-
-.a.b.c.d.e.f.g.h.i.j.k.l.m.n.o.p.q.r.s.t.u.v.w.x.y.z.
-,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,
-.A.B.C.D.E.F.G.H.I.J.K.L.M.N.O.P.Q.R.S.T.U.V.W.X.Y.Z.
-,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,
-a; b; c; d; e; f; g; h; i; j; k; l; m; n; o; p; q; r; s; t; u; v; w; x; y; z;
-a: b: c: d: e: f: g: h: i: j: k: l: m: n: o: p: q: r: s: t: u: v: w: x: y: z:
-A: B: C: D: E: F: G: H: I: J: K: L: M: N: O: P: Q: R: S: T: U: V: W: X: Y: Z: A; B; C; D; E; F; G; H; I; J; K; L; M; N; O; P; Q; R; S; T; U; V; W; X; Y; Z;
-//a//b//c//d//e//f//g//h//i//j//k//l//m//n//o//p//q//r//s//t//u//v//w//x//y//z//A//B//C//D//E//F//G//H//I//J//K//L//M//N//O//P//Q//R//S//T//U//V//W//X//Y//Z//
-/backslash/backslash a/backslash/backslash b/backslash/backslash c/backslash/backslash d/backslash/backslash e/backslash/backslash f/backslash/backslash g/backslash/backslash h/backslash/backslash i/backslash/backslash j/backslash/backslash k/backslash/backslash l/backslash/backslash m/backslash/backslash n/backslash/backslash o/backslash/backslash p/backslash/backslash q/backslash/backslash r/backslash/backslash s/backslash/backslash t/backslash/backslash u/backslash/backslash v/backslash/backslash w/backslash/backslash x/backslash/backslash y/backslash/backslash z/backslash/backslash A/backslash/backslash B/backslash/backslash C/backslash/backslash D/backslash/backslash E/backslash/backslash F/backslash/backslash G/backslash/backslash H/backslash/backslash I/backslash/backslash J/backslash/backslash K/backslash/backslash L/backslash/backslash M/backslash/backslash N/backslash/backslash O/backslash/backslash P/backslash/backslash Q/backslash/backslash R/backslash/backslash S/backslash/backslash T/backslash/backslash U/backslash/backslash V/backslash/backslash W/backslash/backslash X/backslash/backslash Y/backslash/backslash Z/backslash/backslash 
-a? b? c? d? e? f? g? h? i? j? k? l? m? n? o? p? q? r? s? t? u? v? w? x? y? z? A? B? C? D? E? F? G? H? I? J? K? L? M? N? O? P? Q? R? S? T? U? V? W? X? Y? Z? 
-a! b! c! d! e! f! g! h! i! j! k! l! m! n! o! p! q! r! s! t! u! v! w! x! y! z!
-A! B! C! D! E! F! G! H! I! J! K! L! M! N! O! P! Q! R! S! T! U! V! W! X! Y! Z!
-¡a ¡b ¡c ¡d ¡e ¡f ¡g ¡h ¡i ¡j ¡k ¡l ¡m ¡n ¡o ¡p ¡q ¡r ¡s ¡t ¡u ¡v ¡w ¡x ¡y ¡z ¡A ¡B ¡C ¡D ¡E ¡F ¡G ¡H ¡I ¡J ¡K ¡L ¡M ¡N ¡O ¡P ¡Q ¡R ¡S ¡T ¡U ¡V ¡W ¡X ¡Y ¡Z ¿a ¿b ¿c ¿d ¿e ¿f ¿g ¿h ¿i ¿j ¿k ¿l ¿m ¿n ¿o ¿p ¿q ¿r ¿s ¿t ¿u ¿v ¿w¿z¿A ¿B ¿C ¿D ¿E ¿F ¿G ¿H ¿I ¿J ¿K ¿L ¿M ¿N ¿O ¿P ¿Q ¿R ¿S ¿T ¿U ¿V ¿W¿Z
-“a” “b” “c” “d” “e” “f” “g” “h” “i” “j” “k” “l” “m” “n” “o” “p” “q” “r” “s” “t” “u” “v” “w” “x” “y” “z” “A” “B” “C” “D” “E” “F” “G” “H” “I” “J” “K” “L” “M” “N” “O” “P” “Q” “R” “S” “T” “U” “V” “W” “X” “Y” “Z”
-‘aaa’ ‘bbb’ ‘ccc’ ‘ddd’ ‘eee’ ‘fff’ ‘ggg’ ‘hhh’ ‘iii’ ‘jjj’ ‘kkk’ ‘lll’ ‘mmm’ ‘nnn’ ‘ooo’ ‘ppp’ ‘qqq’ ‘rrr’ ‘sss’ ‘ttt’ ‘uuu’ ‘vvv’ ‘www’ ‘xxx’ ‘yyy’ ‘zzz’
-‘A’ ‘B’ ‘C’ ‘D’ ‘E’ ‘F’ ‘G’ ‘H’ ‘I’ ‘J’ ‘K’ ‘L’ ‘M’ ‘N’ ‘O’ ‘P’ ‘Q’ ‘R’ ‘S’ ‘T’ ‘U’ ‘V’ ‘W’ ‘X’ ‘Y’ ‘Z’
-’aa’bb’cc’dd’ee’ff’gg’hh’ii’jj’kk’ll’mm’nn’oo’pp’qq’rr’ss’tt’uu’vv’ww’xx’yy’zz’
-’AA’BB’CC’DD’EE’FF’GG’HH’II’JJ’KK’LL’MM’NN’OO’PP’QQ’RR’SS’TT’UU’VV’WW’XX’YY’ZZ’
-.1.2.3.4.5.6.7.8.9.0.
-,1,2,3,4,5,6,7,8,9,0
--1-2-3-4-5-6-7-8-9-0-
-–1–2–3–4–5–6–7–8–9–0–
-
-(a) (b) (c) (d) (e) (f) (g) (h) (i) (j) (k) (l) (m) (n) (o) (p) (q) (r) (s) (t) (u) (v) (w) (x) (y) (z)
-(A) (B) (C) (D) (E) (F) (G) (H) (I) (J) (K) (L) (M) (N) (O) (P) (Q) (R) (S) (T) (U) (V) (W) (X) (Y) (Z)
-{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z}
-{A} {B} {C} {D} {E} {F} {G} {H} {I} {J} {K} {L} {M} {N} {O} {P} {Q} {R} {S} {T} {U} {V} {W} {X} {Y} {Z}
-[a] [b] [c] [d] [e] [f] [g] [h] [i] [j] [k] [l] [m] [n] [o] [p] [q] [r] [s] [t] [u] [v] [w] [x] [y] [z]
-[A] [B] [C] [D] [E] [F] [G] [H] [I] [J] [K] [L] [M] [N] [O] [P] [Q] [R] [S] [T] [U] [V] [W] [X] [Y] [Z]
-
-
-00100200300400500600700800900000
-11111211311411511611711811911011
-22122222322422522622722822922022
-33133233333433533633733833933033
-44144244344444544644744844944044
-55155255355455555655755855955055
-66166266366466566666766866966066
-77177277377477577677777877977077
-88188288388488588688788888988088
-99199299399499599699799899999099
-
-0001000200030004000500060007000800090000000
-1111111211131114111511161117111811191110111
-2221222222232224222522262227222822292220222
-3331333233333334333533363337333833393330333
-4441444244434444444544464447444844494440444
-5551555255535554555555565557555855595550555
-6661666266636664666566666667666866696660666
-7771777277737774777577767777777877797770777
-8881888288838884888588868887888888898880888
-9991999299939994999599969997999899999990999
-$01 $12 $23 $34 $45 $56 $67 $78 $89 $90
-€01 €12 €23 €34 €45 €56 €67 €78 €89 €90
-£01 £12 £23 £34 £45 £56 £67 £78 £89 £90 
-¥01 ¥12 ¥23 ¥34 ¥45 ¥56 ¥67 ¥78 ¥89 ¥90
-01¢ 12¢ 23¢ 34¢ 45¢ 56¢ 67¢ 78¢ 89¢ 90¢
-
-18pt ¶ Ailurophile, Ærospace, 10%Assemblage, Becoming, -Beleaguer-, Bucolic, {Bungalow}, Chatoyant, Comely, Conflate, Cynosure, Dalliance, Demesne, Demure, @Denouement, Desuetude, 87 Desultory, Diaphanous, Dissemble, Dulcet, Ebullience, Effervescent, Efflorescence, Elision+Elixir, Eloquence, Embrocation, Emollient, Ephemeral & Epiphany, ‹Erstwhile› Ethereal, Evanescent, • Evocative, 36 Fetching, Felicity, Forbearance, »Fugacious« Furtive, Gambol, Glamour, Gossamer, Halcyon, Harbinger, Imbrication, ^Imbroglio, Imbue, Incipient, #Ineffable, , Ingénue, 2 Inglenook, Insouciance, Inure, Labyrinthine, Lagniappe, Lagoon*, Languor, Lassitude, Leisure, Lilt, Lissome, Lithe=, Love, Mellifluous, Moiety, Mondegreen, Murmurous, Nemesis, Offing, Onomatopoeia, Opulent, Palimpsest, Panacea, Panoply, Pastiche, Penumbra, Petrichor, Plethora, 4 Propinquity, Pyrrhic, Quintessential, Ratatouille, [Ravel], Redolent, 5 Riparian, Ripple, $cintilla, Sempiternal, Seraglio, Serendipity, §ummery, Sumptuous, Surreptitious!, Susquehanna, Susurrous, Talisman, Tintinnabulation, Umbrella, Untoward, Vestigial, Wafture, (Wherewithal), 9 Woebegone, Xylographic, Youthful? Zephyr
-
-18pt Sphinx of black quartz, judge my vow, pa’s wijze lynx bezag vroom het fikse aquaduct, portez ce vieux whisky au juge blond qui fume, pchnąć w tę łódź jeża lub ośm skrzyń fig, vår sære Zulu fra badeøya spilte jo whist, kæmi ný öxi hér, þjófum nú bæði víl og ádrepa, Þú dazt á hnéð í vök og yfir blóm sexý pæju, jó foxim és don Quijote húszwattos lámpánál ülve egy pár bűvös cipőt készít, Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich, llinkdama fechtuotojo špaga sublykčiojusi pragręžė apvalų arbūzą, nechť již hříšné saxofony ďáblů rozezvučí síň úděsnými tóny waltzu, tanga a quickstepu, Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más exquisita champaña del menú, høj bly gom vandt fræk sexquiz på wc, pranzo d’acqua fa volti sghembi, gojazni đačić s biciklom drži hmelj i finu vatu u džepu nošnje.
-",
-"¨UÜ",
-"¯",
-"¨",
-"´",
-"˘",
-"ˇ",
-"ˆ",
-"˙",
-"`",
-"˝",
-"˚",
-"˜",
-"̨",
-"/.notdef"
+"uüyÿoö",
+"ħđ",
+"EĔĖÈĒẼ",
+"ŵŴ",
+"řé",
+"i˙İ paċi ż",
+"PARL/periodcentered.loclCAT.case LEL",
+"paral/periodcentered.loclCAT lel"
 );
 axes = (
 {
@@ -3881,13 +3611,13 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 {
 color = 4;
 glyphname = E;
-lastChange = "2024-08-04 17:25:57 +0000";
+lastChange = "2024-10-31 11:43:39 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (262,0);
+pos = (267,0);
 },
 {
 name = ogonek;
@@ -3895,7 +3625,13 @@ pos = (459,0);
 },
 {
 name = top;
-pos = (262,696);
+pos = (267,696);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (267,510);
 }
 );
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -3924,15 +3660,21 @@ width = 524;
 anchors = (
 {
 name = bottom;
-pos = (277,0);
+pos = (282,0);
 },
 {
 name = ogonek;
-pos = (277,0);
+pos = (282,0);
 },
 {
 name = top;
-pos = (277,707);
+pos = (282,707);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (282,503);
 }
 );
 layerId = "86171893-955A-4CD1-BD1B-2F7A53CC85DC";
@@ -3961,7 +3703,7 @@ width = 548;
 anchors = (
 {
 name = bottom;
-pos = (248,0);
+pos = (263,0);
 },
 {
 name = ogonek;
@@ -3969,7 +3711,13 @@ pos = (445,0);
 },
 {
 name = top;
-pos = (248,690);
+pos = (263,690);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (263,535);
 }
 );
 layerId = "6D7935D2-FE9A-430A-A298-15DA7AF44FAE";
@@ -4022,7 +3770,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (134,145);
+pos = (139,145);
 ref = acute;
 }
 );
@@ -4035,7 +3783,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (139,146);
+pos = (144,146);
 ref = acute;
 }
 );
@@ -4048,7 +3796,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (111,144);
+pos = (126,144);
 ref = acute;
 }
 );
@@ -4063,7 +3811,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 {
 color = 4;
 glyphname = Ebreve;
-lastChange = "2024-10-18 11:31:57 +0000";
+lastChange = "2024-10-31 11:43:10 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -4072,7 +3820,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (102,145);
+pos = (107,145);
 ref = breve;
 }
 );
@@ -4085,7 +3833,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (88,146);
+pos = (93,146);
 ref = breve;
 }
 );
@@ -4098,7 +3846,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (89,0);
+pos = (104,0);
 ref = breve;
 }
 );
@@ -4119,7 +3867,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (109,145);
+pos = (114,145);
 ref = caron;
 }
 );
@@ -4132,7 +3880,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (106,146);
+pos = (111,146);
 ref = caron;
 }
 );
@@ -4145,7 +3893,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (90,144);
+pos = (105,144);
 ref = caron;
 }
 );
@@ -4169,7 +3917,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (109,145);
+pos = (114,145);
 ref = circumflex;
 }
 );
@@ -4182,7 +3930,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (106,146);
+pos = (111,146);
 ref = circumflex;
 }
 );
@@ -4195,7 +3943,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (90,0);
+pos = (105,0);
 ref = circumflex;
 }
 );
@@ -4219,7 +3967,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (106,145);
+pos = (111,145);
 ref = dieresis;
 }
 );
@@ -4232,7 +3980,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (80,146);
+pos = (85,146);
 ref = dieresis;
 }
 );
@@ -4245,7 +3993,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (91,144);
+pos = (106,144);
 ref = dieresis;
 }
 );
@@ -4260,7 +4008,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 {
 color = 4;
 glyphname = Edotaccent;
-lastChange = "2024-10-18 11:29:27 +0000";
+lastChange = "2024-10-31 11:43:10 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -4269,7 +4017,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (192,145);
+pos = (197,145);
 ref = dotaccent;
 }
 );
@@ -4282,7 +4030,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (186,146);
+pos = (171,146);
 ref = dotaccent;
 }
 );
@@ -4295,7 +4043,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (175,0);
+pos = (190,0);
 ref = dotaccent;
 }
 );
@@ -4310,7 +4058,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 {
 color = 4;
 glyphname = Egrave;
-lastChange = "2024-06-14 14:50:21 +0000";
+lastChange = "2024-10-31 11:43:10 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -4319,7 +4067,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (134,145);
+pos = (139,145);
 ref = grave;
 }
 );
@@ -4332,7 +4080,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (139,146);
+pos = (144,146);
 ref = grave;
 }
 );
@@ -4345,7 +4093,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (111,144);
+pos = (126,144);
 ref = grave;
 }
 );
@@ -4360,7 +4108,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 {
 color = 4;
 glyphname = Emacron;
-lastChange = "2024-06-14 14:50:21 +0000";
+lastChange = "2024-10-31 11:43:10 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -4369,7 +4117,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (69,145);
+pos = (74,145);
 ref = macron;
 }
 );
@@ -4382,7 +4130,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (60,146);
+pos = (65,146);
 ref = macron;
 }
 );
@@ -4395,7 +4143,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (54,144);
+pos = (69,144);
 ref = macron;
 }
 );
@@ -4466,7 +4214,7 @@ com.typesupply.AccentFactory.compileType = manual;
 {
 color = 4;
 glyphname = Etilde;
-lastChange = "2024-06-14 14:50:21 +0000";
+lastChange = "2024-10-31 11:43:10 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -4475,7 +4223,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (89,145);
+pos = (94,145);
 ref = tilde;
 }
 );
@@ -4488,7 +4236,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (57,146);
+pos = (62,146);
 ref = tilde;
 }
 );
@@ -4501,7 +4249,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (92,144);
+pos = (107,144);
 ref = tilde;
 }
 );
@@ -5176,7 +4924,7 @@ shapes = (
 ref = G;
 },
 {
-pos = (288,146);
+pos = (268,146);
 ref = dotaccent;
 }
 );
@@ -5652,7 +5400,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 {
 color = 4;
 glyphname = Idotaccent;
-lastChange = "2024-10-18 11:29:37 +0000";
+lastChange = "2024-10-31 12:01:27 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -5674,7 +5422,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (140,146);
+pos = (120,146);
 ref = dotaccent;
 }
 );
@@ -6278,7 +6026,7 @@ com.typesupply.AccentFactory.compileType = manual;
 color = 4;
 glyphname = L;
 kernRight = L;
-lastChange = "2024-10-21 14:55:31 +0000";
+lastChange = "2024-10-31 11:05:57 +0000";
 layers = (
 {
 anchors = (
@@ -6362,7 +6110,7 @@ pos = (235,10);
 },
 {
 name = top;
-pos = (213,690);
+pos = (113,690);
 },
 {
 name = topright;
@@ -6405,7 +6153,7 @@ type = fontInfo;
 color = 4;
 glyphname = Lacute;
 kernRight = L;
-lastChange = "2024-10-21 14:55:31 +0000";
+lastChange = "2024-10-31 11:05:57 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -6440,7 +6188,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (76,144);
+pos = (-24,144);
 ref = acute;
 }
 );
@@ -11115,9 +10863,19 @@ color = 4;
 glyphname = W;
 kernLeft = W;
 kernRight = W;
-lastChange = "2024-10-22 12:24:30 +0000";
+lastChange = "2024-10-31 11:46:06 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (500,0);
+},
+{
+name = top;
+pos = (500,695);
+}
+);
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
 shapes = (
 {
@@ -11145,6 +10903,16 @@ nodes = (
 width = 999;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (538,0);
+},
+{
+name = top;
+pos = (538,705);
+}
+);
 layerId = "86171893-955A-4CD1-BD1B-2F7A53CC85DC";
 shapes = (
 {
@@ -11172,6 +10940,16 @@ nodes = (
 width = 1076;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (478,0);
+},
+{
+name = top;
+pos = (478,690);
+}
+);
 layerId = "6D7935D2-FE9A-430A-A298-15DA7AF44FAE";
 shapes = (
 {
@@ -11395,7 +11173,7 @@ color = 4;
 glyphname = Wcircumflex;
 kernLeft = W;
 kernRight = W;
-lastChange = "2024-10-21 14:55:31 +0000";
+lastChange = "2024-10-31 11:46:21 +0000";
 layers = (
 {
 guides = (
@@ -11440,8 +11218,7 @@ alignment = -1;
 ref = W;
 },
 {
-alignment = -1;
-pos = (317,157);
+pos = (320,0);
 ref = circumflex;
 }
 );
@@ -12323,7 +12100,7 @@ shapes = (
 ref = Z;
 },
 {
-pos = (216,146);
+pos = (196,146);
 ref = dotaccent;
 }
 );
@@ -16118,7 +15895,7 @@ com.typesupply.AccentFactory.compileType = manual;
 color = 4;
 glyphname = dcroat;
 kernLeft = c;
-lastChange = "2024-10-21 14:55:31 +0000";
+lastChange = "2024-10-31 11:26:50 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -16126,10 +15903,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(406,590,l),
-(662,590,l),
-(662,656,l),
-(406,656,l)
+(191,600,l),
+(658,600,l),
+(658,685,l),
+(191,685,l)
 );
 },
 {
@@ -16144,10 +15921,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(362,592,l),
-(686,592,l),
-(686,680,l),
-(362,680,l)
+(158,586,l),
+(664,586,l),
+(664,718,l),
+(158,718,l)
 );
 },
 {
@@ -16163,10 +15940,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(385,618,l),
-(658,618,l),
-(658,662,l),
-(385,662,l)
+(209,605,l),
+(665,605,l),
+(665,659,l),
+(209,659,l)
 );
 },
 {
@@ -16887,7 +16664,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (218,0);
+pos = (198,0);
 ref = dotaccent;
 }
 );
@@ -18036,7 +17813,7 @@ shapes = (
 ref = g;
 },
 {
-pos = (250,0);
+pos = (230,0);
 ref = dotaccent;
 }
 );
@@ -20949,7 +20726,7 @@ color = 4;
 glyphname = o;
 kernLeft = c;
 kernRight = b;
-lastChange = "2024-10-22 13:41:28 +0000";
+lastChange = "2024-10-31 11:15:47 +0000";
 layers = (
 {
 anchors = (
@@ -21001,7 +20778,7 @@ width = 638;
 anchors = (
 {
 name = top;
-pos = (337,563);
+pos = (318,563);
 }
 );
 layerId = "86171893-955A-4CD1-BD1B-2F7A53CC85DC";
@@ -21047,7 +20824,7 @@ width = 636;
 anchors = (
 {
 name = top;
-pos = (323,551);
+pos = (321,551);
 }
 );
 layerId = "6D7935D2-FE9A-430A-A298-15DA7AF44FAE";
@@ -21132,7 +20909,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (199,2);
+pos = (180,2);
 ref = acute;
 }
 );
@@ -21145,7 +20922,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (186,5);
+pos = (184,5);
 ref = acute;
 }
 );
@@ -21184,7 +20961,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (148,2);
+pos = (129,2);
 ref = breve;
 }
 );
@@ -21197,7 +20974,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (164,-139);
+pos = (162,-139);
 ref = breve;
 }
 );
@@ -21233,7 +21010,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (166,2);
+pos = (147,2);
 ref = circumflex;
 }
 );
@@ -21246,7 +21023,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (165,-139);
+pos = (163,-139);
 ref = circumflex;
 }
 );
@@ -21263,7 +21040,7 @@ color = 4;
 glyphname = odieresis;
 kernLeft = c;
 kernRight = b;
-lastChange = "2024-10-21 14:55:31 +0000";
+lastChange = "2024-10-31 11:15:47 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -21285,7 +21062,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (140,2);
+pos = (121,2);
 ref = dieresis;
 }
 );
@@ -21298,7 +21075,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (166,5);
+pos = (164,5);
 ref = dieresis;
 }
 );
@@ -21337,7 +21114,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (199,2);
+pos = (180,2);
 ref = grave;
 }
 );
@@ -21350,7 +21127,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (186,5);
+pos = (184,5);
 ref = grave;
 }
 );
@@ -21389,7 +21166,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (150,2);
+pos = (131,2);
 ref = hungarumlaut;
 }
 );
@@ -21402,7 +21179,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (197,5);
+pos = (195,5);
 ref = hungarumlaut;
 }
 );
@@ -21441,7 +21218,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (120,2);
+pos = (101,2);
 ref = macron;
 }
 );
@@ -21454,7 +21231,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (129,5);
+pos = (127,5);
 ref = macron;
 }
 );
@@ -21561,7 +21338,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (117,2);
+pos = (98,2);
 ref = tilde;
 }
 );
@@ -21574,7 +21351,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (167,5);
+pos = (165,5);
 ref = tilde;
 }
 );
@@ -24779,7 +24556,7 @@ com.typesupply.AccentFactory.compileType = manual;
 color = 4;
 glyphname = u;
 kernLeft = u;
-lastChange = "2024-10-22 12:02:54 +0000";
+lastChange = "2024-10-31 11:15:04 +0000";
 layers = (
 {
 anchors = (
@@ -24789,7 +24566,7 @@ pos = (574,-1);
 },
 {
 name = top;
-pos = (325,551);
+pos = (321,551);
 }
 );
 background = {
@@ -24817,6 +24594,12 @@ nodes = (
 }
 );
 };
+guides = (
+{
+angle = 90;
+pos = (321,392);
+}
+);
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
 shapes = (
 {
@@ -24911,7 +24694,13 @@ pos = (630,-3);
 },
 {
 name = top;
-pos = (343,561);
+pos = (340,561);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (340,348);
 }
 );
 layerId = "86171893-955A-4CD1-BD1B-2F7A53CC85DC";
@@ -24960,7 +24749,13 @@ pos = (553,-1);
 },
 {
 name = top;
-pos = (317,546);
+pos = (311,546);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (311,842);
 }
 );
 layerId = "6D7935D2-FE9A-430A-A298-15DA7AF44FAE";
@@ -25030,7 +24825,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (197,0);
+pos = (193,0);
 ref = acute;
 }
 );
@@ -25043,7 +24838,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (205,0);
+pos = (202,0);
 ref = acute;
 }
 );
@@ -25056,7 +24851,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (180,0);
+pos = (174,0);
 ref = acute;
 }
 );
@@ -25081,7 +24876,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (165,0);
+pos = (161,0);
 ref = breve;
 }
 );
@@ -25094,7 +24889,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (154,0);
+pos = (151,0);
 ref = breve;
 }
 );
@@ -25107,7 +24902,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (158,-144);
+pos = (152,-144);
 ref = breve;
 }
 );
@@ -25129,7 +24924,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (172,0);
+pos = (168,0);
 ref = circumflex;
 }
 );
@@ -25142,7 +24937,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (172,0);
+pos = (169,0);
 ref = circumflex;
 }
 );
@@ -25155,7 +24950,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (159,-144);
+pos = (153,-144);
 ref = circumflex;
 }
 );
@@ -25171,7 +24966,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 color = 4;
 glyphname = udieresis;
 kernLeft = u;
-lastChange = "2024-10-21 14:55:31 +0000";
+lastChange = "2024-10-31 11:15:04 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -25180,7 +24975,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (169,0);
+pos = (165,0);
 ref = dieresis;
 }
 );
@@ -25193,20 +24988,26 @@ shapes = (
 ref = u;
 },
 {
-pos = (146,0);
+pos = (143,0);
 ref = dieresis;
 }
 );
 width = 686;
 },
 {
+guides = (
+{
+angle = 270;
+pos = (299,483);
+}
+);
 layerId = "6D7935D2-FE9A-430A-A298-15DA7AF44FAE";
 shapes = (
 {
 ref = u;
 },
 {
-pos = (160,0);
+pos = (154,0);
 ref = dieresis;
 }
 );
@@ -25231,7 +25032,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (197,0);
+pos = (193,0);
 ref = grave;
 }
 );
@@ -25244,7 +25045,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (205,0);
+pos = (202,0);
 ref = grave;
 }
 );
@@ -25257,7 +25058,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (180,0);
+pos = (174,0);
 ref = grave;
 }
 );
@@ -25282,7 +25083,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (187,0);
+pos = (183,0);
 ref = hungarumlaut;
 }
 );
@@ -25295,7 +25096,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (156,0);
+pos = (153,0);
 ref = hungarumlaut;
 }
 );
@@ -25308,7 +25109,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (191,0);
+pos = (185,0);
 ref = hungarumlaut;
 }
 );
@@ -25333,7 +25134,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (132,0);
+pos = (128,0);
 ref = macron;
 }
 );
@@ -25346,7 +25147,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (126,0);
+pos = (123,0);
 ref = macron;
 }
 );
@@ -25359,7 +25160,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (123,0);
+pos = (117,0);
 ref = macron;
 }
 );
@@ -25610,7 +25411,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (206,0);
+pos = (202,0);
 ref = ring;
 }
 );
@@ -25623,7 +25424,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (206,0);
+pos = (203,0);
 ref = ring;
 }
 );
@@ -25636,7 +25437,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (193,0);
+pos = (187,0);
 ref = ring;
 }
 );
@@ -25661,7 +25462,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (152,0);
+pos = (148,0);
 ref = tilde;
 }
 );
@@ -25674,7 +25475,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (123,0);
+pos = (120,0);
 ref = tilde;
 }
 );
@@ -25687,7 +25488,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (161,0);
+pos = (155,0);
 ref = tilde;
 }
 );
@@ -25776,9 +25577,19 @@ color = 4;
 glyphname = w;
 kernLeft = w;
 kernRight = w;
-lastChange = "2024-10-22 10:49:01 +0000";
+lastChange = "2024-10-31 11:45:00 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (413,0);
+},
+{
+name = top;
+pos = (413,551);
+}
+);
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
 shapes = (
 {
@@ -25806,6 +25617,16 @@ nodes = (
 width = 825;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (443,0);
+},
+{
+name = top;
+pos = (443,561);
+}
+);
 layerId = "86171893-955A-4CD1-BD1B-2F7A53CC85DC";
 shapes = (
 {
@@ -25833,6 +25654,16 @@ nodes = (
 width = 885;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (408,0);
+},
+{
+name = top;
+pos = (408,546);
+}
+);
 layerId = "6D7935D2-FE9A-430A-A298-15DA7AF44FAE";
 shapes = (
 {
@@ -25840,7 +25671,7 @@ closed = 1;
 nodes = (
 (186,0,l),
 (257,0,l),
-(424,507,l),
+(424,508,l),
 (391,508,l),
 (559,0,l),
 (629,0,l),
@@ -26051,7 +25882,7 @@ color = 4;
 glyphname = wcircumflex;
 kernLeft = w;
 kernRight = w;
-lastChange = "2024-10-21 14:55:31 +0000";
+lastChange = "2024-10-31 11:45:42 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -26091,8 +25922,7 @@ alignment = -1;
 ref = w;
 },
 {
-alignment = -1;
-pos = (250,0);
+pos = (250,-144);
 ref = circumflex;
 }
 );
@@ -26336,13 +26166,19 @@ color = 4;
 glyphname = y;
 kernLeft = y;
 kernRight = y;
-lastChange = "2024-10-22 12:09:18 +0000";
+lastChange = "2024-10-31 11:15:22 +0000";
 layers = (
 {
 anchors = (
 {
 name = top;
 pos = (307,551);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (308,358);
 }
 );
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -26396,7 +26232,13 @@ width = 621;
 anchors = (
 {
 name = top;
-pos = (324,561);
+pos = (326,561);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (326,431);
 }
 );
 layerId = "86171893-955A-4CD1-BD1B-2F7A53CC85DC";
@@ -26450,7 +26292,13 @@ width = 668;
 anchors = (
 {
 name = top;
-pos = (288,546);
+pos = (298,546);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (298,850);
 }
 );
 layerId = "6D7935D2-FE9A-430A-A298-15DA7AF44FAE";
@@ -26539,7 +26387,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (186,0);
+pos = (188,0);
 ref = acute;
 }
 );
@@ -26552,7 +26400,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (151,0);
+pos = (161,0);
 ref = acute;
 }
 );
@@ -26591,7 +26439,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (153,0);
+pos = (155,0);
 ref = circumflex;
 }
 );
@@ -26604,7 +26452,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (130,-144);
+pos = (140,-144);
 ref = circumflex;
 }
 );
@@ -26618,7 +26466,7 @@ color = 4;
 glyphname = ydieresis;
 kernLeft = y;
 kernRight = y;
-lastChange = "2024-10-21 14:55:31 +0000";
+lastChange = "2024-10-31 11:15:22 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -26640,7 +26488,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (127,0);
+pos = (129,0);
 ref = dieresis;
 }
 );
@@ -26653,7 +26501,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (131,0);
+pos = (141,0);
 ref = dieresis;
 }
 );
@@ -26692,7 +26540,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (186,0);
+pos = (188,0);
 ref = grave;
 }
 );
@@ -26705,7 +26553,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (151,0);
+pos = (161,0);
 ref = grave;
 }
 );
@@ -26741,7 +26589,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (104,0);
+pos = (106,0);
 ref = tilde;
 }
 );
@@ -26754,7 +26602,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (132,0);
+pos = (142,0);
 ref = tilde;
 }
 );
@@ -26972,7 +26820,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 color = 4;
 glyphname = zdotaccent;
 kernLeft = z;
-lastChange = "2024-10-21 14:55:31 +0000";
+lastChange = "2024-10-31 12:01:27 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -26994,7 +26842,7 @@ shapes = (
 ref = z;
 },
 {
-pos = (168,0);
+pos = (148,0);
 ref = dotaccent;
 }
 );
@@ -40978,7 +40826,7 @@ type = fontInfo;
 {
 color = 4;
 glyphname = caron;
-lastChange = "2024-10-22 14:18:15 +0000";
+lastChange = "2024-10-31 11:49:33 +0000";
 layers = (
 {
 anchors = (
@@ -41023,12 +40871,12 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(171,720,l),
-(10,807,l),
+(171,737,l),
+(10,824,l),
 (10,676,l),
 (171,599,l),
 (330,676,l),
-(330,807,l)
+(330,824,l)
 );
 }
 );
@@ -41466,7 +41314,7 @@ type = fontInfo;
 {
 color = 4;
 glyphname = dotaccent;
-lastChange = "2024-10-22 14:19:02 +0000";
+lastChange = "2024-10-31 12:02:05 +0000";
 layers = (
 {
 anchors = (
@@ -41505,11 +41353,11 @@ width = 140;
 anchors = (
 {
 name = _top;
-pos = (91,561);
+pos = (111,561);
 },
 {
 name = top;
-pos = (89,780);
+pos = (109,780);
 }
 );
 layerId = "86171893-955A-4CD1-BD1B-2F7A53CC85DC";
@@ -41517,22 +41365,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(89,620,cs),
-(135,620,o),
-(170,654,o),
-(170,699,cs),
-(170,745,o),
-(135,780,o),
-(89,780,cs),
-(44,780,o),
-(10,745,o),
-(10,699,cs),
-(10,654,o),
-(44,620,o)
+(109,620,cs),
+(166,620,o),
+(210,662,o),
+(210,719,cs),
+(210,776,o),
+(166,820,o),
+(109,820,cs),
+(53,820,o),
+(10,776,o),
+(10,719,cs),
+(10,662,o),
+(53,620,o)
 );
 }
 );
-width = 180;
+width = 220;
 },
 {
 anchors = (
@@ -42978,7 +42826,7 @@ unicode = 567;
 {
 color = 4;
 glyphname = uni0127;
-lastChange = "2024-10-03 11:45:31 +0000";
+lastChange = "2024-10-31 11:22:20 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -43011,10 +42859,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(505,592,l),
-(505,685,l),
-(16,685,l),
-(16,592,l)
+(488,600,l),
+(488,685,l),
+(21,685,l),
+(21,600,l)
 );
 }
 );
@@ -43051,10 +42899,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(499,600,l),
-(499,659,l),
+(466,605,l),
+(466,659,l),
 (10,659,l),
-(10,600,l)
+(10,605,l)
 );
 }
 );
@@ -43091,10 +42939,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(312,545,l),
-(312,704,l),
-(16,704,l),
-(16,545,l)
+(522,586,l),
+(522,718,l),
+(16,718,l),
+(16,586,l)
 );
 }
 );
@@ -43267,37 +43115,78 @@ unicode = 160;
 },
 {
 glyphname = periodcentered.loclCAT;
-lastChange = "2024-10-17 14:00:27 +0000";
+lastChange = "2024-10-31 14:15:19 +0000";
 layers = (
 {
 layerId = "6D7935D2-FE9A-430A-A298-15DA7AF44FAE";
+shapes = (
+{
+alignment = -1;
+pos = (-88,300);
+ref = period;
+}
+);
 width = 600;
 },
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
+shapes = (
+{
+pos = (0,269);
+ref = period;
+}
+);
 width = 600;
 },
 {
 layerId = "86171893-955A-4CD1-BD1B-2F7A53CC85DC";
-width = 600;
+shapes = (
+{
+alignment = -1;
+pos = (-88,212);
+ref = period;
+}
+);
+width = 152;
 }
 );
 },
 {
 glyphname = periodcentered.loclCAT.case;
-lastChange = "2024-10-17 14:00:16 +0000";
+lastChange = "2024-10-31 14:18:19 +0000";
 layers = (
 {
 layerId = "6D7935D2-FE9A-430A-A298-15DA7AF44FAE";
-width = 600;
+shapes = (
+{
+alignment = -1;
+pos = (-178,300);
+ref = period;
+}
+);
+width = 27;
 },
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
-width = 600;
+shapes = (
+{
+alignment = -1;
+pos = (-150,269);
+ref = period;
+}
+);
+width = 133;
 },
 {
 layerId = "86171893-955A-4CD1-BD1B-2F7A53CC85DC";
-width = 600;
+shapes = (
+{
+alignment = -1;
+pos = (-203,212);
+ref = period;
+}
+);
+width = 65;
 }
 );
 },
@@ -46328,6 +46217,24 @@ type = glyphMetric;
 };
 };
 };
+},
+{
+glyphname = newGlyph;
+lastChange = "2024-10-31 14:10:46 +0000";
+layers = (
+{
+layerId = "6D7935D2-FE9A-430A-A298-15DA7AF44FAE";
+width = 600;
+},
+{
+layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
+width = 600;
+},
+{
+layerId = "86171893-955A-4CD1-BD1B-2F7A53CC85DC";
+width = 600;
+}
+);
 }
 );
 instances = (
