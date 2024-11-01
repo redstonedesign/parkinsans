@@ -1,12 +1,6 @@
 {
 .appVersion = "3324";
 .formatVersion = 3;
-DisplayStrings = (
-"lLĽL
-tť
-d/caroncomb.alt lďlľl
-l"
-);
 axes = (
 {
 name = Weight;
@@ -644,7 +638,8 @@ lookup mkmk_mark_to_mark {
 
     pos mark cedilla <anchor 0 0> mark @MARK_BOTTOM;
     pos mark ogonek <anchor 0 0> mark @MARK_BOTTOM;
-} mkmk_mark_to_mark;";
+} mkmk_mark_to_mark;
+";
 tag = mkmk;
 }
 );
