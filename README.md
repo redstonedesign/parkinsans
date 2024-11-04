@@ -13,7 +13,7 @@ Energetic, human, accessible, approachable – Parkinsans embodies Parkinson’s
 
 Consisting of 6 weights, Parkinsans is designed to grab attention at display sizes and provide an accessible, easy reading experience for short form copy.
 
-Designed by award-winning, London based creative agency Red Stone, Parkinsans is derived from Indian Type Foundry's Poppins.
+Designed by award-winning, London based creative agency Red Stone, Parkinsans is a fork of from Indian Type Foundry's [Poppins](https://fonts.google.com/specimen/Poppins).
 
 
 ![Parkinsans](documentation/Parkinsans_Specimen_01.jpg)
