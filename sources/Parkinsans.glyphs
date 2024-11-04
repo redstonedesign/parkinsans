@@ -1,5 +1,5 @@
 {
-.appVersion = "3324";
+.appVersion = "3260";
 .formatVersion = 3;
 axes = (
 {
@@ -4709,7 +4709,7 @@ unicode = 288;
 {
 color = 4;
 glyphname = H;
-lastChange = "2024-08-04 17:33:20 +0000";
+lastChange = "2024-11-04 15:56:44 +0000";
 layers = (
 {
 guides = (
@@ -9627,7 +9627,7 @@ color = 4;
 glyphname = T;
 kernLeft = T;
 kernRight = T;
-lastChange = "2024-10-22 12:25:36 +0000";
+lastChange = "2024-11-04 16:02:32 +0000";
 layers = (
 {
 anchors = (
@@ -11553,7 +11553,7 @@ color = 4;
 glyphname = Y;
 kernLeft = Y;
 kernRight = Y;
-lastChange = "2024-10-22 12:29:13 +0000";
+lastChange = "2024-11-04 16:10:02 +0000";
 layers = (
 {
 anchors = (
@@ -16252,7 +16252,7 @@ color = 4;
 glyphname = e;
 kernLeft = c;
 kernRight = e;
-lastChange = "2024-10-22 10:50:41 +0000";
+lastChange = "2024-11-04 16:10:08 +0000";
 layers = (
 {
 anchors = (
@@ -19114,7 +19114,7 @@ unicode = 297;
 {
 color = 4;
 glyphname = j;
-lastChange = "2024-10-22 10:47:51 +0000";
+lastChange = "2024-11-04 16:04:46 +0000";
 layers = (
 {
 anchors = (
@@ -19656,7 +19656,7 @@ color = 4;
 glyphname = l;
 kernLeft = l;
 kernRight = l;
-lastChange = "2024-11-01 11:08:51 +0000";
+lastChange = "2024-11-04 16:54:15 +0000";
 layers = (
 {
 anchors = (
@@ -24603,7 +24603,7 @@ color = 4;
 glyphname = t;
 kernLeft = t;
 kernRight = t;
-lastChange = "2024-11-01 11:07:44 +0000";
+lastChange = "2024-11-04 16:08:24 +0000";
 layers = (
 {
 anchors = (
@@ -28595,7 +28595,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 3;
 {
 color = 4;
 glyphname = comma;
-lastChange = "2024-10-22 13:36:31 +0000";
+lastChange = "2024-11-04 16:54:03 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -44141,7 +44141,7 @@ type = glyphMetric;
 {
 color = 4;
 glyphname = zero;
-lastChange = "2024-08-04 18:21:55 +0000";
+lastChange = "2024-11-04 16:53:03 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -44361,7 +44361,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 3;
 {
 color = 4;
 glyphname = two;
-lastChange = "2024-08-04 12:39:12 +0000";
+lastChange = "2024-11-04 16:52:39 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -44653,7 +44653,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 3;
 {
 color = 4;
 glyphname = four;
-lastChange = "2024-10-22 13:36:21 +0000";
+lastChange = "2024-11-04 16:53:07 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -44754,7 +44754,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 3;
 {
 color = 4;
 glyphname = five;
-lastChange = "2024-10-22 13:34:52 +0000";
+lastChange = "2024-11-04 16:53:11 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -44891,7 +44891,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 3;
 {
 color = 4;
 glyphname = six;
-lastChange = "2024-10-22 13:36:25 +0000";
+lastChange = "2024-11-04 16:01:17 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -45061,7 +45061,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 3;
 {
 color = 4;
 glyphname = seven;
-lastChange = "2024-10-22 13:34:58 +0000";
+lastChange = "2024-11-04 16:09:30 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -45126,7 +45126,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 3;
 {
 color = 4;
 glyphname = eight;
-lastChange = "2024-10-22 13:34:04 +0000";
+lastChange = "2024-11-04 16:09:38 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -45344,7 +45344,7 @@ com.schriftgestaltung.Glyphs.ColorIndex = 3;
 {
 color = 4;
 glyphname = nine;
-lastChange = "2024-08-04 20:31:48 +0000";
+lastChange = "2024-11-04 16:09:54 +0000";
 layers = (
 {
 layerId = "4D0F633C-81E1-4D6C-A640-637CE706A5C5";
@@ -46735,6 +46735,7 @@ H = {
 "@MMK_R_hyphen" = 20;
 "@MMK_R_period" = -10;
 D = 10;
+H = 10;
 comma = -10;
 f = 10;
 };
@@ -46851,7 +46852,7 @@ comma = 0;
 eight = -20;
 parenright = -20;
 two = -20;
-zero = -10;
+zero = -50;
 };
 exclam = {
 questiondown = -40;
@@ -46862,9 +46863,9 @@ j = 50;
 f = {
 "@MMK_R_h" = 10;
 "@MMK_R_hyphen" = 30;
-"@MMK_R_l" = 10;
+"@MMK_R_l" = 0;
 "@MMK_R_period" = -20;
-"@MMK_R_t" = 20;
+"@MMK_R_t" = 0;
 "@MMK_R_u" = 10;
 "@MMK_R_w" = 40;
 comma = -20;
@@ -46888,6 +46889,7 @@ parenright = -20;
 six = -20;
 three = -20;
 two = -20;
+zero = -10;
 };
 four = {
 "@MMK_R_T" = -20;
@@ -46896,6 +46898,7 @@ five = -40;
 one = 20;
 parenright = -20;
 seven = -10;
+zero = -20;
 };
 greater = {
 two = -20;
@@ -46924,6 +46927,7 @@ nine = {
 comma = -40;
 five = -40;
 parenright = -30;
+zero = -30;
 };
 one = {
 "@MMK_R_period" = 30;
@@ -46979,6 +46983,7 @@ four = -30;
 one = 20;
 seven = 20;
 six = -10;
+zero = -40;
 };
 six = {
 comma = -10;
@@ -47038,10 +47043,15 @@ comma = 30;
 };
 zero = {
 "@MMK_R_period" = -50;
-eight = -10;
+eight = -40;
+five = -40;
+four = -10;
+nine = -30;
 one = 10;
 parenright = -40;
+seven = -50;
 three = -40;
+two = -10;
 };
 };
 "4D0F633C-81E1-4D6C-A640-637CE706A5C5" = {
@@ -47374,6 +47384,7 @@ f = 40;
 x = 20;
 };
 "@MMK_L_y" = {
+"@MMK_R_T" = -20;
 comma = 10;
 j = 30;
 };
@@ -47406,6 +47417,7 @@ H = {
 "@MMK_R_hyphen" = 20;
 "@MMK_R_period" = 0;
 D = 10;
+H = 10;
 f = 10;
 };
 I = {
@@ -47530,15 +47542,16 @@ j = 50;
 f = {
 "@MMK_R_h" = 10;
 "@MMK_R_hyphen" = 30;
-"@MMK_R_l" = 10;
+"@MMK_R_l" = 0;
 "@MMK_R_period" = -20;
-"@MMK_R_t" = 20;
+"@MMK_R_t" = 0;
 "@MMK_R_u" = 10;
 "@MMK_R_w" = 40;
 comma = -20;
 f = 40;
 hbar = 20;
 i = 10;
+j = 0;
 parenright = 20;
 question = 20;
 quoteright = 20;
@@ -47555,6 +47568,7 @@ five = -20;
 six = -20;
 three = -20;
 two = -20;
+zero = -35;
 };
 four = {
 "@MMK_R_T" = -20;
@@ -47591,6 +47605,7 @@ nine = {
 comma = -20;
 five = -40;
 parenright = -40;
+zero = -30;
 };
 one = {
 "@MMK_R_period" = 30;
@@ -47653,6 +47668,7 @@ comma = -20;
 five = -40;
 one = 20;
 six = -20;
+zero = -35;
 };
 slash = {
 "@MMK_R_A" = -40;
@@ -47705,9 +47721,15 @@ comma = 30;
 zero = {
 "@MMK_R_period" = -50;
 eight = -10;
+five = -20;
+four = -30;
+nine = -50;
 one = 10;
 parenright = -40;
+six = -40;
 three = -40;
+two = -20;
+zero = -40;
 };
 };
 "86171893-955A-4CD1-BD1B-2F7A53CC85DC" = {
@@ -48089,6 +48111,7 @@ H = {
 "@MMK_R_hyphen" = 20;
 "@MMK_R_period" = 0;
 D = 10;
+H = 10;
 f = 10;
 };
 I = {
@@ -48282,7 +48305,7 @@ four = -20;
 one = 40;
 six = -30;
 two = 30;
-zero = -10;
+zero = -30;
 };
 parenleft = {
 "@MMK_R_c" = -30;
@@ -48389,7 +48412,10 @@ comma = 40;
 };
 zero = {
 "@MMK_R_period" = -50;
+comma = -30;
 eight = -10;
+five = -50;
+four = -30;
 one = 10;
 parenright = -20;
 three = -40;
