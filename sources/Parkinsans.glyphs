@@ -1,5 +1,5 @@
 {
-.appVersion = "3260";
+.appVersion = "3324";
 .formatVersion = 3;
 axes = (
 {
@@ -48463,7 +48463,7 @@ key = designers;
 values = (
 {
 language = dflt;
-value = "Red Stone Design LTD, Indian Type Foundry";
+value = "Red Stone, Indian Type Foundry";
 }
 );
 },
